@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speedY;
     private float horizMove;
     private float vertMove;
+
+    private DialogueAreaTrigger currentDialogueArea;
     
 
     void FixedUpdate()
@@ -31,6 +33,35 @@ public class PlayerMovement : MonoBehaviour
         speedX = walkSpeed * horizMove;
         speedY = walkSpeed * vertMove;
         rb.linearVelocity = new Vector2(speedX, speedY);
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        Debug.Log("INTERACT EVENT FIRED!");
+
+        if (!context.performed)
+            return;
+
+        Debug.Log("Interact PERFORMED");
+
+        if (currentDialogueArea != null)
+        {
+            Debug.Log("STARTING DIALOGUE");
+            currentDialogueArea.StartDialogue();
+        }
+    }
+
+    public void SetDialogueArea(DialogueAreaTrigger area)
+    {
+        currentDialogueArea = area;
+    }
+
+    public void ClearDialogueArea(DialogueAreaTrigger area)
+    {
+        if (currentDialogueArea == area)
+        {
+            currentDialogueArea = null;
+        }
     }
 
 
