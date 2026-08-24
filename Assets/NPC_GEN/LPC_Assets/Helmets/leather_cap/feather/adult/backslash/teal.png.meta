@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: b9dfbb3438008440ba910247b827a63e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9139044131903012357
+    second: teal_0
+  - first:
+      213: -5517215846871222696
+    second: teal_1
+  - first:
+      213: 1164033243434878846
+    second: teal_2
+  - first:
+      213: 2496530523814781177
+    second: teal_3
+  - first:
+      213: 45838868087452969
+    second: teal_4
+  - first:
+      213: -2715169392392800411
+    second: teal_5
+  - first:
+      213: 3136885505235288396
+    second: teal_6
+  - first:
+      213: -636135564287395625
+    second: teal_7
+  - first:
+      213: 1400995621797609237
+    second: teal_8
+  - first:
+      213: 5338837723388149280
+    second: teal_9
+  - first:
+      213: -5002045122499806692
+    second: teal_10
+  - first:
+      213: 4616713994260225683
+    second: teal_11
+  - first:
+      213: 5485826547388512874
+    second: teal_12
+  - first:
+      213: 6093998730789074744
+    second: teal_13
+  - first:
+      213: -2457294900102080759
+    second: teal_14
+  - first:
+      213: 191002478897179724
+    second: teal_15
+  - first:
+      213: 7764425897110605270
+    second: teal_16
+  - first:
+      213: -8843567718340839792
+    second: teal_17
+  - first:
+      213: 2572756345589166257
+    second: teal_18
+  - first:
+      213: -7549175051693525559
+    second: teal_19
+  - first:
+      213: -943974119112231268
+    second: teal_20
+  - first:
+      213: -8225148349509017967
+    second: teal_21
+  - first:
+      213: 3004759327992008471
+    second: teal_22
+  - first:
+      213: -6491279244509447658
+    second: teal_23
+  - first:
+      213: -2684697503559285941
+    second: teal_24
+  - first:
+      213: 1573227214103868819
+    second: teal_25
+  - first:
+      213: -2346939192440626633
+    second: teal_26
+  - first:
+      213: -4134077943556728071
+    second: teal_27
+  - first:
+      213: -8748719060158295567
+    second: teal_28
+  - first:
+      213: -2507704912409039231
+    second: teal_29
+  - first:
+      213: -8445376034235862117
+    second: teal_30
+  - first:
+      213: 4868860059034705104
+    second: teal_31
+  - first:
+      213: -1566070831277727850
+    second: teal_32
+  - first:
+      213: 7308965104436615049
+    second: teal_33
+  - first:
+      213: 6175069833462634702
+    second: teal_34
+  - first:
+      213: -951040640224557901
+    second: teal_35
+  - first:
+      213: 5088816111775286750
+    second: teal_36
+  - first:
+      213: -2439391193941569663
+    second: teal_37
+  - first:
+      213: -1739975178559044043
+    second: teal_38
+  - first:
+      213: -8339115820355128281
+    second: teal_39
+  - first:
+      213: 2200535927925309522
+    second: teal_40
+  - first:
+      213: 6354702178213672838
+    second: teal_41
+  - first:
+      213: -3240973722522765636
+    second: teal_42
+  - first:
+      213: -3881534996056845556
+    second: teal_43
+  - first:
+      213: -42686037070116440
+    second: teal_44
+  - first:
+      213: 3863517426631508614
+    second: teal_45
+  - first:
+      213: 4811455215821050656
+    second: teal_46
+  - first:
+      213: 8808430235462418379
+    second: teal_47
+  - first:
+      213: -6553139924708088224
+    second: teal_48
+  - first:
+      213: -6335034110528388567
+    second: teal_49
+  - first:
+      213: -3791859717555966738
+    second: teal_50
+  - first:
+      213: 4029194967751331551
+    second: teal_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teal_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 213
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf18d4368c79b2180800000000000000
+      internalID: -9139044131903012357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 222
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856b5123b69ee63b0800000000000000
+      internalID: -5517215846871222696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 226
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e778ead411a772010800000000000000
+      internalID: 1164033243434878846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 225
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f066e2c84575a220800000000000000
+      internalID: 2496530523814781177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 225
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9253249253ad2a000800000000000000
+      internalID: 45838868087452969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 225
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567f96db2d7c15ad0800000000000000
+      internalID: -2715169392392800411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_6
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 222
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c410f904fb4788b20800000000000000
+      internalID: 3136885505235288396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_7
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 225
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d838ad131efb27f0800000000000000
+      internalID: -636135564287395625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 221
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fbf116816517310800000000000000
+      internalID: 1400995621797609237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_9
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 222
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e71008f9c571a40800000000000000
+      internalID: 5338837723388149280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_10
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 217
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a7cea867a259ab0800000000000000
+      internalID: -5002045122499806692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 217
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e9479daecd11040800000000000000
+      internalID: 4616713994260225683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 217
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6aff700e22912c40800000000000000
+      internalID: 5485826547388512874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 171
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8373d5aee8b329450800000000000000
+      internalID: 6093998730789074744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 169
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9075903ce4fe5edd0800000000000000
+      internalID: -2457294900102080759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ca2e91eb396a200800000000000000
+      internalID: 191002478897179724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd0f1a3738c0cb60800000000000000
+      internalID: 7764425897110605270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096be21f306554580800000000000000
+      internalID: -8843567718340839792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b07978e34444b320800000000000000
+      internalID: 2572756345589166257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 169
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5f098a941fb3790800000000000000
+      internalID: -7549175051693525559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_20
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9637214a8456e2f0800000000000000
+      internalID: -943974119112231268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_21
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 168
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19edf92a7276add80800000000000000
+      internalID: -8225148349509017967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_22
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 170
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f418c50bc03b920800000000000000
+      internalID: 3004759327992008471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_23
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 171
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af52d5be75ae5a0800000000000000
+      internalID: -6491279244509447658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_24
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 171
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4388fa38d90ebad0800000000000000
+      internalID: -2684697503559285941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_25
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 171
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39573afd0d935d510800000000000000
+      internalID: 1573227214103868819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 110
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73262253d3ffd6fd0800000000000000
+      internalID: -2346939192440626633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa168c730ec0a6c0800000000000000
+      internalID: -4134077943556728071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f153931e5e469680800000000000000
+      internalID: -8748719060158295567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e6b562ba7d23dd0800000000000000
+      internalID: -2507704912409039231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_30
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9336cc0e3ffbca80800000000000000
+      internalID: -8445376034235862117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcd9d76d6aa19340800000000000000
+      internalID: 4868860059034705104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_32
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f179850e2344ae0800000000000000
+      internalID: -1566070831277727850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_33
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879ba5b909ae6560800000000000000
+      internalID: 7308965104436615049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_34
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 108
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec855ceeb4142b550800000000000000
+      internalID: 6175069833462634702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_35
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 110
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4847893993dc2f0800000000000000
+      internalID: -951040640224557901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_36
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 111
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed586adba4b1f9640800000000000000
+      internalID: 5088816111775286750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 111
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f85e032aa852ed0800000000000000
+      internalID: -2439391193941569663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_38
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 111
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536cdfb3bcd5ad7e0800000000000000
+      internalID: -1739975178559044043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 43
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72474ea0852854c80800000000000000
+      internalID: -8339115820355128281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250097b74cfd98e10800000000000000
+      internalID: 2200535927925309522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687b3d166ff603850800000000000000
+      internalID: 6354702178213672838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_42
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6b7ae129fb503d0800000000000000
+      internalID: -3240973722522765636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_43
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03d8c08c74022ac0800000000000000
+      internalID: -3881534996056845556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_44
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a901938649586ff0800000000000000
+      internalID: -42686037070116440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_45
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 41
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68207e531a8fd9530800000000000000
+      internalID: 3863517426631508614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_46
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023d6bfc609b5c240800000000000000
+      internalID: 4811455215821050656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf3c8d41a4dd3a70800000000000000
+      internalID: 8808430235462418379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_48
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 42
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066285065f19e05a0800000000000000
+      internalID: -6553139924708088224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_49
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 43
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92209f97a007518a0800000000000000
+      internalID: -6335034110528388567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_50
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 43
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeca6f05dab906bc0800000000000000
+      internalID: -3791859717555966738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teal_51
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 43
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde0c9fb9739ae730800000000000000
+      internalID: 4029194967751331551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      teal_0: -9139044131903012357
+      teal_1: -5517215846871222696
+      teal_10: -5002045122499806692
+      teal_11: 4616713994260225683
+      teal_12: 5485826547388512874
+      teal_13: 6093998730789074744
+      teal_14: -2457294900102080759
+      teal_15: 191002478897179724
+      teal_16: 7764425897110605270
+      teal_17: -8843567718340839792
+      teal_18: 2572756345589166257
+      teal_19: -7549175051693525559
+      teal_2: 1164033243434878846
+      teal_20: -943974119112231268
+      teal_21: -8225148349509017967
+      teal_22: 3004759327992008471
+      teal_23: -6491279244509447658
+      teal_24: -2684697503559285941
+      teal_25: 1573227214103868819
+      teal_26: -2346939192440626633
+      teal_27: -4134077943556728071
+      teal_28: -8748719060158295567
+      teal_29: -2507704912409039231
+      teal_3: 2496530523814781177
+      teal_30: -8445376034235862117
+      teal_31: 4868860059034705104
+      teal_32: -1566070831277727850
+      teal_33: 7308965104436615049
+      teal_34: 6175069833462634702
+      teal_35: -951040640224557901
+      teal_36: 5088816111775286750
+      teal_37: -2439391193941569663
+      teal_38: -1739975178559044043
+      teal_39: -8339115820355128281
+      teal_4: 45838868087452969
+      teal_40: 2200535927925309522
+      teal_41: 6354702178213672838
+      teal_42: -3240973722522765636
+      teal_43: -3881534996056845556
+      teal_44: -42686037070116440
+      teal_45: 3863517426631508614
+      teal_46: 4811455215821050656
+      teal_47: 8808430235462418379
+      teal_48: -6553139924708088224
+      teal_49: -6335034110528388567
+      teal_5: -2715169392392800411
+      teal_50: -3791859717555966738
+      teal_51: 4029194967751331551
+      teal_6: 3136885505235288396
+      teal_7: -636135564287395625
+      teal_8: 1400995621797609237
+      teal_9: 5338837723388149280
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

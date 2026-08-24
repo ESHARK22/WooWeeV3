@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d230662dbb645c0a5cf70b979dcc1fa, type: 3}
+  m_Name: Armor_robe_female_walk_forest_green
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
+  itemName: Armor_robe_female_walk_forest_green
+  slot: 2
+  sprites:
+  - {fileID: 6687088950998760863, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -7973220992756670985, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 176693443871929084, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -2458528377602100352, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -8383092112703114311, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 1857194204492581701, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -1075882314488212724, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -6481943056829374208, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 7755187833876278234, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 8010655201087602989, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 442573905643626034, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 2428565337471236924, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -6777007245648276874, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -6712839145188939422, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -1212095592206535373, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -2952447378502694262, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -4428256484893882485, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 8649464975506975575, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -1631880065003085861, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -5579097356400445085, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 3049589537556503913, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 2537807853718018291, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 8420010692295517104, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 7021319428100736465, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -2968253469668086949, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 8249154387212242338, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 184573460307289893, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 3068018047220810803, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 1200661491711529852, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 7131444984302047582, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 4571268752536297081, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 5086652789196637927, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: -4200239311470301728, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 688384862908288623, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 3761277046141580714, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}
+  - {fileID: 5581691398777079120, guid: 46ce9f45e41a647d2ac7dfcf75f8977e, type: 3}

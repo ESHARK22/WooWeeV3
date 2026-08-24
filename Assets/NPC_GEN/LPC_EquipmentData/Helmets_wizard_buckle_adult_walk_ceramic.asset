@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d230662dbb645c0a5cf70b979dcc1fa, type: 3}
+  m_Name: Helmets_wizard_buckle_adult_walk_ceramic
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
+  itemName: Helmets_wizard_buckle_adult_walk_ceramic
+  slot: 4
+  sprites:
+  - {fileID: -8005000799677366809, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -6742977543274349522, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 989272862369874515, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 4162541360171861915, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -2802047777925016733, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 7538709344312218720, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 4948608461511721751, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 4614646025544855857, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -1643680839353758579, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 6929187751218391813, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 8730978956418446110, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -5661223572728991154, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -5331726706244974815, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 8614737457989931198, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 2577736742352905794, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -5605436409547114107, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 5756441712070377878, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -4404531626742808559, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -9866507810328774, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 2925879202305133480, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 6202248677385131936, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 6521412939231612287, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -6153709060646061301, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 7107610764563763570, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 4667521895429555407, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 2595605999244066710, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -2533208966486611848, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -5206772319824397805, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -5574695181123292818, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 6079984157255188809, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -7704127057531825940, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -3672876498180365413, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 1738442815355316116, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -1953547446259305863, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: -2270837145751883021, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
+  - {fileID: 1193956870430794016, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}

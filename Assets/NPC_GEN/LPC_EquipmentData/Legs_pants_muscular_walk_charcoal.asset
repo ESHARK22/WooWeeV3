@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d230662dbb645c0a5cf70b979dcc1fa, type: 3}
+  m_Name: Legs_pants_muscular_walk_charcoal
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
+  itemName: Legs_pants_muscular_walk_charcoal
+  slot: 1
+  sprites:
+  - {fileID: 2910426783829766218, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 1756158537734846535, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 2674394271748743542, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -7751907115662999467, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -555673866375363157, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 3978055827750946213, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -3763430396036370243, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -4902890065969085133, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -2156000243664129033, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -6259996238433936959, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 5384122571766126685, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 3062524822965057687, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -6458913117212714117, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 2538579102895116540, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 8022911412239817333, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 4972019752894558983, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -2571574732544333088, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 2974752577731155009, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 8633887127836057102, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 7467801161468159628, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -3449161926300996151, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -4024063241951109705, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -6775060107759115093, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -3325914881564559347, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 7925366727384995422, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 6944923196737945954, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 4252257711430096312, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 3272210378339025855, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 8386176215763433497, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 5697570588403526898, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 1886376610740031480, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -3373476312440821630, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -9189908185420476473, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -5646786206872412754, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: -6334645693723680106, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}
+  - {fileID: 2493362280480717923, guid: 25184856c6c1e400aa3cc32b4a9a184b, type: 3}

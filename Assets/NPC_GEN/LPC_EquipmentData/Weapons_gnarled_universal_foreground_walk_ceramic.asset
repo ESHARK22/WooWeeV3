@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d230662dbb645c0a5cf70b979dcc1fa, type: 3}
+  m_Name: Weapons_gnarled_universal_foreground_walk_ceramic
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
+  itemName: Weapons_gnarled_universal_foreground_walk_ceramic
+  slot: 5
+  sprites:
+  - {fileID: -8005000799677366809, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -6742977543274349522, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 989272862369874515, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 4162541360171861915, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -2802047777925016733, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 7538709344312218720, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 4948608461511721751, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 4614646025544855857, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -1643680839353758579, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 6929187751218391813, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 8730978956418446110, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -5661223572728991154, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -5331726706244974815, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 8614737457989931198, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 2577736742352905794, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -5605436409547114107, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 5756441712070377878, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -4404531626742808559, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -9866507810328774, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 2925879202305133480, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 6202248677385131936, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 6521412939231612287, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -6153709060646061301, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 7107610764563763570, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 4667521895429555407, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 2595605999244066710, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -2533208966486611848, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -5206772319824397805, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -5574695181123292818, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 6079984157255188809, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -7704127057531825940, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -3672876498180365413, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 1738442815355316116, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -1953547446259305863, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: -2270837145751883021, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
+  - {fileID: 1193956870430794016, guid: d3088844b1f8e4936b65c6db65eac315, type: 3}
