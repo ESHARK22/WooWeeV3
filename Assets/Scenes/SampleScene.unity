@@ -860,9 +860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   rb: {fileID: 1010930656}
-  walkSpeed: 3
+  walkSpeed: 3.5
   speedX: 0
   speedY: 0
+  isLeft: 0
+  dialogueSound: {fileID: 8300000, guid: 00733e1b2c6d7e4ac9ad9badadf5c5a2, type: 3}
   animator: {fileID: 1010930657}
   Transform: {fileID: 1010930655}
 --- !u!114 &1010930653

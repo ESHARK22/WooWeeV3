@@ -24,7 +24,6 @@ public class gamefinishshit : MonoBehaviour
 
     public void QuitGame()
     {
-        // Quit the application
         Application.Quit();
     }
 }
