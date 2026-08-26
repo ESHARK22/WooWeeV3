@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 15003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Web (desktop) - Desktop - Release
+  m_Name: Web (Desktop)
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.Build.Profile.BuildProfile
   m_AssetVersion: 2
   m_BuildTarget: 20
   m_Subtarget: 0
   m_PlatformId: 84a3bb9e7420477f885e98145999eb20
   m_PlatformBuildProfile:
-    rid: 8649305483716067412
+    rid: 8649305529037094912
   m_ActivePlatformGuid: 
   m_AdditionalPlatformBuildSettings: []
   m_OverrideGlobalSceneList: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     - line: '|   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b:
         0.1254902, a: 1}'
     - line: '|   m_ShowUnitySplashScreen: 1'
-    - line: '|   m_ShowUnitySplashLogo: 1'
+    - line: '|   m_ShowUnitySplashLogo: 0'
     - line: '|   m_SplashScreenOverlayOpacity: 1'
     - line: '|   m_SplashScreenAnimation: 1'
     - line: '|   m_SplashScreenLogoStyle: 1'
@@ -65,7 +65,10 @@ MonoBehaviour:
     - line: '|     y: 0'
     - line: '|     width: 1'
     - line: '|     height: 1'
-    - line: '|   m_SplashScreenLogos: []'
+    - line: '|   m_SplashScreenLogos:'
+    - line: '|   - logo: {fileID: -7066941981183115402, guid: 73c301979115cf0f99b660c932d2f235,
+        type: 3}'
+    - line: '|     duration: 2'
     - line: '|   m_VirtualRealitySplashScreen: {instanceID: 0}'
     - line: '|   defaultScreenWidth: 1920'
     - line: '|   defaultScreenHeight: 1080'
@@ -175,9 +178,7 @@ MonoBehaviour:
     - line: '|   visionOSBundleVersion: 1.0'
     - line: '|   tvOSBundleVersion: 1.0'
     - line: '|   bundleVersion: 1.0'
-    - line: '|   preloadedAssets:'
-    - line: '|   - {fileID: -944628639613478452, guid: 85581fb85fadc77429234713576f2637,
-        type: 3}'
+    - line: '|   preloadedAssets: []'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   xboxOneDisableKinectGpuReservation: 1'
@@ -419,10 +420,7 @@ MonoBehaviour:
     - line: '|       m_Height: 36'
     - line: '|       m_Kind: 0'
     - line: '|       m_SubKind: '
-    - line: '|   m_BuildTargetBatching:'
-    - line: '|   - m_BuildTarget: WebGL'
-    - line: '|     m_StaticBatching: 0'
-    - line: '|     m_DynamicBatching: 0'
+    - line: '|   m_BuildTargetBatching: []'
     - line: '|   m_BuildTargetShaderSettings: []'
     - line: '|   m_BuildTargetGraphicsJobs: []'
     - line: '|   m_BuildTargetGraphicsJobMode: []'
@@ -443,7 +441,10 @@ MonoBehaviour:
     - line: '|   m_BuildTargetGroupLightmapSettings: []'
     - line: '|   m_BuildTargetGroupLoadStoreDebugModeSettings: []'
     - line: '|   m_BuildTargetNormalMapEncoding: []'
-    - line: '|   m_BuildTargetDefaultTextureCompressionFormat: []'
+    - line: '|   m_BuildTargetDefaultTextureCompressionFormat:'
+    - line: '|   - serializedVersion: 3'
+    - line: '|     m_BuildTarget: WebGL'
+    - line: '|     m_Formats: 05000000'
     - line: '|   playModeTestRunnerEnabled: 0'
     - line: '|   runPlayModeTestAsEditModeTest: 0'
     - line: '|   actionOnDotNetUnhandledException: 1'
@@ -836,7 +837,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8649305483716067412
+    - rid: 8649305529037094912
       type: {class: WebGLPlatformSettings, ns: UnityEditor.WebGL, asm: UnityEditor.WebGL.Extensions}
       data:
         m_Development: 0
