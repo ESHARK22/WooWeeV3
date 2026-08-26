@@ -38,5 +38,6 @@ public class DialogueAreaTrigger : MonoBehaviour
     public void StartDialogue()
     {
         dialogueManager.StartDialogue(dialogue);
+
     }
 }

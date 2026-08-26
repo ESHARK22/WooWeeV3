@@ -1,52 +1,93 @@
 using UnityEngine;
-using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
-{ 
+{
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
+    public GameObject dialoguePanel;
+    public GameObject continueButton;
+
+    public GameObject[] optionButtons;
+
     public Animator animator;
 
-    private Queue<string> sentences;
+    private Dialogue currentDialogue;
+    private DialogueNode currentNode;
 
-    void Start() {
-        sentences = new Queue<string>();
+    public void StartDialogue(Dialogue dialogue)
+    {
+        animator.SetBool("IsOpen", true );
+        dialoguePanel.SetActive(true);
+
+        currentDialogue = dialogue;
+        currentNode = dialogue.startingNode;
+
+        nameText.text = dialogue.characterName;
+
+        DisplayNode(currentNode);
     }
 
-    public void StartDialogue (Dialogue dialogue) 
-    { 
-        animator.SetBool("IsOpen", true);
+    void DisplayNode(DialogueNode node)
+    {
+        currentNode = node;
 
-        nameText.text = dialogue.name;
+        dialogueText.text = node.sentence;
 
-        sentences.Clear();
-
-        foreach (string sentence in dialogue.sentences)
+        // Hide all option buttons first
+        foreach (GameObject button in optionButtons)
         {
-            sentences.Enqueue(sentence);
+            button.SetActive(false);
         }
 
-        DisplayNextSentence();
-    }
-
-    public void DisplayNextSentence()
-    {
-        if (sentences.Count == 0)
-        { 
-            EndDialogue();
+        // No choices means this is the end of this branch
+        if (node.options == null || node.options.Length == 0)
+        {
+            continueButton.SetActive(true);
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+        continueButton.SetActive(false);
+
+        for (int i = 0; i < node.options.Length; i++)
+        {
+            optionButtons[i].SetActive(true);
+
+            optionButtons[i]
+                .GetComponentInChildren<TextMeshProUGUI>()
+                .text = node.options[i].optionText;
+
+            int choiceIndex = i;
+
+            Button button = optionButtons[i].GetComponent<Button>();
+
+            button.onClick.RemoveAllListeners();
+
+            button.onClick.AddListener(
+                () => ChooseOption(choiceIndex)
+            );
+        }
     }
 
-    void EndDialogue()
+    void ChooseOption(int index)
     {
-        animator.SetBool("IsOpen", false);
-        Debug.Log("End of convo");
+        DialogueNode nextNode = currentNode.options[index].nextNode;
+
+        if (nextNode != null)
+        {
+            DisplayNode(nextNode);
+        }
+        else
+        {
+            EndDialogue();
+        }
+    }
+
+    public void EndDialogue()
+    {
+        animator.SetBool("IsOpen", false );
+        dialoguePanel.SetActive(false);
     }
 }
