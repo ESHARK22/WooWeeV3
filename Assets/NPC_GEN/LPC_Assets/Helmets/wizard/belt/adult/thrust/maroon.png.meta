@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: e8a4f038c8da34296a0dd455392ffc78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6389375341162936437
+    second: maroon_0
+  - first:
+      213: 8567820625927567131
+    second: maroon_1
+  - first:
+      213: 4349695704083709109
+    second: maroon_2
+  - first:
+      213: -6388153716857074512
+    second: maroon_3
+  - first:
+      213: 1291910488153282385
+    second: maroon_4
+  - first:
+      213: 4347899532790610396
+    second: maroon_5
+  - first:
+      213: 4469478719000180492
+    second: maroon_6
+  - first:
+      213: 8270893587191093217
+    second: maroon_7
+  - first:
+      213: -7611570951841357727
+    second: maroon_8
+  - first:
+      213: -6918820865749820291
+    second: maroon_9
+  - first:
+      213: -1679413451035367988
+    second: maroon_10
+  - first:
+      213: -3143238124477799447
+    second: maroon_11
+  - first:
+      213: -5522743292978277490
+    second: maroon_12
+  - first:
+      213: -4970442001143993933
+    second: maroon_13
+  - first:
+      213: 12752424129125780
+    second: maroon_14
+  - first:
+      213: -4691547822429767984
+    second: maroon_15
+  - first:
+      213: -78079803377540262
+    second: maroon_16
+  - first:
+      213: 8457410781493023740
+    second: maroon_17
+  - first:
+      213: -9040664885042230461
+    second: maroon_18
+  - first:
+      213: -8321193315147022169
+    second: maroon_19
+  - first:
+      213: 3568242578516225473
+    second: maroon_20
+  - first:
+      213: 780225732747987202
+    second: maroon_21
+  - first:
+      213: 6743165929527220788
+    second: maroon_22
+  - first:
+      213: 4621865058868224818
+    second: maroon_23
+  - first:
+      213: 8203448951905831999
+    second: maroon_24
+  - first:
+      213: -2230246819651749560
+    second: maroon_25
+  - first:
+      213: 7738927211286290436
+    second: maroon_26
+  - first:
+      213: -882273281907737092
+    second: maroon_27
+  - first:
+      213: -7182595777380831338
+    second: maroon_28
+  - first:
+      213: 1326819324109501770
+    second: maroon_29
+  - first:
+      213: -4426871737678488067
+    second: maroon_30
+  - first:
+      213: -326424916827811353
+    second: maroon_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: maroon_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 229
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57838aa350f9ba850800000000000000
+      internalID: 6389375341162936437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 228
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b177dab077307e670800000000000000
+      internalID: 8567820625927567131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 229
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcb3fa72393d5c30800000000000000
+      internalID: 4349695704083709109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 229
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc84285a08b857a0800000000000000
+      internalID: -6388153716857074512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 228
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1575aff7eb9cde110800000000000000
+      internalID: 1291910488153282385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 228
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd93213c697d65c30800000000000000
+      internalID: 4347899532790610396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 228
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c077c21f637c60e30800000000000000
+      internalID: 4469478719000180492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 229
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7d49f75ed18c270800000000000000
+      internalID: 8270893587191093217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16060d01c844e5690800000000000000
+      internalID: -7611570951841357727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cdb6084196bff90800000000000000
+      internalID: -6918820865749820291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5260c3d5681b8e0800000000000000
+      internalID: -1679413451035367988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e329025499f064d0800000000000000
+      internalID: -3143238124477799447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83db5c5c364b53b0800000000000000
+      internalID: -5522743292978277490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_13
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b96121a551750bb0800000000000000
+      internalID: -4970442001143993933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ddd3e134e4d2000800000000000000
+      internalID: 12752424129125780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 165
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6f055cc1644eeb0800000000000000
+      internalID: -4691547822429767984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 101
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ac8f15da9aeef0800000000000000
+      internalID: -78079803377540262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 101
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf35376eb42ce5570800000000000000
+      internalID: 8457410781493023740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 101
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bc5b1cf2b198280800000000000000
+      internalID: -9040664885042230461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 101
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a08e4774ce258c80800000000000000
+      internalID: -8321193315147022169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 100
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd22e448b1f48130800000000000000
+      internalID: 3568242578516225473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_21
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 100
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209001d8b2be3da00800000000000000
+      internalID: 780225732747987202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_22
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 100
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a9cf2afa9849d50800000000000000
+      internalID: 6743165929527220788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_23
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 101
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23361a988c9242040800000000000000
+      internalID: 4621865058868224818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cc567ab5188d170800000000000000
+      internalID: 8203448951905831999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849763975529c01e0800000000000000
+      internalID: -2230246819651749560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400e25bcb41366b60800000000000000
+      internalID: 7738927211286290436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd3215ef1981c3f0800000000000000
+      internalID: -882273281907737092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69faefb023b425c90800000000000000
+      internalID: -7182595777380831338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45bbae352fc96210800000000000000
+      internalID: 1326819324109501770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd1571fb979092c0800000000000000
+      internalID: -4426871737678488067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maroon_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 37
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e154a2844e487bf0800000000000000
+      internalID: -326424916827811353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      maroon_0: 6389375341162936437
+      maroon_1: 8567820625927567131
+      maroon_10: -1679413451035367988
+      maroon_11: -3143238124477799447
+      maroon_12: -5522743292978277490
+      maroon_13: -4970442001143993933
+      maroon_14: 12752424129125780
+      maroon_15: -4691547822429767984
+      maroon_16: -78079803377540262
+      maroon_17: 8457410781493023740
+      maroon_18: -9040664885042230461
+      maroon_19: -8321193315147022169
+      maroon_2: 4349695704083709109
+      maroon_20: 3568242578516225473
+      maroon_21: 780225732747987202
+      maroon_22: 6743165929527220788
+      maroon_23: 4621865058868224818
+      maroon_24: 8203448951905831999
+      maroon_25: -2230246819651749560
+      maroon_26: 7738927211286290436
+      maroon_27: -882273281907737092
+      maroon_28: -7182595777380831338
+      maroon_29: 1326819324109501770
+      maroon_3: -6388153716857074512
+      maroon_30: -4426871737678488067
+      maroon_31: -326424916827811353
+      maroon_4: 1291910488153282385
+      maroon_5: 4347899532790610396
+      maroon_6: 4469478719000180492
+      maroon_7: 8270893587191093217
+      maroon_8: -7611570951841357727
+      maroon_9: -6918820865749820291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

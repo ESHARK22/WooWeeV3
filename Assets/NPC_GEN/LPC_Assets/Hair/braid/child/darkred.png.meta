@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 0b453c1bdac36433ab44dbde2137aa7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5310942347887867774
+    second: darkred_0
+  - first:
+      213: 5370582865134993159
+    second: darkred_1
+  - first:
+      213: 7837189137716133073
+    second: darkred_2
+  - first:
+      213: -5797982412730411147
+    second: darkred_3
+  - first:
+      213: -6387523357601738823
+    second: darkred_4
+  - first:
+      213: -137860802177135683
+    second: darkred_5
+  - first:
+      213: -8434112694537860880
+    second: darkred_6
+  - first:
+      213: 975851944553944862
+    second: darkred_7
+  - first:
+      213: -1445141950980241822
+    second: darkred_8
+  - first:
+      213: 877832236837679147
+    second: darkred_9
+  - first:
+      213: 7632212299774752393
+    second: darkred_10
+  - first:
+      213: 6455893084763360823
+    second: darkred_11
+  - first:
+      213: 4021109629638404219
+    second: darkred_12
+  - first:
+      213: -3943968421380723425
+    second: darkred_13
+  - first:
+      213: 8512340875195086303
+    second: darkred_14
+  - first:
+      213: 7305090193673433840
+    second: darkred_15
+  - first:
+      213: -6889301345253139654
+    second: darkred_16
+  - first:
+      213: -123649072708325504
+    second: darkred_17
+  - first:
+      213: 7349469934117306132
+    second: darkred_18
+  - first:
+      213: -1638379827659973297
+    second: darkred_19
+  - first:
+      213: -5394601570816862453
+    second: darkred_20
+  - first:
+      213: 2703118197003029232
+    second: darkred_21
+  - first:
+      213: -199976752419087925
+    second: darkred_22
+  - first:
+      213: -5637465934578399975
+    second: darkred_23
+  - first:
+      213: 5902620250538255915
+    second: darkred_24
+  - first:
+      213: -1043734660469774695
+    second: darkred_25
+  - first:
+      213: 5042427860869811205
+    second: darkred_26
+  - first:
+      213: 5387408739206447506
+    second: darkred_27
+  - first:
+      213: -241391163378613731
+    second: darkred_28
+  - first:
+      213: 269161990783390334
+    second: darkred_29
+  - first:
+      213: -4862040516831717948
+    second: darkred_30
+  - first:
+      213: -4237149232746097424
+    second: darkred_31
+  - first:
+      213: -7034650581516995930
+    second: darkred_32
+  - first:
+      213: 7002079619920309997
+    second: darkred_33
+  - first:
+      213: -4434712935847823062
+    second: darkred_34
+  - first:
+      213: 2073473752903112426
+    second: darkred_35
+  - first:
+      213: 2816021927831666939
+    second: darkred_36
+  - first:
+      213: -8082802126929078532
+    second: darkred_37
+  - first:
+      213: 8145455155086778091
+    second: darkred_38
+  - first:
+      213: 8814810703998840042
+    second: darkred_39
+  - first:
+      213: 7697285177992155186
+    second: darkred_40
+  - first:
+      213: 1774350711259399225
+    second: darkred_41
+  - first:
+      213: -4385415109221872133
+    second: darkred_42
+  - first:
+      213: 558405370998536375
+    second: darkred_43
+  - first:
+      213: -8474375792220818372
+    second: darkred_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: darkred_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288809bb21ebb46b0800000000000000
+      internalID: -5310942347887867774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fbb2949a4288a40800000000000000
+      internalID: 5370582865134993159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcbe1f5ff943cc60800000000000000
+      internalID: 7837189137716133073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 789
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577dd33f6bd698fa0800000000000000
+      internalID: -5797982412730411147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf43ab4955fa57a0800000000000000
+      internalID: -6387523357601738823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb08c1b458361ef0800000000000000
+      internalID: -137860802177135683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8457ea03304fa80800000000000000
+      internalID: -8434112694537860880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 789
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17138c5c2cea8d00800000000000000
+      internalID: 975851944553944862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266cec16d03d1fbe0800000000000000
+      internalID: -1445141950980241822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 716
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20b819b4cfae2c00800000000000000
+      internalID: 877832236837679147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 714
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986f07246a01be960800000000000000
+      internalID: 7632212299774752393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 720
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e88394e80f79950800000000000000
+      internalID: 6455893084763360823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78ef7547e9ddc730800000000000000
+      internalID: 4021109629638404219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d6e36ed953449c0800000000000000
+      internalID: -3943968421380723425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd57a09fce8e12670800000000000000
+      internalID: 8512340875195086303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2381eb3d4e06560800000000000000
+      internalID: 7305090193673433840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd0957de84460a0800000000000000
+      internalID: -6889301345253139654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 720
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fe960d2d5b84ef0800000000000000
+      internalID: -123649072708325504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fb97647ff8ef560800000000000000
+      internalID: 7349469934117306132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d592d2a3e4349e0800000000000000
+      internalID: -1638379827659973297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0752b204768225b0800000000000000
+      internalID: -5394601570816862453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa824eada7638520800000000000000
+      internalID: 2703118197003029232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc959b4043a893df0800000000000000
+      internalID: -199976752419087925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 651
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915c610e992b3c1b0800000000000000
+      internalID: -5637465934578399975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 663
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262c5d28d15ae150800000000000000
+      internalID: 5902620250538255915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 650
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996afe23bd8e381f0800000000000000
+      internalID: -1043734660469774695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_26
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c8dac6c6d4af540800000000000000
+      internalID: 5042427860869811205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_27
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 651
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2914c3064bbe3ca40800000000000000
+      internalID: 5387408739206447506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_28
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1246ee040866acf0800000000000000
+      internalID: -241391163378613731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e725eaf87614cb300800000000000000
+      internalID: 269161990783390334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c550bef8ef868cb0800000000000000
+      internalID: -4862040516831717948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f499d1e83f9235c0800000000000000
+      internalID: -4237149232746097424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_32
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 663
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a23fa93196ef5e90800000000000000
+      internalID: -7034650581516995930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_33
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 650
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee2a52d0526c2160800000000000000
+      internalID: 7002079619920309997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_34
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29f5f9b41cb472c0800000000000000
+      internalID: -4434712935847823062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_35
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6d2ec746576cc10800000000000000
+      internalID: 2073473752903112426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf00e100605841720800000000000000
+      internalID: 2816021927831666939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 588
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6de924a4e14df80800000000000000
+      internalID: -8082802126929078532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee52dc9e487a0170800000000000000
+      internalID: 8145455155086778091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec6926e1af745a70800000000000000
+      internalID: 8814810703998840042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2301a11661042da60800000000000000
+      internalID: 7697285177992155186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_41
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 588
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934049b2292cf9810800000000000000
+      internalID: 1774350711259399225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd033e6130e323c0800000000000000
+      internalID: -4385415109221872133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8b903f9badfb700800000000000000
+      internalID: 558405370998536375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkred_44
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34328bbd18f46a80800000000000000
+      internalID: -8474375792220818372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      darkred_0: -5310942347887867774
+      darkred_1: 5370582865134993159
+      darkred_10: 7632212299774752393
+      darkred_11: 6455893084763360823
+      darkred_12: 4021109629638404219
+      darkred_13: -3943968421380723425
+      darkred_14: 8512340875195086303
+      darkred_15: 7305090193673433840
+      darkred_16: -6889301345253139654
+      darkred_17: -123649072708325504
+      darkred_18: 7349469934117306132
+      darkred_19: -1638379827659973297
+      darkred_2: 7837189137716133073
+      darkred_20: -5394601570816862453
+      darkred_21: 2703118197003029232
+      darkred_22: -199976752419087925
+      darkred_23: -5637465934578399975
+      darkred_24: 5902620250538255915
+      darkred_25: -1043734660469774695
+      darkred_26: 5042427860869811205
+      darkred_27: 5387408739206447506
+      darkred_28: -241391163378613731
+      darkred_29: 269161990783390334
+      darkred_3: -5797982412730411147
+      darkred_30: -4862040516831717948
+      darkred_31: -4237149232746097424
+      darkred_32: -7034650581516995930
+      darkred_33: 7002079619920309997
+      darkred_34: -4434712935847823062
+      darkred_35: 2073473752903112426
+      darkred_36: 2816021927831666939
+      darkred_37: -8082802126929078532
+      darkred_38: 8145455155086778091
+      darkred_39: 8814810703998840042
+      darkred_4: -6387523357601738823
+      darkred_40: 7697285177992155186
+      darkred_41: 1774350711259399225
+      darkred_42: -4385415109221872133
+      darkred_43: 558405370998536375
+      darkred_44: -8474375792220818372
+      darkred_5: -137860802177135683
+      darkred_6: -8434112694537860880
+      darkred_7: 975851944553944862
+      darkred_8: -1445141950980241822
+      darkred_9: 877832236837679147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

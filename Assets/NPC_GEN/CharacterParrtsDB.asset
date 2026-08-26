@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea982f6f6ba7425ebe41f14cf7685fe, type: 3}
+  m_Name: CharacterParrtsDB
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterParrtsDB
+  bodies:
+  - {fileID: 11400000, guid: 13790852ca28944dc8aeac0d5c6d51da, type: 2}
+  - {fileID: 11400000, guid: 5bf41ec60e7d441ac80d7d33d87112f4, type: 2}
+  - {fileID: 11400000, guid: 21952b9f4d6dd48e59497e40a3aed266, type: 2}
+  heads:
+  - {fileID: 11400000, guid: d271b2545b1994f3ba1fa6b56c1ad1a9, type: 2}
+  - {fileID: 11400000, guid: bbf9b5ae477764c90a7ad51acd5d6d5d, type: 2}
+  - {fileID: 11400000, guid: 3ffbad1101bde4518830f724a045c708, type: 2}
+  hairs:
+  - {fileID: 11400000, guid: 2979616bbffb44fcda578c55ffffbb3b, type: 2}
+  - {fileID: 11400000, guid: 50d1261d1ed4b486994e0d6dc72fcc94, type: 2}
+  - {fileID: 11400000, guid: 91ec37eb8fa784ab7bb6411ca47586bf, type: 2}
+  - {fileID: 11400000, guid: b859528a1a7fe4e3e87706554f269888, type: 2}
+  - {fileID: 11400000, guid: 25c4af4d6de2c41db87cbe6f5923723a, type: 2}
+  - {fileID: 11400000, guid: d1bace534704649a9b8884eea560290e, type: 2}
+  - {fileID: 11400000, guid: 44799ff665a9c44cfbb1e0c94d4784c0, type: 2}
+  - {fileID: 11400000, guid: f5111c76bb6f44564a0b2ad2244efad3, type: 2}
+  beards: []
+  helmets: []
+  torsos:
+  - {fileID: 11400000, guid: ad11041315bea43cdb814a4e8667790a, type: 2}
+  - {fileID: 11400000, guid: b41de72908333473ca31b0a24f7c16ee, type: 2}
+  - {fileID: 11400000, guid: d99380bdbb8504c91b6bd15f058e5499, type: 2}
+  - {fileID: 11400000, guid: 082dcf4102f104c2f99ce8bdc25f6568, type: 2}
+  - {fileID: 11400000, guid: a26dc191f3772444ba89adef93db34d7, type: 2}
+  - {fileID: 11400000, guid: 5e7895b0a4b8042f79f86c604d0a408e, type: 2}
+  - {fileID: 11400000, guid: 9512d27f8c4674f9aaee0bcf8d89a9ea, type: 2}
+  - {fileID: 11400000, guid: 829ac7a7195e746cfb5cd17340aa1010, type: 2}
+  legs:
+  - {fileID: 11400000, guid: 3222f3f76ebb44b8785b627741b060e5, type: 2}
+  - {fileID: 11400000, guid: 8c5935b88070640beacd647be66e5181, type: 2}
+  - {fileID: 11400000, guid: c6ac54c3d4bed4798a4abba297bf50bc, type: 2}
+  - {fileID: 11400000, guid: aff1516b0f2944a0188577bf14a896f6, type: 2}
+  - {fileID: 11400000, guid: e87f4b948aa75483aa5cf7b3062a18b4, type: 2}
+  - {fileID: 11400000, guid: d53b1be044fc0442c9471625d77e64bd, type: 2}
+  - {fileID: 11400000, guid: 7403203f94df84cf68799a8a9a64eefd, type: 2}
+  - {fileID: 11400000, guid: 247756475511b45eb9661c72ea43c385, type: 2}
+  - {fileID: 11400000, guid: e9913e44d232849e2aeac00b88fc1e5b, type: 2}
+  boots: []
+  weapons: []
+  shields: []
+  capes: []

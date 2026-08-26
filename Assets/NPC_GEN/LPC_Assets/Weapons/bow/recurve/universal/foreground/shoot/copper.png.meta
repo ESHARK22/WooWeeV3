@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 267df9dd366684444a46cce5d358db91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4673536048321637515
+    second: copper_0
+  - first:
+      213: 631623507490633193
+    second: copper_1
+  - first:
+      213: 9185080709387706225
+    second: copper_2
+  - first:
+      213: 8930431889640237112
+    second: copper_3
+  - first:
+      213: 8930958850111881413
+    second: copper_4
+  - first:
+      213: -3304253531636517484
+    second: copper_5
+  - first:
+      213: 4312774026939199897
+    second: copper_6
+  - first:
+      213: -7310034424992447210
+    second: copper_7
+  - first:
+      213: 7205206827257922137
+    second: copper_8
+  - first:
+      213: 3732976686383906743
+    second: copper_9
+  - first:
+      213: 1775635243176057255
+    second: copper_10
+  - first:
+      213: -7160850755199898869
+    second: copper_11
+  - first:
+      213: 3424542864933108816
+    second: copper_12
+  - first:
+      213: 1203748113076870870
+    second: copper_13
+  - first:
+      213: -4545951594550052018
+    second: copper_14
+  - first:
+      213: -1369626381312085970
+    second: copper_15
+  - first:
+      213: 226383098073703475
+    second: copper_16
+  - first:
+      213: -4215378601773752498
+    second: copper_17
+  - first:
+      213: 7977378432984252585
+    second: copper_18
+  - first:
+      213: 7484331765184124935
+    second: copper_19
+  - first:
+      213: -5767569260690092891
+    second: copper_20
+  - first:
+      213: 6803972750051682751
+    second: copper_21
+  - first:
+      213: 5528748783843469452
+    second: copper_22
+  - first:
+      213: 8242200788580505151
+    second: copper_23
+  - first:
+      213: -5198288543672097391
+    second: copper_24
+  - first:
+      213: -5029690187837049195
+    second: copper_25
+  - first:
+      213: -4823573734346968480
+    second: copper_26
+  - first:
+      213: -8210240845476594408
+    second: copper_27
+  - first:
+      213: 5297374442740718837
+    second: copper_28
+  - first:
+      213: -3769454922321719144
+    second: copper_29
+  - first:
+      213: -1636988751776507131
+    second: copper_30
+  - first:
+      213: -7591125322058232351
+    second: copper_31
+  - first:
+      213: -6482449814211662833
+    second: copper_32
+  - first:
+      213: 1577926299453636067
+    second: copper_33
+  - first:
+      213: 7991010273657381106
+    second: copper_34
+  - first:
+      213: -3887220769083887537
+    second: copper_35
+  - first:
+      213: 6250460084769167183
+    second: copper_36
+  - first:
+      213: 7441853034913289016
+    second: copper_37
+  - first:
+      213: 5337542527035790030
+    second: copper_38
+  - first:
+      213: -1814045415130854104
+    second: copper_39
+  - first:
+      213: -2507443390731589452
+    second: copper_40
+  - first:
+      213: -3252395729666027801
+    second: copper_41
+  - first:
+      213: 217899234859821972
+    second: copper_42
+  - first:
+      213: 6326878394794218459
+    second: copper_43
+  - first:
+      213: -7369860872050438561
+    second: copper_44
+  - first:
+      213: -6500101713917601914
+    second: copper_45
+  - first:
+      213: 7543285894539985659
+    second: copper_46
+  - first:
+      213: 2368628819428753694
+    second: copper_47
+  - first:
+      213: -2066324221401800487
+    second: copper_48
+  - first:
+      213: -6626965473125117112
+    second: copper_49
+  - first:
+      213: -8493508100204827754
+    second: copper_50
+  - first:
+      213: 7715016030791644502
+    second: copper_51
+  - first:
+      213: 78148375598487478
+    second: copper_52
+  - first:
+      213: -3611791865042564571
+    second: copper_53
+  - first:
+      213: -7234412192019004021
+    second: copper_54
+  - first:
+      213: -6199266534711070319
+    second: copper_55
+  - first:
+      213: -6448369718984179362
+    second: copper_56
+  - first:
+      213: 6819316859591827268
+    second: copper_57
+  - first:
+      213: 7998407288061851084
+    second: copper_58
+  - first:
+      213: -6492446609909709635
+    second: copper_59
+  - first:
+      213: -4151840570423960364
+    second: copper_60
+  - first:
+      213: -6945525439864166936
+    second: copper_61
+  - first:
+      213: 2423522470009249473
+    second: copper_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: copper_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 238
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5735ecab9b3442fb0800000000000000
+      internalID: -4673536048321637515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 238
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5f3cbcb3af3c800800000000000000
+      internalID: 631623507490633193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 238
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd8549d36f77f70800000000000000
+      internalID: 9185080709387706225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 238
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838a3d8fc744feb70800000000000000
+      internalID: 8930431889640237112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 238
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0cc8481c321fb70800000000000000
+      internalID: 8930958850111881413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_5
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 238
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495b9fe6beee422d0800000000000000
+      internalID: -3304253531636517484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 238
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991fd30a02d0adb30800000000000000
+      internalID: 4312774026939199897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_7
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 238
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615c272bb6a8d8a90800000000000000
+      internalID: -7310034424992447210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_8
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 238
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9528def3f690ef360800000000000000
+      internalID: 7205206827257922137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_9
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 238
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf3ab2a4823ec330800000000000000
+      internalID: 3732976686383906743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 205
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a95c2098d254a810800000000000000
+      internalID: 1775635243176057255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 147
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0be8be8d2c8f9c90800000000000000
+      internalID: -7160850755199898869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 137
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cbf66779b668f20800000000000000
+      internalID: 3424542864933108816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 134
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de5ef6f78294b010800000000000000
+      internalID: 1203748113076870870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 127
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b39b83c1989e0c0800000000000000
+      internalID: -4545951594550052018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_15
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 133
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20b3e2101c1efce0800000000000000
+      internalID: -1369626381312085970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 135
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334e5df6a36442300800000000000000
+      internalID: 226383098073703475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_17
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 161
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f1e77ee77ff75c0800000000000000
+      internalID: -4215378601773752498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_18
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 160
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a083e83b6755be60800000000000000
+      internalID: 7977378432984252585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_19
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 158
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d8f43610bdd760800000000000000
+      internalID: 7484331765184124935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_20
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 133
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acca17b05a75ffa0800000000000000
+      internalID: -5767569260690092891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 133
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9a44cca219c6e50800000000000000
+      internalID: 6803972750051682751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_22
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 133
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88ec51f9bf0abc40800000000000000
+      internalID: 5528748783843469452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_23
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 133
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3619cab2fd226270800000000000000
+      internalID: 8242200788580505151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195217a7c18fbd7b0800000000000000
+      internalID: -5198288543672097391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_25
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 132
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59674bf2c63f23ab0800000000000000
+      internalID: -5029690187837049195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 137
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0623858be393f0db0800000000000000
+      internalID: -4823573734346968480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 136
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81df6f4637d5f0e80800000000000000
+      internalID: -8210240845476594408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_28
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 136
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc1bcd2dfd048940800000000000000
+      internalID: 5297374442740718837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 77
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8909a2638b430bbc0800000000000000
+      internalID: -3769454922321719144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 70
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b1d05476f3849e0800000000000000
+      internalID: -1636988751776507131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 68
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed0f353db7e6a690800000000000000
+      internalID: -7591125322058232351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_32
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 63
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ced9d4d36b906a0800000000000000
+      internalID: -6482449814211662833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_33
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 65
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed3ea0fb9be5e510800000000000000
+      internalID: 1577926299453636067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_34
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 66
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f068d57185c5ee60800000000000000
+      internalID: 7991010273657381106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_35
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 87
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40fb3f4e41dd0ac0800000000000000
+      internalID: -3887220769083887537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_36
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 89
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f479c6ba4581eb650800000000000000
+      internalID: 6250460084769167183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_37
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 69
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8335ba818e5c64760800000000000000
+      internalID: 7441853034913289016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_38
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 85
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2528916a2c21a40800000000000000
+      internalID: 5337542527035790030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_39
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 66
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d03b06e4733d6e0800000000000000
+      internalID: -1814045415130854104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_40
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 64
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8ea096585c33dd0800000000000000
+      internalID: -2507443390731589452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_41
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 64
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee4248d05b2dd2d0800000000000000
+      internalID: -3252395729666027801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_42
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 64
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b26aa1332260300800000000000000
+      internalID: 217899234859821972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_43
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 64
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd39dcaf0669dc750800000000000000
+      internalID: 6326878394794218459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_44
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 66
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e0265859ef8b990800000000000000
+      internalID: -7369860872050438561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_45
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 19
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68798022eeffac5a0800000000000000
+      internalID: -6500101713917601914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_46
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 9
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf245471e822fa860800000000000000
+      internalID: 7543285894539985659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 6
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11cdca9c5f0fd020800000000000000
+      internalID: 2368628819428753694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d06f888111f253e0800000000000000
+      internalID: -2066324221401800487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_49
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 5
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843599b630a4804a0800000000000000
+      internalID: -6626965473125117112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 7
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b6366226ff02a80800000000000000
+      internalID: -8493508100204827754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_51
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 33
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655b7cf343e311b60800000000000000
+      internalID: 7715016030791644502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_52
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 32
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b752579883a51100800000000000000
+      internalID: 78148375598487478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_53
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 30
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a0e715f6650edc0800000000000000
+      internalID: -3611791865042564571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_54
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 5
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85c3ffd0743a9b90800000000000000
+      internalID: -7234412192019004021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_55
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 5
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191749a8ee7c7f9a0800000000000000
+      internalID: -6199266534711070319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_56
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 5
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51009fc7e9c286a0800000000000000
+      internalID: -6448369718984179362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_57
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 5
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f9dc2bd8413ae50800000000000000
+      internalID: 6819316859591827268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_58
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 14
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc572d51d0d000f60800000000000000
+      internalID: 7998407288061851084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_59
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4842de43236e5a0800000000000000
+      internalID: -6492446609909709635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_60
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 9
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc13d3aff2b166c0800000000000000
+      internalID: -4151840570423960364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_61
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 8
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5257259698c9f90800000000000000
+      internalID: -6945525439864166936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_62
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 8
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce141a98d412a120800000000000000
+      internalID: 2423522470009249473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      copper_0: -4673536048321637515
+      copper_1: 631623507490633193
+      copper_10: 1775635243176057255
+      copper_11: -7160850755199898869
+      copper_12: 3424542864933108816
+      copper_13: 1203748113076870870
+      copper_14: -4545951594550052018
+      copper_15: -1369626381312085970
+      copper_16: 226383098073703475
+      copper_17: -4215378601773752498
+      copper_18: 7977378432984252585
+      copper_19: 7484331765184124935
+      copper_2: 9185080709387706225
+      copper_20: -5767569260690092891
+      copper_21: 6803972750051682751
+      copper_22: 5528748783843469452
+      copper_23: 8242200788580505151
+      copper_24: -5198288543672097391
+      copper_25: -5029690187837049195
+      copper_26: -4823573734346968480
+      copper_27: -8210240845476594408
+      copper_28: 5297374442740718837
+      copper_29: -3769454922321719144
+      copper_3: 8930431889640237112
+      copper_30: -1636988751776507131
+      copper_31: -7591125322058232351
+      copper_32: -6482449814211662833
+      copper_33: 1577926299453636067
+      copper_34: 7991010273657381106
+      copper_35: -3887220769083887537
+      copper_36: 6250460084769167183
+      copper_37: 7441853034913289016
+      copper_38: 5337542527035790030
+      copper_39: -1814045415130854104
+      copper_4: 8930958850111881413
+      copper_40: -2507443390731589452
+      copper_41: -3252395729666027801
+      copper_42: 217899234859821972
+      copper_43: 6326878394794218459
+      copper_44: -7369860872050438561
+      copper_45: -6500101713917601914
+      copper_46: 7543285894539985659
+      copper_47: 2368628819428753694
+      copper_48: -2066324221401800487
+      copper_49: -6626965473125117112
+      copper_5: -3304253531636517484
+      copper_50: -8493508100204827754
+      copper_51: 7715016030791644502
+      copper_52: 78148375598487478
+      copper_53: -3611791865042564571
+      copper_54: -7234412192019004021
+      copper_55: -6199266534711070319
+      copper_56: -6448369718984179362
+      copper_57: 6819316859591827268
+      copper_58: 7998407288061851084
+      copper_59: -6492446609909709635
+      copper_6: 4312774026939199897
+      copper_60: -4151840570423960364
+      copper_61: -6945525439864166936
+      copper_62: 2423522470009249473
+      copper_7: -7310034424992447210
+      copper_8: 7205206827257922137
+      copper_9: 3732976686383906743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

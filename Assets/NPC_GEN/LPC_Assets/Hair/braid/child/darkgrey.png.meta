@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 943be78f0bee448c9b5cdfd4e4a56313
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 286192874343541118
+    second: darkgrey_0
+  - first:
+      213: -1292984672319900899
+    second: darkgrey_1
+  - first:
+      213: -853539095292822538
+    second: darkgrey_2
+  - first:
+      213: -1522330257590485400
+    second: darkgrey_3
+  - first:
+      213: 6288043005898130403
+    second: darkgrey_4
+  - first:
+      213: 7895705049845067279
+    second: darkgrey_5
+  - first:
+      213: 331463859676940628
+    second: darkgrey_6
+  - first:
+      213: 8976246268150345429
+    second: darkgrey_7
+  - first:
+      213: 6680001928496724646
+    second: darkgrey_8
+  - first:
+      213: 7229884159344930268
+    second: darkgrey_9
+  - first:
+      213: -1368393960912995525
+    second: darkgrey_10
+  - first:
+      213: 3829966295814133126
+    second: darkgrey_11
+  - first:
+      213: 8742722217849043593
+    second: darkgrey_12
+  - first:
+      213: 7275127577952046254
+    second: darkgrey_13
+  - first:
+      213: 4977410560424428636
+    second: darkgrey_14
+  - first:
+      213: 697069483887847253
+    second: darkgrey_15
+  - first:
+      213: 2076387178464237121
+    second: darkgrey_16
+  - first:
+      213: 7749980447176772006
+    second: darkgrey_17
+  - first:
+      213: -2438010534522371700
+    second: darkgrey_18
+  - first:
+      213: 808967155123941784
+    second: darkgrey_19
+  - first:
+      213: 1086467316572047775
+    second: darkgrey_20
+  - first:
+      213: -1572846470972147140
+    second: darkgrey_21
+  - first:
+      213: 7689192586986152637
+    second: darkgrey_22
+  - first:
+      213: -6058765468514851165
+    second: darkgrey_23
+  - first:
+      213: -4611325656313659494
+    second: darkgrey_24
+  - first:
+      213: -3662434409214254273
+    second: darkgrey_25
+  - first:
+      213: -8570958888245183877
+    second: darkgrey_26
+  - first:
+      213: -2748007352013255832
+    second: darkgrey_27
+  - first:
+      213: 261255610790850584
+    second: darkgrey_28
+  - first:
+      213: 6888070054539926158
+    second: darkgrey_29
+  - first:
+      213: 5443180354272725881
+    second: darkgrey_30
+  - first:
+      213: 6877976549685554395
+    second: darkgrey_31
+  - first:
+      213: -5105506652254802635
+    second: darkgrey_32
+  - first:
+      213: -1584675528746201881
+    second: darkgrey_33
+  - first:
+      213: 7671834489685473230
+    second: darkgrey_34
+  - first:
+      213: -6700855335732835393
+    second: darkgrey_35
+  - first:
+      213: -4284301476504730916
+    second: darkgrey_36
+  - first:
+      213: 7638658992650863404
+    second: darkgrey_37
+  - first:
+      213: 3738649935449743830
+    second: darkgrey_38
+  - first:
+      213: -131060800753661267
+    second: darkgrey_39
+  - first:
+      213: 3399306271754057996
+    second: darkgrey_40
+  - first:
+      213: 5660663069370377432
+    second: darkgrey_41
+  - first:
+      213: -2798199711406087415
+    second: darkgrey_42
+  - first:
+      213: 3727901262190143374
+    second: darkgrey_43
+  - first:
+      213: -5098942493403675644
+    second: darkgrey_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: darkgrey_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79ae7427e2c8f300800000000000000
+      internalID: 286192874343541118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13f8528a456e0ee0800000000000000
+      internalID: -1292984672319900899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbb92f07be9724f0800000000000000
+      internalID: -853539095292822538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 789
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e7d7542b89fdae0800000000000000
+      internalID: -1522330257590485400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e300f26ccd934750800000000000000
+      internalID: 6288043005898130403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ee54bd8ed239d60800000000000000
+      internalID: 7895705049845067279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4598cebcf98999400800000000000000
+      internalID: 331463859676940628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 789
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dee6853c68029c70800000000000000
+      internalID: 8976246268150345429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aab8fe9c5224bc50800000000000000
+      internalID: 6680001928496724646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 716
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd6afc5655b55460800000000000000
+      internalID: 7229884159344930268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 714
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bbdfe41fc720de0800000000000000
+      internalID: -1368393960912995525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 720
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68558b3dd06c62530800000000000000
+      internalID: 3829966295814133126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98abec44983645970800000000000000
+      internalID: 8742722217849043593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacca73acf176f460800000000000000
+      internalID: 7275127577952046254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5440638880531540800000000000000
+      internalID: 4977410560424428636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55766ea900d7ca900800000000000000
+      internalID: 697069483887847253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146598c332fc0dc10800000000000000
+      internalID: 2076387178464237121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 720
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9c132d7267d8b60800000000000000
+      internalID: 7749980447176772006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81422306527a2ed0800000000000000
+      internalID: -2438010534522371700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891fe1c67570a3b00800000000000000
+      internalID: 808967155123941784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f994950a448e31f00800000000000000
+      internalID: 1086467316572047775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a7a7bc7702c2ae0800000000000000
+      internalID: -1572846470972147140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db260e43bef75ba60800000000000000
+      internalID: 7689192586986152637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 651
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6e4c738e0faeba0800000000000000
+      internalID: -6058765468514851165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 663
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f77c75fb74100c0800000000000000
+      internalID: -4611325656313659494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 650
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33ed992f4b6c2dc0800000000000000
+      internalID: -3662434409214254273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_26
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a3ba15d46dd0980800000000000000
+      internalID: -8570958888245183877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_27
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 651
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b86177fdd1dd9d0800000000000000
+      internalID: -2748007352013255832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_28
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81034c4089a20a300800000000000000
+      internalID: 261255610790850584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a9bd45837579f50800000000000000
+      internalID: 6888070054539926158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b8fc861bf0a8b40800000000000000
+      internalID: 5443180354272725881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc69791b3b737f50800000000000000
+      internalID: 6877976549685554395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_32
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 663
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d65f9ffb89529b0800000000000000
+      internalID: -5105506652254802635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_33
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 650
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec04d8a00a120ae0800000000000000
+      internalID: -1584675528746201881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_34
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7fa4d32d4d77a60800000000000000
+      internalID: 7671834489685473230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_35
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb0d562397c103a0800000000000000
+      internalID: -6700855335732835393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2014e918a1b84c0800000000000000
+      internalID: -4284301476504730916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 588
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c234c49e1e7f10a60800000000000000
+      internalID: 7638658992650863404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1e40ede4a52e330800000000000000
+      internalID: 3738649935449743830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa891765e06e2ef0800000000000000
+      internalID: -131060800753661267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0978aa3b03cc2f20800000000000000
+      internalID: 3399306271754057996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_41
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 588
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d46ef2f117be8e40800000000000000
+      internalID: 5660663069370377432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9032a0f103cca29d0800000000000000
+      internalID: -2798199711406087415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87e29a527a2cb330800000000000000
+      internalID: 3727901262190143374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darkgrey_44
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404878e41daec39b0800000000000000
+      internalID: -5098942493403675644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      darkgrey_0: 286192874343541118
+      darkgrey_1: -1292984672319900899
+      darkgrey_10: -1368393960912995525
+      darkgrey_11: 3829966295814133126
+      darkgrey_12: 8742722217849043593
+      darkgrey_13: 7275127577952046254
+      darkgrey_14: 4977410560424428636
+      darkgrey_15: 697069483887847253
+      darkgrey_16: 2076387178464237121
+      darkgrey_17: 7749980447176772006
+      darkgrey_18: -2438010534522371700
+      darkgrey_19: 808967155123941784
+      darkgrey_2: -853539095292822538
+      darkgrey_20: 1086467316572047775
+      darkgrey_21: -1572846470972147140
+      darkgrey_22: 7689192586986152637
+      darkgrey_23: -6058765468514851165
+      darkgrey_24: -4611325656313659494
+      darkgrey_25: -3662434409214254273
+      darkgrey_26: -8570958888245183877
+      darkgrey_27: -2748007352013255832
+      darkgrey_28: 261255610790850584
+      darkgrey_29: 6888070054539926158
+      darkgrey_3: -1522330257590485400
+      darkgrey_30: 5443180354272725881
+      darkgrey_31: 6877976549685554395
+      darkgrey_32: -5105506652254802635
+      darkgrey_33: -1584675528746201881
+      darkgrey_34: 7671834489685473230
+      darkgrey_35: -6700855335732835393
+      darkgrey_36: -4284301476504730916
+      darkgrey_37: 7638658992650863404
+      darkgrey_38: 3738649935449743830
+      darkgrey_39: -131060800753661267
+      darkgrey_4: 6288043005898130403
+      darkgrey_40: 3399306271754057996
+      darkgrey_41: 5660663069370377432
+      darkgrey_42: -2798199711406087415
+      darkgrey_43: 3727901262190143374
+      darkgrey_44: -5098942493403675644
+      darkgrey_5: 7895705049845067279
+      darkgrey_6: 331463859676940628
+      darkgrey_7: 8976246268150345429
+      darkgrey_8: 6680001928496724646
+      darkgrey_9: 7229884159344930268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: 0a66722903ae3496ab3ebeb972efbcbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8005000799677366809
+    second: ceramic_0
+  - first:
+      213: -6742977543274349522
+    second: ceramic_1
+  - first:
+      213: 989272862369874515
+    second: ceramic_2
+  - first:
+      213: 4162541360171861915
+    second: ceramic_3
+  - first:
+      213: -2802047777925016733
+    second: ceramic_4
+  - first:
+      213: 7538709344312218720
+    second: ceramic_5
+  - first:
+      213: 4948608461511721751
+    second: ceramic_6
+  - first:
+      213: 4614646025544855857
+    second: ceramic_7
+  - first:
+      213: -1643680839353758579
+    second: ceramic_8
+  - first:
+      213: 6929187751218391813
+    second: ceramic_9
+  - first:
+      213: 8730978956418446110
+    second: ceramic_10
+  - first:
+      213: -5661223572728991154
+    second: ceramic_11
+  - first:
+      213: -5331726706244974815
+    second: ceramic_12
+  - first:
+      213: 8614737457989931198
+    second: ceramic_13
+  - first:
+      213: 2577736742352905794
+    second: ceramic_14
+  - first:
+      213: -5605436409547114107
+    second: ceramic_15
+  - first:
+      213: 5756441712070377878
+    second: ceramic_16
+  - first:
+      213: -4404531626742808559
+    second: ceramic_17
+  - first:
+      213: -9866507810328774
+    second: ceramic_18
+  - first:
+      213: 2925879202305133480
+    second: ceramic_19
+  - first:
+      213: 6202248677385131936
+    second: ceramic_20
+  - first:
+      213: 6521412939231612287
+    second: ceramic_21
+  - first:
+      213: -6153709060646061301
+    second: ceramic_22
+  - first:
+      213: 7107610764563763570
+    second: ceramic_23
+  - first:
+      213: 4667521895429555407
+    second: ceramic_24
+  - first:
+      213: 2595605999244066710
+    second: ceramic_25
+  - first:
+      213: -2533208966486611848
+    second: ceramic_26
+  - first:
+      213: -5206772319824397805
+    second: ceramic_27
+  - first:
+      213: -5574695181123292818
+    second: ceramic_28
+  - first:
+      213: 6079984157255188809
+    second: ceramic_29
+  - first:
+      213: -7704127057531825940
+    second: ceramic_30
+  - first:
+      213: -3672876498180365413
+    second: ceramic_31
+  - first:
+      213: 1738442815355316116
+    second: ceramic_32
+  - first:
+      213: -1953547446259305863
+    second: ceramic_33
+  - first:
+      213: -2270837145751883021
+    second: ceramic_34
+  - first:
+      213: 1193956870430794016
+    second: ceramic_35
+  - first:
+      213: 7786624485793169340
+    second: ceramic_36
+  - first:
+      213: 4672112096488908786
+    second: ceramic_37
+  - first:
+      213: -4587677853319343155
+    second: ceramic_38
+  - first:
+      213: 1380269974322767913
+    second: ceramic_39
+  - first:
+      213: 5858719174778040659
+    second: ceramic_40
+  - first:
+      213: 4165916627414138785
+    second: ceramic_41
+  - first:
+      213: -2094681577895132126
+    second: ceramic_42
+  - first:
+      213: 7834091602222792086
+    second: ceramic_43
+  - first:
+      213: -335582803564539267
+    second: ceramic_44
+  - first:
+      213: -4335673067914165350
+    second: ceramic_45
+  - first:
+      213: -1515130827967582717
+    second: ceramic_46
+  - first:
+      213: -3023850187321609522
+    second: ceramic_47
+  - first:
+      213: 4131934991773145905
+    second: ceramic_48
+  - first:
+      213: 2734775035526654930
+    second: ceramic_49
+  - first:
+      213: -2339981011636470231
+    second: ceramic_50
+  - first:
+      213: -1915856202693532406
+    second: ceramic_51
+  - first:
+      213: -3808004536190717810
+    second: ceramic_52
+  - first:
+      213: 8529240813566467246
+    second: ceramic_53
+  - first:
+      213: 4760657681863300942
+    second: ceramic_54
+  - first:
+      213: -8248141091496433139
+    second: ceramic_55
+  - first:
+      213: 3915580067506224749
+    second: ceramic_56
+  - first:
+      213: -6965126004040128346
+    second: ceramic_57
+  - first:
+      213: 2774701590684201448
+    second: ceramic_58
+  - first:
+      213: 3490354447285692084
+    second: ceramic_59
+  - first:
+      213: -2363791237695389427
+    second: ceramic_60
+  - first:
+      213: -8724332772079047368
+    second: ceramic_61
+  - first:
+      213: -3847925378243710071
+    second: ceramic_62
+  - first:
+      213: 5300181504579522564
+    second: ceramic_63
+  - first:
+      213: -6061317073482715741
+    second: ceramic_64
+  - first:
+      213: 6561769465262891846
+    second: ceramic_65
+  - first:
+      213: 5444890841040683700
+    second: ceramic_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ceramic_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 205
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed338c5f2688e090800000000000000
+      internalID: -8005000799677366809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 218
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c32b476a12c62a0800000000000000
+      internalID: -6742977543274349522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 239
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3528d7b4d6a9abd00800000000000000
+      internalID: 989272862369874515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b974aef105154c930800000000000000
+      internalID: 4162541360171861915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3635b1154602d19d0800000000000000
+      internalID: -2802047777925016733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064d5a4f430ee9860800000000000000
+      internalID: 7538709344312218720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 238
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71306e84d2dfca440800000000000000
+      internalID: 4948608461511721751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 238
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131f4cc5c148a0040800000000000000
+      internalID: 4614646025544855857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c04363cf87039e0800000000000000
+      internalID: -1643680839353758579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_9
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b2c5d1c8b692060800000000000000
+      internalID: 6929187751218391813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_10
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e137bb62a1baa2970800000000000000
+      internalID: 8730978956418446110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_11
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 238
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42bb61b72b4f61b0800000000000000
+      internalID: -5661223572728991154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 205
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1270ec23fc6e106b0800000000000000
+      internalID: -5331726706244974815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 198
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0ddb04312bd8770800000000000000
+      internalID: 8614737457989931198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 203
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246ea64e8e5f5c320800000000000000
+      internalID: 2577736742352905794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58937edc84d7532b0800000000000000
+      internalID: -5605436409547114107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 146
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691423afc3df2ef40800000000000000
+      internalID: 5756441712070377878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 140
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110850a52d5ffd2c0800000000000000
+      internalID: -4404531626742808559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 136
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3faac2a672fcdff0800000000000000
+      internalID: -9866507810328774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 137
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abc91de1afca9820800000000000000
+      internalID: 2925879202305133480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a75d28af40d21650800000000000000
+      internalID: 6202248677385131936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 132
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d498c2486b08a50800000000000000
+      internalID: 6521412939231612287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bb61d8632a99aa0800000000000000
+      internalID: -6153709060646061301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 134
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271d097255e43a260800000000000000
+      internalID: 7107610764563763570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_24
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 159
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4cf6e2f6e56c040800000000000000
+      internalID: 4667521895429555407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_25
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 135
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fb0d977e1750420800000000000000
+      internalID: 2595605999244066710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_26
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 157
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8782bb2dddb38dcd0800000000000000
+      internalID: -2533208966486611848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_27
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 130
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ab78a6924ddb7b0800000000000000
+      internalID: -5206772319824397805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_28
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 130
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61701ec444b2a2b0800000000000000
+      internalID: -5574695181123292818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_29
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 130
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941c23db061706450800000000000000
+      internalID: 6079984157255188809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_30
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 130
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce017576241751590800000000000000
+      internalID: -7704127057531825940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 133
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93241ed842570dc0800000000000000
+      internalID: -3672876498180365413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 133
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4976597a780302810800000000000000
+      internalID: 1738442815355316116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_33
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 77
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972b7dda2fa93e4e0800000000000000
+      internalID: -1953547446259305863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 70
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f272b8b5ad5c70e0800000000000000
+      internalID: -2270837145751883021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 69
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0212a23a279c19010800000000000000
+      internalID: 1193956870430794016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_36
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 63
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf7f0be6b5af0c60800000000000000
+      internalID: 7786624485793169340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_37
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 63
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7e606a23da6d040800000000000000
+      internalID: 4672112096488908786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_38
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 64
+        width: 12
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc359f88c4b4550c0800000000000000
+      internalID: -4587677853319343155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 64
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92865a98a34b72310800000000000000
+      internalID: 1380269974322767913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_40
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 86
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3513a637c0a5e4150800000000000000
+      internalID: 5858719174778040659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_41
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 66
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afb9e4c91f40d930800000000000000
+      internalID: 4165916627414138785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_42
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 87
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2248108f3323ee2e0800000000000000
+      internalID: -2094681577895132126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_43
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 65
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d3c503ec848bc60800000000000000
+      internalID: 7834091602222792086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_44
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 84
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d725ec8d735c75bf0800000000000000
+      internalID: -335582803564539267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 63
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a938fbce05894d3c0800000000000000
+      internalID: -4335673067914165350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_46
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 63
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eafba1a8c29fae0800000000000000
+      internalID: -1515130827967582717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_47
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 63
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec272b296402906d0800000000000000
+      internalID: -3023850187321609522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_48
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 63
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b15ababf4975930800000000000000
+      internalID: 4131934991773145905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 18
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db2c25c76fd3f520800000000000000
+      internalID: 2734775035526654930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_50
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 13
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ebf3ceaa7b68fd0800000000000000
+      internalID: -2339981011636470231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 12
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0529bd2fe28965e0800000000000000
+      internalID: -1915856202693532406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 8
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80b64dcc00472bc0800000000000000
+      internalID: -3808004536190717810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_53
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 9
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac94608453fd5670800000000000000
+      internalID: 8529240813566467246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_54
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4752b840f0411240800000000000000
+      internalID: 4760657681863300942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_55
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a6d08b067b88d80800000000000000
+      internalID: -8248141091496433139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_56
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 32
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6efe45635fe65630800000000000000
+      internalID: 3915580067506224749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_57
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 6
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a82a595dc6e65f90800000000000000
+      internalID: -6965126004040128346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_58
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 31
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1717e4568b18620800000000000000
+      internalID: 2774701590684201448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_59
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 7
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b62baa80ea307030800000000000000
+      internalID: 3490354447285692084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_60
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 29
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d014cf9a460223fd0800000000000000
+      internalID: -2363791237695389427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_61
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dede93191fce680800000000000000
+      internalID: -8724332772079047368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_62
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983b293714c699ac0800000000000000
+      internalID: -3847925378243710071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_63
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400de813ff60e8940800000000000000
+      internalID: 5300181504579522564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_64
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad6d046c30e1eba0800000000000000
+      internalID: -6061317073482715741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_65
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 5
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643effa1096101b50800000000000000
+      internalID: 6561769465262891846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceramic_66
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 5
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b202052f53209b40800000000000000
+      internalID: 5444890841040683700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ceramic_0: -8005000799677366809
+      ceramic_1: -6742977543274349522
+      ceramic_10: 8730978956418446110
+      ceramic_11: -5661223572728991154
+      ceramic_12: -5331726706244974815
+      ceramic_13: 8614737457989931198
+      ceramic_14: 2577736742352905794
+      ceramic_15: -5605436409547114107
+      ceramic_16: 5756441712070377878
+      ceramic_17: -4404531626742808559
+      ceramic_18: -9866507810328774
+      ceramic_19: 2925879202305133480
+      ceramic_2: 989272862369874515
+      ceramic_20: 6202248677385131936
+      ceramic_21: 6521412939231612287
+      ceramic_22: -6153709060646061301
+      ceramic_23: 7107610764563763570
+      ceramic_24: 4667521895429555407
+      ceramic_25: 2595605999244066710
+      ceramic_26: -2533208966486611848
+      ceramic_27: -5206772319824397805
+      ceramic_28: -5574695181123292818
+      ceramic_29: 6079984157255188809
+      ceramic_3: 4162541360171861915
+      ceramic_30: -7704127057531825940
+      ceramic_31: -3672876498180365413
+      ceramic_32: 1738442815355316116
+      ceramic_33: -1953547446259305863
+      ceramic_34: -2270837145751883021
+      ceramic_35: 1193956870430794016
+      ceramic_36: 7786624485793169340
+      ceramic_37: 4672112096488908786
+      ceramic_38: -4587677853319343155
+      ceramic_39: 1380269974322767913
+      ceramic_4: -2802047777925016733
+      ceramic_40: 5858719174778040659
+      ceramic_41: 4165916627414138785
+      ceramic_42: -2094681577895132126
+      ceramic_43: 7834091602222792086
+      ceramic_44: -335582803564539267
+      ceramic_45: -4335673067914165350
+      ceramic_46: -1515130827967582717
+      ceramic_47: -3023850187321609522
+      ceramic_48: 4131934991773145905
+      ceramic_49: 2734775035526654930
+      ceramic_5: 7538709344312218720
+      ceramic_50: -2339981011636470231
+      ceramic_51: -1915856202693532406
+      ceramic_52: -3808004536190717810
+      ceramic_53: 8529240813566467246
+      ceramic_54: 4760657681863300942
+      ceramic_55: -8248141091496433139
+      ceramic_56: 3915580067506224749
+      ceramic_57: -6965126004040128346
+      ceramic_58: 2774701590684201448
+      ceramic_59: 3490354447285692084
+      ceramic_6: 4948608461511721751
+      ceramic_60: -2363791237695389427
+      ceramic_61: -8724332772079047368
+      ceramic_62: -3847925378243710071
+      ceramic_63: 5300181504579522564
+      ceramic_64: -6061317073482715741
+      ceramic_65: 6561769465262891846
+      ceramic_66: 5444890841040683700
+      ceramic_7: 4614646025544855857
+      ceramic_8: -1643680839353758579
+      ceramic_9: 6929187751218391813
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 67b19d92263864c0ab2a7e56c33488a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8746539744878560541
+    second: dark_brown_0
+  - first:
+      213: -2447494833519352116
+    second: dark_brown_1
+  - first:
+      213: -357222318759137213
+    second: dark_brown_2
+  - first:
+      213: -3288165291535114190
+    second: dark_brown_3
+  - first:
+      213: -7638013138727504931
+    second: dark_brown_4
+  - first:
+      213: 2809696333518930829
+    second: dark_brown_5
+  - first:
+      213: -1028718983856611797
+    second: dark_brown_6
+  - first:
+      213: -1117916034722297753
+    second: dark_brown_7
+  - first:
+      213: -3779034121722736466
+    second: dark_brown_8
+  - first:
+      213: 8045040517763128585
+    second: dark_brown_9
+  - first:
+      213: 7943624951915116337
+    second: dark_brown_10
+  - first:
+      213: 9054230984678683057
+    second: dark_brown_11
+  - first:
+      213: 877303332465875502
+    second: dark_brown_12
+  - first:
+      213: 8295701446809032021
+    second: dark_brown_13
+  - first:
+      213: -7825039659767297257
+    second: dark_brown_14
+  - first:
+      213: -8736105082738515709
+    second: dark_brown_15
+  - first:
+      213: -6752629520141072622
+    second: dark_brown_16
+  - first:
+      213: -4012346214012365621
+    second: dark_brown_17
+  - first:
+      213: 3214747961131809054
+    second: dark_brown_18
+  - first:
+      213: -2362620554046327257
+    second: dark_brown_19
+  - first:
+      213: 5993970203704617122
+    second: dark_brown_20
+  - first:
+      213: -954228450720674646
+    second: dark_brown_21
+  - first:
+      213: 8763377056857312848
+    second: dark_brown_22
+  - first:
+      213: 866962649751227941
+    second: dark_brown_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dark_brown_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 197
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15825b8e83f16970800000000000000
+      internalID: 8746539744878560541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 197
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6a9729a60c80ed0800000000000000
+      internalID: -2447494833519352116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 197
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34035889134ea0bf0800000000000000
+      internalID: -357222318759137213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 198
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230e74bb6171e52d0800000000000000
+      internalID: -3288165291535114190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 198
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3716ca483500690800000000000000
+      internalID: -7638013138727504931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 198
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d830d1ecdeb0ef620800000000000000
+      internalID: 2809696333518930829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 134
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e9689d88149b1f0800000000000000
+      internalID: -1028718983856611797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 133
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7680aa51a4d5c70f0800000000000000
+      internalID: -1117916034722297753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 133
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0d2ac0d7c2e8bc0800000000000000
+      internalID: -3779034121722736466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 133
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d55e8f9b9b5af60800000000000000
+      internalID: 8045040517763128585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 133
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13774df7ecc6d3e60800000000000000
+      internalID: 7943624951915116337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 133
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1bb14fb1717ad70800000000000000
+      internalID: 9054230984678683057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 69
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a15e39bbecc2c00800000000000000
+      internalID: 877303332465875502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 68
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5551fbb6380402370800000000000000
+      internalID: 8295701446809032021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 69
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b0a3663efd76390800000000000000
+      internalID: -7825039659767297257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 69
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301e2ee86be13c680800000000000000
+      internalID: -8736105082738515709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 69
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217cc287a37d942a0800000000000000
+      internalID: -6752629520141072622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 69
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4d8ed60684158c0800000000000000
+      internalID: -4012346214012365621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 6
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e193ca9fc341d9c20800000000000000
+      internalID: 3214747961131809054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 5
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7263801bf19463fd0800000000000000
+      internalID: -2362620554046327257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 5
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8e612942cde2350800000000000000
+      internalID: 5993970203704617122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 5
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac0930a746e1c2f0800000000000000
+      internalID: -954228450720674646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 5
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ec9cab005cd9970800000000000000
+      internalID: 8763377056857312848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_brown_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 5
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e04f3cfe1180c00800000000000000
+      internalID: 866962649751227941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dark_brown_0: 8746539744878560541
+      dark_brown_1: -2447494833519352116
+      dark_brown_10: 7943624951915116337
+      dark_brown_11: 9054230984678683057
+      dark_brown_12: 877303332465875502
+      dark_brown_13: 8295701446809032021
+      dark_brown_14: -7825039659767297257
+      dark_brown_15: -8736105082738515709
+      dark_brown_16: -6752629520141072622
+      dark_brown_17: -4012346214012365621
+      dark_brown_18: 3214747961131809054
+      dark_brown_19: -2362620554046327257
+      dark_brown_2: -357222318759137213
+      dark_brown_20: 5993970203704617122
+      dark_brown_21: -954228450720674646
+      dark_brown_22: 8763377056857312848
+      dark_brown_23: 866962649751227941
+      dark_brown_3: -3288165291535114190
+      dark_brown_4: -7638013138727504931
+      dark_brown_5: 2809696333518930829
+      dark_brown_6: -1028718983856611797
+      dark_brown_7: -1117916034722297753
+      dark_brown_8: -3779034121722736466
+      dark_brown_9: 8045040517763128585
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

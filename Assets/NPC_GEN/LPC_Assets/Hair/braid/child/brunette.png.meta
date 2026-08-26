@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: c6a0173f3f772469a9efd9b2a54acdd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3151239613725802667
+    second: brunette_0
+  - first:
+      213: 1775176216151946792
+    second: brunette_1
+  - first:
+      213: -3809342112384943895
+    second: brunette_2
+  - first:
+      213: 1466902891529445126
+    second: brunette_3
+  - first:
+      213: -1440926357933392192
+    second: brunette_4
+  - first:
+      213: -1417317105478648800
+    second: brunette_5
+  - first:
+      213: 7556570905880010910
+    second: brunette_6
+  - first:
+      213: -1015412355848968909
+    second: brunette_7
+  - first:
+      213: 5288996206753550534
+    second: brunette_8
+  - first:
+      213: 3405959727167913675
+    second: brunette_9
+  - first:
+      213: -6274492750770059947
+    second: brunette_10
+  - first:
+      213: -8395151892070344964
+    second: brunette_11
+  - first:
+      213: -9104669731585038145
+    second: brunette_12
+  - first:
+      213: -7937293177677454825
+    second: brunette_13
+  - first:
+      213: -7069210331499952570
+    second: brunette_14
+  - first:
+      213: 7904828212345756280
+    second: brunette_15
+  - first:
+      213: -3399383730184809057
+    second: brunette_16
+  - first:
+      213: 5689961367343019647
+    second: brunette_17
+  - first:
+      213: 1802254387368258420
+    second: brunette_18
+  - first:
+      213: -8181284920967869966
+    second: brunette_19
+  - first:
+      213: -3011952821611721287
+    second: brunette_20
+  - first:
+      213: 3860305708843469795
+    second: brunette_21
+  - first:
+      213: 4753099047311747860
+    second: brunette_22
+  - first:
+      213: 1647243677467301611
+    second: brunette_23
+  - first:
+      213: 7871737427176601478
+    second: brunette_24
+  - first:
+      213: 3420755719130281167
+    second: brunette_25
+  - first:
+      213: -8060923083480217747
+    second: brunette_26
+  - first:
+      213: -5698399622541854150
+    second: brunette_27
+  - first:
+      213: 7467589553047936053
+    second: brunette_28
+  - first:
+      213: -3604559092807233692
+    second: brunette_29
+  - first:
+      213: 3538305598155874962
+    second: brunette_30
+  - first:
+      213: 1606106876454433285
+    second: brunette_31
+  - first:
+      213: 6785125329212003833
+    second: brunette_32
+  - first:
+      213: -3158640259244762997
+    second: brunette_33
+  - first:
+      213: -9127009543989239569
+    second: brunette_34
+  - first:
+      213: -4751259928356295831
+    second: brunette_35
+  - first:
+      213: -221086774160900109
+    second: brunette_36
+  - first:
+      213: -5144558037944817320
+    second: brunette_37
+  - first:
+      213: -5181924347138732836
+    second: brunette_38
+  - first:
+      213: 1388284802592217621
+    second: brunette_39
+  - first:
+      213: 1335983485144163618
+    second: brunette_40
+  - first:
+      213: 8176608232353374148
+    second: brunette_41
+  - first:
+      213: -5062477874917740390
+    second: brunette_42
+  - first:
+      213: 881984925375720535
+    second: brunette_43
+  - first:
+      213: 8109266161954731335
+    second: brunette_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brunette_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ffbbd644c8444d0800000000000000
+      internalID: -3151239613725802667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82675710d51b2a810800000000000000
+      internalID: 1775176216151946792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8fb53188f722bc0800000000000000
+      internalID: -3809342112384943895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 789
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f1b99686c7b5410800000000000000
+      internalID: 1466902891529445126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cef1ef9c1dc00ce0800000000000000
+      internalID: -1440926357933392192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c3cd11a9da45ce0800000000000000
+      internalID: -1417317105478648800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90a705d3355ed860800000000000000
+      internalID: 7556570905880010910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 789
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335641d97d788e1f0800000000000000
+      internalID: -1015412355848968909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 790
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c01fe9170a466940800000000000000
+      internalID: 5288996206753550534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 716
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce31298356644f20800000000000000
+      internalID: 3405959727167913675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 714
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555469c36168ce8a0800000000000000
+      internalID: -6274492750770059947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 720
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6d2b565dd6e7b80800000000000000
+      internalID: -8395151892070344964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb86f932e17b5a180800000000000000
+      internalID: -9104669731585038145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712676298e119d190800000000000000
+      internalID: -7937293177677454825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6468c6468ae15ed90800000000000000
+      internalID: -7069210331499952570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ada57a06793bd60800000000000000
+      internalID: 7904828212345756280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 715
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9597131286f2d0d0800000000000000
+      internalID: -3399383730184809057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 720
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f763d2687bdc6fe40800000000000000
+      internalID: 5689961367343019647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b69f901d4e20910800000000000000
+      internalID: 1802254387368258420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9437fe5bc367e80800000000000000
+      internalID: -8181284920967869966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd0993edd46336d0800000000000000
+      internalID: -3011952821611721287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb0704e69f829530800000000000000
+      internalID: 3860305708843469795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ba349866666f140800000000000000
+      internalID: 4753099047311747860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 651
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be652fda56f2cd610800000000000000
+      internalID: 1647243677467301611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 663
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6873208db770e3d60800000000000000
+      internalID: 7871737427176601478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 650
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4752ed337f87f20800000000000000
+      internalID: 3420755719130281167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_26
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d674a670a29d12090800000000000000
+      internalID: -8060923083480217747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_27
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 651
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a3c261cb73be0b0800000000000000
+      internalID: -5698399622541854150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_28
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c17dd222532a760800000000000000
+      internalID: 7467589553047936053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f02555a980afdc0800000000000000
+      internalID: -3604559092807233692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2926bdcd1369a1130800000000000000
+      internalID: 3538305598155874962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502f062d1b90a4610800000000000000
+      internalID: 1606106876454433285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_32
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 663
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5df2ca98b992e50800000000000000
+      internalID: 6785125329212003833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_33
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 650
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88d77e5b614a24d0800000000000000
+      internalID: -3158640259244762997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_34
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 664
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0ebec3d29565180800000000000000
+      internalID: -9127009543989239569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_35
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 651
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b66c6b442201eb0800000000000000
+      internalID: -4751259928356295831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff3a9110ca8eecf0800000000000000
+      internalID: -221086774160900109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 588
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8592be5b8bbda98b0800000000000000
+      internalID: -5144558037944817320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc09d3e24b1618b0800000000000000
+      internalID: -5181924347138732836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a15992cad244310800000000000000
+      internalID: 1388284802592217621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2256ec1c6ed5a8210800000000000000
+      internalID: 1335983485144163618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_41
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 588
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf15f4add5297170800000000000000
+      internalID: 8176608232353374148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90f046e1377eb9b0800000000000000
+      internalID: -5062477874917740390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ce44edd907d3c00800000000000000
+      internalID: 881984925375720535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunette_44
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 589
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745386c0c96e98070800000000000000
+      internalID: 8109266161954731335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brunette_0: -3151239613725802667
+      brunette_1: 1775176216151946792
+      brunette_10: -6274492750770059947
+      brunette_11: -8395151892070344964
+      brunette_12: -9104669731585038145
+      brunette_13: -7937293177677454825
+      brunette_14: -7069210331499952570
+      brunette_15: 7904828212345756280
+      brunette_16: -3399383730184809057
+      brunette_17: 5689961367343019647
+      brunette_18: 1802254387368258420
+      brunette_19: -8181284920967869966
+      brunette_2: -3809342112384943895
+      brunette_20: -3011952821611721287
+      brunette_21: 3860305708843469795
+      brunette_22: 4753099047311747860
+      brunette_23: 1647243677467301611
+      brunette_24: 7871737427176601478
+      brunette_25: 3420755719130281167
+      brunette_26: -8060923083480217747
+      brunette_27: -5698399622541854150
+      brunette_28: 7467589553047936053
+      brunette_29: -3604559092807233692
+      brunette_3: 1466902891529445126
+      brunette_30: 3538305598155874962
+      brunette_31: 1606106876454433285
+      brunette_32: 6785125329212003833
+      brunette_33: -3158640259244762997
+      brunette_34: -9127009543989239569
+      brunette_35: -4751259928356295831
+      brunette_36: -221086774160900109
+      brunette_37: -5144558037944817320
+      brunette_38: -5181924347138732836
+      brunette_39: 1388284802592217621
+      brunette_4: -1440926357933392192
+      brunette_40: 1335983485144163618
+      brunette_41: 8176608232353374148
+      brunette_42: -5062477874917740390
+      brunette_43: 881984925375720535
+      brunette_44: 8109266161954731335
+      brunette_5: -1417317105478648800
+      brunette_6: 7556570905880010910
+      brunette_7: -1015412355848968909
+      brunette_8: 5288996206753550534
+      brunette_9: 3405959727167913675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
