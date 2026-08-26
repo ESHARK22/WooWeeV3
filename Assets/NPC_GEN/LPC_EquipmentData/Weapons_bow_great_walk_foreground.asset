@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_great_walk_foreground
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_great_walk_foreground
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -247058054503370390, guid: 4a75dafab246a4493aa3cdb9c4fab57a, type: 3}
   - {fileID: -8560154073889714485, guid: 4a75dafab246a4493aa3cdb9c4fab57a, type: 3}

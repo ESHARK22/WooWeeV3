@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_normal_walk_foreground_copper
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_normal_walk_foreground_copper
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -4673536048321637515, guid: 6e162d51c2d5847b2a9fd9948c3b1571, type: 3}
   - {fileID: 631623507490633193, guid: 6e162d51c2d5847b2a9fd9948c3b1571, type: 3}

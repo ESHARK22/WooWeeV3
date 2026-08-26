@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Feet_plate_male_walk
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Feet_plate_male_walk
-  slot: 1
+  slot: 2
   sprites:
   - {fileID: -8296385383580801948, guid: 62e3ce7ed1f254ac08e312cb40a20fb0, type: 3}
   - {fileID: 3218353051568008401, guid: 62e3ce7ed1f254ac08e312cb40a20fb0, type: 3}

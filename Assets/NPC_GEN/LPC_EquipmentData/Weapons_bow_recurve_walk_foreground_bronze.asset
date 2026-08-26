@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_recurve_walk_foreground_bronze
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_recurve_walk_foreground_bronze
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -7748819261645216319, guid: 1b2c7655c9fbd4b26b36ef6f8180a1d3, type: 3}
   - {fileID: 4269298722081072831, guid: 1b2c7655c9fbd4b26b36ef6f8180a1d3, type: 3}

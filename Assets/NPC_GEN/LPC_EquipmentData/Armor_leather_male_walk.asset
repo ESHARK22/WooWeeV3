@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Armor_leather_male_walk
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Armor_leather_male_walk
-  slot: 2
+  slot: 3
   sprites:
   - {fileID: -8296385383580801948, guid: eb36776437b3449adb063824302c5057, type: 3}
   - {fileID: 3218353051568008401, guid: eb36776437b3449adb063824302c5057, type: 3}

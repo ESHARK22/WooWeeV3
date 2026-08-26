@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_gnarled_universal_background_walk_dark
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_gnarled_universal_background_walk_dark
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -6729511157232288408, guid: a577faef836584d81b77115abbbafbcf, type: 3}
   - {fileID: 3862714769756086036, guid: a577faef836584d81b77115abbbafbcf, type: 3}

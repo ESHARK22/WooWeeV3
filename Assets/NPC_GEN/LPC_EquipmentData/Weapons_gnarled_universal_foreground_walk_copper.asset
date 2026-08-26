@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_gnarled_universal_foreground_walk_copper
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_gnarled_universal_foreground_walk_copper
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -4673536048321637515, guid: 4a4e4f4fce6594ff2831090243937f74, type: 3}
   - {fileID: 631623507490633193, guid: 4a4e4f4fce6594ff2831090243937f74, type: 3}

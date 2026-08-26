@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_great_walk_background_light
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_great_walk_background_light
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 905024258411163469, guid: 8cf241e6915684c38a453593b778f902, type: 3}
   - {fileID: -3603349178357385325, guid: 8cf241e6915684c38a453593b778f902, type: 3}

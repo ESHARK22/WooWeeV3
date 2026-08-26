@@ -16,6 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 13790852ca28944dc8aeac0d5c6d51da, type: 2}
   - {fileID: 11400000, guid: 5bf41ec60e7d441ac80d7d33d87112f4, type: 2}
   - {fileID: 11400000, guid: 21952b9f4d6dd48e59497e40a3aed266, type: 2}
+  heads:
+  - {fileID: 11400000, guid: d271b2545b1994f3ba1fa6b56c1ad1a9, type: 2}
+  - {fileID: 11400000, guid: bbf9b5ae477764c90a7ad51acd5d6d5d, type: 2}
+  - {fileID: 11400000, guid: 3ffbad1101bde4518830f724a045c708, type: 2}
   hairs:
   - {fileID: 11400000, guid: 2979616bbffb44fcda578c55ffffbb3b, type: 2}
   - {fileID: 11400000, guid: 50d1261d1ed4b486994e0d6dc72fcc94, type: 2}

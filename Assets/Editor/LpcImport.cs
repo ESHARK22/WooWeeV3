@@ -145,6 +145,7 @@ public class LPCAutoImporter : EditorWindow
     {
         string lower = path.ToLower();
         if (lower.Contains("/bodies/")) return EquipSlot.Body;
+        if (lower.Contains("/heads/")) return EquipSlot.Head;
         if (lower.Contains("/hair/")) return EquipSlot.Hair;
         if (lower.Contains("/helmets/")) return EquipSlot.Helmet;
         if (lower.Contains("/armor/")) return EquipSlot.Armor;

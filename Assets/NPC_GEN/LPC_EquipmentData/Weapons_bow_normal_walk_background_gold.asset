@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_normal_walk_background_gold
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_normal_walk_background_gold
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -6301429047446442448, guid: 5bbed37ff1e1640cf8db71265afe3c1a, type: 3}
   - {fileID: -6116963357262179218, guid: 5bbed37ff1e1640cf8db71265afe3c1a, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_leather_cap_adult_walk_white
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_leather_cap_adult_walk_white
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: 4966732595609684114, guid: b8f2a90a1825048199702913cfdb7ea1, type: 3}
   - {fileID: 5601268591370290413, guid: b8f2a90a1825048199702913cfdb7ea1, type: 3}

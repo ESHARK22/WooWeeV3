@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Feet_fold_thin_walk
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Feet_fold_thin_walk
-  slot: 1
+  slot: 2
   sprites:
   - {fileID: -8296385383580801948, guid: 655ca70976ca144fda9c933013d5e846, type: 3}
   - {fileID: 3218353051568008401, guid: 655ca70976ca144fda9c933013d5e846, type: 3}

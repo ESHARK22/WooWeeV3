@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Legs_pants_child_walk_darkblue
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Legs_pants_child_walk_darkblue
-  slot: 1
+  slot: 2
   sprites:
   - {fileID: -7641429200507365676, guid: a9a747c846f2f44b18c72f9ba094caa7, type: 3}
   - {fileID: 4345118950767052276, guid: a9a747c846f2f44b18c72f9ba094caa7, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Legs_pants_pregnant_walk_yellow
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Legs_pants_pregnant_walk_yellow
-  slot: 1
+  slot: 2
   sprites:
   - {fileID: -8425141836431729757, guid: ec07c7a9b57fc4cada57136e76935965, type: 3}
   - {fileID: -2476096784960187872, guid: ec07c7a9b57fc4cada57136e76935965, type: 3}

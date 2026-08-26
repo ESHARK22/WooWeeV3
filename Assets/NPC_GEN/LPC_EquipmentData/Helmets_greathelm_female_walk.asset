@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_greathelm_female_walk
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_greathelm_female_walk
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: -8296385383580801948, guid: 5800448f6d2c1441f80d8b0bceb44c49, type: 3}
   - {fileID: 3218353051568008401, guid: 5800448f6d2c1441f80d8b0bceb44c49, type: 3}

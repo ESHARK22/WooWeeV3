@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_mace_walk_mace
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_mace_walk_mace
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -4519581290376263607, guid: 9da722c8fed6040b59aca0bb3ceb56b8, type: 3}
   - {fileID: -2478475204404088114, guid: 9da722c8fed6040b59aca0bb3ceb56b8, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_wizard_belt_adult_walk_slate
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_wizard_belt_adult_walk_slate
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: 3010704791814117667, guid: 21469141f02204fcfa8e00b6239a352f, type: 3}
   - {fileID: -5554158489138330912, guid: 21469141f02204fcfa8e00b6239a352f, type: 3}

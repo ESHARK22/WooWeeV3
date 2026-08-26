@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_wizard_base_adult_walk_base_red
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_wizard_base_adult_walk_base_red
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: 8728801663054637461, guid: 8d16b63f0732243faa2845410807a072, type: 3}
   - {fileID: 5067481656848021331, guid: 8d16b63f0732243faa2845410807a072, type: 3}

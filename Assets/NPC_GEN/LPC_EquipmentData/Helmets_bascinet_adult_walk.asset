@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_bascinet_adult_walk
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_bascinet_adult_walk
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: -8296385383580801948, guid: a370952535063450dad1986664652bd8, type: 3}
   - {fileID: 3218353051568008401, guid: a370952535063450dad1986664652bd8, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Armor_robe_female_walk_light_gray
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Armor_robe_female_walk_light_gray
-  slot: 2
+  slot: 3
   sprites:
   - {fileID: 7144759550106146681, guid: 2e9fc15d84246413aaac3896b01c848c, type: 3}
   - {fileID: -4422291921022851834, guid: 2e9fc15d84246413aaac3896b01c848c, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Legs_pants_muscular_walk_green
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Legs_pants_muscular_walk_green
-  slot: 1
+  slot: 2
   sprites:
   - {fileID: -6099873399732076034, guid: 45a3328c5f9a84577bc04c81213e7da1, type: 3}
   - {fileID: 5479186271568450577, guid: 45a3328c5f9a84577bc04c81213e7da1, type: 3}

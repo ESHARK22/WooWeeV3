@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_dagger_behind_walk_dagger
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_dagger_behind_walk_dagger
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 1872732258777413398, guid: 1c22e2664f41b41668cf175421a6df49, type: 3}
   - {fileID: -3278668394409182549, guid: 1c22e2664f41b41668cf175421a6df49, type: 3}

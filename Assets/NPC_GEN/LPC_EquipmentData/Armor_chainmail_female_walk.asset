@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Armor_chainmail_female_walk
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Armor_chainmail_female_walk
-  slot: 2
+  slot: 3
   sprites:
   - {fileID: -8296385383580801948, guid: d39c605bee68a471c98c0cc524842961, type: 3}
   - {fileID: 3218353051568008401, guid: d39c605bee68a471c98c0cc524842961, type: 3}

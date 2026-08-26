@@ -5,6 +5,7 @@ public class ModularCharacter : MonoBehaviour
 {
     [Header("Renderers")]
     [SerializeField] private SpriteRenderer bodyRenderer;
+    [SerializeField] private SpriteRenderer headRenderer;
     [SerializeField] private SpriteRenderer legsRenderer;
     [SerializeField] private SpriteRenderer armourRenderer;
     [SerializeField] private SpriteRenderer hairRenderer;
@@ -13,6 +14,7 @@ public class ModularCharacter : MonoBehaviour
 
     [Header("Equipped Gear")]
     public EquipmentItem equippedBody;
+    public EquipmentItem equippedHead;
     public EquipmentItem equippedLegs;
     public EquipmentItem equippedArmour;
     public EquipmentItem equippedHair;
@@ -24,6 +26,7 @@ public class ModularCharacter : MonoBehaviour
     private void Start()
     {
         if (equippedBody != null) Equip(equippedBody);
+        if (equippedHead != null) Equip(equippedHead);
         if (equippedLegs != null) Equip(equippedLegs);
         if (equippedArmour != null) Equip(equippedArmour);
         if (equippedHair != null) Equip(equippedHair);
@@ -50,6 +53,7 @@ public class ModularCharacter : MonoBehaviour
     public void SetFrame(int spriteIndex)
     {
         UpdateSlotFrame(EquipSlot.Body, bodyRenderer, spriteIndex);
+        UpdateSlotFrame(EquipSlot.Head, headRenderer, spriteIndex);
         UpdateSlotFrame(EquipSlot.Pants, legsRenderer, spriteIndex);
         UpdateSlotFrame(EquipSlot.Armor, armourRenderer, spriteIndex);
         UpdateSlotFrame(EquipSlot.Hair, hairRenderer, spriteIndex);
@@ -82,6 +86,7 @@ public class ModularCharacter : MonoBehaviour
         return slot switch
         {
             EquipSlot.Body => bodyRenderer,
+            EquipSlot.Head => headRenderer,
             EquipSlot.Pants => legsRenderer,
             EquipSlot.Armor => armourRenderer,
             EquipSlot.Hair => hairRenderer,

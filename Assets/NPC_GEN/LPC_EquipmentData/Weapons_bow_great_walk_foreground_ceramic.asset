@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_great_walk_foreground_ceramic
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_great_walk_foreground_ceramic
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -8005000799677366809, guid: 23403891dcd19435c95c0df8c5e833c5, type: 3}
   - {fileID: -6742977543274349522, guid: 23403891dcd19435c95c0df8c5e833c5, type: 3}

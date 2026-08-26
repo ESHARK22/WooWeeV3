@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_longsword_walk_longsword
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_longsword_walk_longsword
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 6203844979491289960, guid: 76865abea56914a93a9d05acdc420f70, type: 3}
   - {fileID: 5373213850654334354, guid: 76865abea56914a93a9d05acdc420f70, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_gnarled_universal_background_walk_light
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_gnarled_universal_background_walk_light
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 905024258411163469, guid: f61025f5741af403d9e3f16ca593c432, type: 3}
   - {fileID: -3603349178357385325, guid: f61025f5741af403d9e3f16ca593c432, type: 3}

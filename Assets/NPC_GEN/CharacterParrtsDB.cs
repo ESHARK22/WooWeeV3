@@ -6,6 +6,7 @@ public class CharacterParrtsDB : ScriptableObject
 {
     [Header("Bases")]
     public EquipmentItem[] bodies;
+    public EquipmentItem[] heads;
     public EquipmentItem[] hairs;
     public EquipmentItem[] beards;
 

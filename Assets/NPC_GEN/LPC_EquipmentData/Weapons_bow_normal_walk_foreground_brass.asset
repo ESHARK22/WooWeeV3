@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_normal_walk_foreground_brass
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_normal_walk_foreground_brass
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 5549541105011980074, guid: 37f16d0625ab44b75a1ae4e69ff04e75, type: 3}
   - {fileID: -3389496240619141677, guid: 37f16d0625ab44b75a1ae4e69ff04e75, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Armor_tunic_female_walk_gray
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Armor_tunic_female_walk_gray
-  slot: 2
+  slot: 3
   sprites:
   - {fileID: -1593477784551811952, guid: 3dc0e9bbb9a5d425eb63da37e8f38a6f, type: 3}
   - {fileID: -212923982099843574, guid: 3dc0e9bbb9a5d425eb63da37e8f38a6f, type: 3}

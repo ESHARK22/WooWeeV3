@@ -11,8 +11,14 @@ public class PlayerMovement : MonoBehaviour
     [Header("Active Value")]
     [SerializeField] float speedX;
     [SerializeField] float speedY;
+    [SerializeField] bool isLeft;
     private float horizMove;
     private float vertMove;
+    
+    public AudioClip dialogueSound;
+
+    public Animator animator; 
+    public Transform Transform;
 
     private DialogueAreaTrigger currentDialogueArea;
     
@@ -33,6 +39,26 @@ public class PlayerMovement : MonoBehaviour
         speedX = walkSpeed * horizMove;
         speedY = walkSpeed * vertMove;
         rb.linearVelocity = new Vector2(speedX, speedY);
+        animator.SetInteger("SpeedX", (int)speedX);
+        animator.SetInteger("SpeedY", (int)speedY);
+        Vector2 localScale = gameObject.transform.localScale;
+        if (speedX < 0f)
+        {
+            isLeft = true;
+        }
+        else if (speedX > 0f)
+        {
+            isLeft = false;
+        }
+        if (isLeft)
+        {
+            localScale.x = -1f;
+        }
+        else
+        {
+            localScale.x = 1f;
+        }
+        Transform.localScale = localScale;
     }
 
     public void OnInteract(InputAction.CallbackContext context)
@@ -41,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (!context.performed)
             return;
-
+        AudioSource.PlayClipAtPoint(dialogueSound, Transform.position);
         Debug.Log("Interact PERFORMED");
 
         if (currentDialogueArea != null)

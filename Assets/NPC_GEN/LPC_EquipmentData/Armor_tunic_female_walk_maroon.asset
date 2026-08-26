@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Armor_tunic_female_walk_maroon
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Armor_tunic_female_walk_maroon
-  slot: 2
+  slot: 3
   sprites:
   - {fileID: 6389375341162936437, guid: 034b2159c63364d23bbce82dd81d767a, type: 3}
   - {fileID: 8567820625927567131, guid: 034b2159c63364d23bbce82dd81d767a, type: 3}

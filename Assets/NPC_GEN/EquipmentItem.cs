@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public enum EquipSlot { Body, Pants, Armor, Hair, Helmet, Weapon }
+public enum EquipSlot { Body, Head, Pants, Armor, Hair, Helmet, Weapon }
 
 [CreateAssetMenu(fileName = "NewEquipment", menuName = "Modular Character/Equipment Item")]
 public class EquipmentItem : ScriptableObject

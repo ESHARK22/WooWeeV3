@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_scythe_universal_behind_walk_scythe
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_scythe_universal_behind_walk_scythe
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 3700810548614518524, guid: b7ccc86c5354142a983c43bf9ce6fc8d, type: 3}
   - {fileID: 4299880391440808856, guid: b7ccc86c5354142a983c43bf9ce6fc8d, type: 3}

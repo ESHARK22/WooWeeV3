@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_normal_walk_foreground_ceramic
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_normal_walk_foreground_ceramic
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: -8005000799677366809, guid: 13e3793a9aaef4ef2abc5eabe9c5ce98, type: 3}
   - {fileID: -6742977543274349522, guid: 13e3793a9aaef4ef2abc5eabe9c5ce98, type: 3}

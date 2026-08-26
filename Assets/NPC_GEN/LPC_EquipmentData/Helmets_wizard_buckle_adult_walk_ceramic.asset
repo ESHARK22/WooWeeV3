@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_wizard_buckle_adult_walk_ceramic
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_wizard_buckle_adult_walk_ceramic
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: -8005000799677366809, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}
   - {fileID: -6742977543274349522, guid: 9d03be09a13a647288269b4cdcd2e420, type: 3}

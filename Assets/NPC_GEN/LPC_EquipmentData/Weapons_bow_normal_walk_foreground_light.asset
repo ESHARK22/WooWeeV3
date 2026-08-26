@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapons_bow_normal_walk_foreground_light
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Weapons_bow_normal_walk_foreground_light
-  slot: 5
+  slot: 6
   sprites:
   - {fileID: 905024258411163469, guid: 2b841546fe17d4f3cb149cb227f2f026, type: 3}
   - {fileID: -3603349178357385325, guid: 2b841546fe17d4f3cb149cb227f2f026, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmets_leather_cap_feather_walk_base
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentItem
   itemName: Helmets_leather_cap_feather_walk_base
-  slot: 4
+  slot: 5
   sprites:
   - {fileID: -3966044189379602213, guid: 7127f5bc664fb4e788a3feec94e9613f, type: 3}
   - {fileID: 5214576322002826026, guid: 7127f5bc664fb4e788a3feec94e9613f, type: 3}

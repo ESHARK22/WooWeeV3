@@ -1,11 +1,22 @@
+using System;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(ModularCharacter))]
 public class RuntimeCharacterBuilder : MonoBehaviour
 {
-    // Note: Matches your database script name (CharacterParrtsDB)
     [SerializeField] private CharacterParrtsDB database; 
+    [SerializeField] private bool genOnStart; 
     private ModularCharacter modularCharacter;
+
+    private void Start()
+    {
+        if (genOnStart)
+        {
+            RandomizeCharacter();
+        }
+    }
 
     private void Awake()
     {
@@ -24,23 +35,26 @@ public class RuntimeCharacterBuilder : MonoBehaviour
         if (modularCharacter == null)
             modularCharacter = GetComponent<ModularCharacter>();
 
-        // 1. Random Body
+        // Random Body
         EquipmentItem randomBody = GetRandom(database.bodies);
         modularCharacter.Equip(randomBody);
 
         bool isSkeleton = randomBody != null && randomBody.itemName.ToLower().Contains("skeleton");
 
-        // 2. Hair or Helmet
+        // Head
+        modularCharacter.Equip(GetRandom(database.heads, allowEmpty: false));
+        
+        // Hair or Helmet
         if (!isSkeleton)
         {
             if (Random.value > 0.5f)
             {
-                modularCharacter.Equip(GetRandom(database.helmets, allowEmpty: true));
+                modularCharacter.Equip(GetRandom(database.helmets, allowEmpty: false));
                 modularCharacter.Unequip(EquipSlot.Hair);
             }
             else
             {
-                modularCharacter.Equip(GetRandom(database.hairs, allowEmpty: true));
+                modularCharacter.Equip(GetRandom(database.hairs, allowEmpty: false));
                 modularCharacter.Unequip(EquipSlot.Helmet);
             }
         }
@@ -50,7 +64,7 @@ public class RuntimeCharacterBuilder : MonoBehaviour
             modularCharacter.Equip(GetRandom(database.helmets, allowEmpty: true));
         }
 
-        // 3. Armor, Legs, Weapon
+        // Armor, Legs, Weapon
         modularCharacter.Equip(GetRandom(database.torsos, allowEmpty: false));
         modularCharacter.Equip(GetRandom(database.legs, allowEmpty: false));
         modularCharacter.Equip(GetRandom(database.weapons, allowEmpty: false));
