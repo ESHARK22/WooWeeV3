@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "char_001",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "bangs",
+      "color": "White"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "White"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Navy"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_002",
+    "gender": "female",
+    "expression": "anger",
+    "hair": null,
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Pink"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_003",
+    "gender": "male",
+    "expression": "happy",
+    "hair": {
+      "name": "bangs",
+      "color": "White"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Yellow"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Orange"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Green"
+    },
+    "hat": {
+      "name": "bandana",
+      "color": "Blue"
+    }
+  },
+  {
+    "id": "char_004",
+    "gender": "female",
+    "expression": "blush",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Pink"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Orange"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Orange"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_005",
+    "gender": "female",
+    "expression": "blush",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Black"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Navy"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_006",
+    "gender": "male",
+    "expression": "sad",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Orange"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "White"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Brown"
+    },
+    "hat": {
+      "name": "bandana",
+      "color": "Orange"
+    }
+  },
+  {
+    "id": "char_007",
+    "gender": "male",
+    "expression": "anger",
+    "hair": {
+      "name": "messy1",
+      "color": "Purple"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Blue"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Yellow"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Navy"
+    },
+    "hat": {
+      "name": "wizard",
+      "color": "Yellow"
+    }
+  },
+  {
+    "id": "char_008",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "bob",
+      "color": "Orange"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Green"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Yellow"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Red"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_009",
+    "gender": "female",
+    "expression": "happy",
+    "hair": {
+      "name": "long",
+      "color": "Pink"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Blue"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Navy"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_010",
+    "gender": "female",
+    "expression": "sad",
+    "hair": {
+      "name": "bangs",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Blue"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "White"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Red"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_011",
+    "gender": "female",
+    "expression": "neutral",
+    "hair": {
+      "name": "messy1",
+      "color": "Purple"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "White"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Green"
+    },
+    "hat": {
+      "name": "bandana",
+      "color": "Orange"
+    }
+  },
+  {
+    "id": "char_012",
+    "gender": "female",
+    "expression": "shock",
+    "hair": null,
+    "shirt": {
+      "name": "overalls",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Yellow"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Brown"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_013",
+    "gender": "female",
+    "expression": "sad",
+    "hair": {
+      "name": "long",
+      "color": "Orange"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Green"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Blue"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Yellow"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_014",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "bangs",
+      "color": "Purple"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "White"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Pink"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_015",
+    "gender": "male",
+    "expression": "blush",
+    "hair": null,
+    "shirt": {
+      "name": "overalls",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Orange"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_016",
+    "gender": "male",
+    "expression": "blush",
+    "hair": {
+      "name": "messy1",
+      "color": "Purple"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Pink"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "White"
+    }
+  },
+  {
+    "id": "char_017",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Blue"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "White"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Red"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_018",
+    "gender": "male",
+    "expression": "happy",
+    "hair": {
+      "name": "long",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Brown"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Brown"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Navy"
+    }
+  },
+  {
+    "id": "char_019",
+    "gender": "male",
+    "expression": "shock",
+    "hair": {
+      "name": "messy1",
+      "color": "Blue"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Blue"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Orange"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_020",
+    "gender": "male",
+    "expression": "shock",
+    "hair": {
+      "name": "messy1",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Yellow"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Red"
+    },
+    "hat": {
+      "name": "bandana",
+      "color": "Yellow"
+    }
+  },
+  {
+    "id": "char_021",
+    "gender": "male",
+    "expression": "sad",
+    "hair": {
+      "name": "long",
+      "color": "Green"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Blue"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Brown"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Pink"
+    },
+    "hat": {
+      "name": "wizard",
+      "color": "Black"
+    }
+  },
+  {
+    "id": "char_022",
+    "gender": "male",
+    "expression": "blush",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Yellow"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Red"
+    },
+    "hat": {
+      "name": "leather_cap",
+      "color": "Red"
+    }
+  },
+  {
+    "id": "char_023",
+    "gender": "female",
+    "expression": "neutral",
+    "hair": {
+      "name": "curtains",
+      "color": "Purple"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Red"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Green"
+    },
+    "hat": {
+      "name": "wizard",
+      "color": "Black"
+    }
+  },
+  {
+    "id": "char_024",
+    "gender": "male",
+    "expression": "blush",
+    "hair": null,
+    "shirt": {
+      "name": "longsleeve",
+      "color": "White"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Purple"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_025",
+    "gender": "female",
+    "expression": "sad",
+    "hair": null,
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Orange"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Pink"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Purple"
+    }
+  },
+  {
+    "id": "char_026",
+    "gender": "female",
+    "expression": "neutral",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Blue"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Green"
+    },
+    "hat": {
+      "name": "wizard",
+      "color": "Blue"
+    }
+  },
+  {
+    "id": "char_027",
+    "gender": "male",
+    "expression": "happy",
+    "hair": {
+      "name": "bangs",
+      "color": "Red"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Brown"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Pink"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_028",
+    "gender": "female",
+    "expression": "shock",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Black"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Yellow"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_029",
+    "gender": "female",
+    "expression": "happy",
+    "hair": {
+      "name": "long",
+      "color": "Purple"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Blue"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Red"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Purple"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Red"
+    }
+  },
+  {
+    "id": "char_030",
+    "gender": "female",
+    "expression": "happy",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Pink"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Pink"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Yellow"
+    }
+  },
+  {
+    "id": "char_031",
+    "gender": "male",
+    "expression": "sad",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Black"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Yellow"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Orange"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Purple"
+    }
+  },
+  {
+    "id": "char_032",
+    "gender": "male",
+    "expression": "blush",
+    "hair": null,
+    "shirt": {
+      "name": "overalls",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "White"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Green"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_033",
+    "gender": "female",
+    "expression": "shock",
+    "hair": {
+      "name": "long",
+      "color": "Brown"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Navy"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Purple"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_034",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "messy1",
+      "color": "Black"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Red"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Brown"
+    },
+    "hat": {
+      "name": "wizard",
+      "color": "Blue"
+    }
+  },
+  {
+    "id": "char_035",
+    "gender": "female",
+    "expression": "sad",
+    "hair": {
+      "name": "bob",
+      "color": "White"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Black"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Navy"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Red"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_036",
+    "gender": "male",
+    "expression": "neutral",
+    "hair": null,
+    "shirt": {
+      "name": "overalls",
+      "color": "Red"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Orange"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_037",
+    "gender": "female",
+    "expression": "sad",
+    "hair": null,
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Navy"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Navy"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Blue"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_038",
+    "gender": "female",
+    "expression": "sad",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Black"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "White"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "White"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Purple"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_039",
+    "gender": "male",
+    "expression": "sad",
+    "hair": null,
+    "shirt": {
+      "name": "overalls",
+      "color": "Purple"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Red"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Purple"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_040",
+    "gender": "male",
+    "expression": "blush",
+    "hair": {
+      "name": "bangs",
+      "color": "Red"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Brown"
+    },
+    "hat": {
+      "name": "wizard",
+      "color": "Yellow"
+    }
+  },
+  {
+    "id": "char_041",
+    "gender": "male",
+    "expression": "blush",
+    "hair": {
+      "name": "bob",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "White"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Blue"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_042",
+    "gender": "male",
+    "expression": "anger",
+    "hair": {
+      "name": "long",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Green"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Black"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Pink"
+    }
+  },
+  {
+    "id": "char_043",
+    "gender": "male",
+    "expression": "anger",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "White"
+    },
+    "shirt": {
+      "name": "overalls",
+      "color": "Pink"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Black"
+    },
+    "shoes": {
+      "name": "shoes/basic",
+      "color": "Red"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_044",
+    "gender": "female",
+    "expression": "sad",
+    "hair": {
+      "name": "bangs",
+      "color": "Navy"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Black"
+    },
+    "pants": {
+      "name": "pants",
+      "color": "Navy"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Brown"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_045",
+    "gender": "male",
+    "expression": "shock",
+    "hair": {
+      "name": "curtains",
+      "color": "Orange"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Brown"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Pink"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Purple"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Pink"
+    }
+  },
+  {
+    "id": "char_046",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "long",
+      "color": "Navy"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Purple"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "slippers",
+      "color": "Green"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_047",
+    "gender": "male",
+    "expression": "sad",
+    "hair": {
+      "name": "curtains",
+      "color": "Navy"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Red"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Red"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Black"
+    },
+    "hat": {
+      "name": "tophat",
+      "color": "Black"
+    }
+  },
+  {
+    "id": "char_048",
+    "gender": "male",
+    "expression": "shock",
+    "hair": {
+      "name": "messy1",
+      "color": "Blue"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Orange"
+    },
+    "pants": {
+      "name": "hose",
+      "color": "Purple"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Red"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_049",
+    "gender": "male",
+    "expression": "happy",
+    "hair": {
+      "name": "messy1",
+      "color": "Green"
+    },
+    "shirt": {
+      "name": "shortsleeve",
+      "color": "Black"
+    },
+    "pants": {
+      "name": "leggings",
+      "color": "Green"
+    },
+    "shoes": {
+      "name": "boots/basic",
+      "color": "Yellow"
+    },
+    "hat": null
+  },
+  {
+    "id": "char_050",
+    "gender": "female",
+    "expression": "anger",
+    "hair": {
+      "name": "flat_top_fade",
+      "color": "Yellow"
+    },
+    "shirt": {
+      "name": "longsleeve",
+      "color": "Green"
+    },
+    "pants": {
+      "name": "pantaloons",
+      "color": "Orange"
+    },
+    "shoes": {
+      "name": "boots/rimmed",
+      "color": "Navy"
+    },
+    "hat": null
+  }
+]

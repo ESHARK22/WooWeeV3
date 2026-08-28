@@ -114,10 +114,11 @@ public class CharacterIdentity : MonoBehaviour
     }
 
     // --- Helper Methods ---
-    public bool IsWearingHat() => Data != null && Data.hat != null;
+    public bool IsWearingHat() => Data is { hat: not null };
     public string GetHatColor() => IsWearingHat() ? Data.hat.color : "None";
-    public string GetShirtColor() => (Data != null && Data.shirt != null) ? Data.shirt.color : "None";
-    public string GetHairStyle() => (Data != null && Data.hair != null) ? Data.hair.name : "Bald";
-    public string GetHairColor() => (Data != null && Data.hair != null) ? Data.hair.color : "None";
+    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
+    public string GetHairStyle() => Data is { hair: not null } ? Data.hair.name : "Bald";
+    public string GetHairColor() => Data is { hair: not null } ? Data.hair.color : "None";
     public string GetGender() => Data != null ? Data.gender : "Unknown";
+    
 }

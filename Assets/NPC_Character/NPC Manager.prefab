@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74b4b9661ff64f3a90daa4e1e190ec4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterManager
-  masterJsonFile: {fileID: 4900000, guid: 8d8fd75c08e844e6191ca008201a7005, type: 3}
+  masterJsonFile: {fileID: 4900000, guid: 8f72d3fcfb9e342118cfaeadc9bbb4e9, type: 3}
   characterPrefab: {fileID: 3663279387819394091, guid: a095c0fdd07aa47cc83a9d94d211ad89, type: 3}
