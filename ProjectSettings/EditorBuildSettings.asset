@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/dialogue testing.unity
     guid: b78412b60bd09ac4fad67bce5dfb07d7
   - enabled: 1
-    path: Assets/Scenes/LoseScene.unity
-    guid: 10f5469be7679a8a398f6c4b33984b40
-  - enabled: 1
     path: Assets/Scenes/sprite test.unity
     guid: a912e58bef3900459b9b30837ea4a605
   m_configObjects:

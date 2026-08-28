@@ -36,7 +36,10 @@ public class DescribeAllPlayers : MonoBehaviour
 
         string outfit = wornItems.Count > 0 ? string.Join(", ", wornItems) : "nothing";
 
-        return $"Player '{sceneName}' (ID: {data.id}) is wearing {outfit}.";
+        string teller = player.IsTruthTeller() ? "IS truthteller" : "is NOT truthteller";
+        
+        
+        return $"Player '{sceneName}' (ID: {data.id}) is wearing {outfit}. ({teller})";
     }
 
 

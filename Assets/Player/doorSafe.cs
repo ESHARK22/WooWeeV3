@@ -4,34 +4,69 @@ using UnityEngine.SceneManagement;
 public class doorSafe : MonoBehaviour
 {
     public bool isSafeDoor = false;
+    public GameObject interactPrompt; // child prompt object
+
+    private PlayerMovement playerInRange;
+
+    private void Start()
+    {
+        if (interactPrompt != null)
+            interactPrompt.SetActive(false);
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Door trigger entered by: " + other.name);
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entered the door trigger.");
+            PlayerMovement player = other.GetComponent<PlayerMovement>();
+            if (player != null)
+            {
+                playerInRange = player;
+                player.SetDoorArea(this);
+                if (interactPrompt != null)
+                    interactPrompt.SetActive(true);
+            }
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PlayerMovement player = other.GetComponent<PlayerMovement>();
+            if (player != null)
+            {
+                player.ClearDoorArea(this);
+                playerInRange = null;
+                if (interactPrompt != null)
+                    interactPrompt.SetActive(false);
+            }
+        }
+    }
+
+    public void Interact()
+    {
         if (GameResult.currentLoop == 5)
         {
             GameResult.PlayerWon = true;
         }
-        if (other.CompareTag("Player") && isSafeDoor && GameResult.currentLoop >= 5)
+
+        if (isSafeDoor && GameResult.currentLoop >= 5)
         {
             GameResult.currentLoop++;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("EndScene");
-            
+            SceneManager.LoadScene("EndScene");
         }
-        else if (other.CompareTag("Player") && !isSafeDoor)
+        else if (!isSafeDoor)
         {
             GameResult.PlayerWon = false;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("EndScene");
+            SceneManager.LoadScene("EndScene");
         }
-        else if (other.CompareTag("Player") && isSafeDoor && GameResult.currentLoop < 5)
+        else if (isSafeDoor && GameResult.currentLoop < 5)
         {
             GameResult.currentLoop++;
             GameResult.PlayerWon = false;
-            UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
-

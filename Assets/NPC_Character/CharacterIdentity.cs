@@ -29,8 +29,22 @@ public class LpcCharacter
 }
 
 public class CharacterIdentity : MonoBehaviour
-{
-    public LpcCharacter Data { get; private set; }
+{    
+    private LpcCharacter _data;
+    public LpcCharacter Data 
+    { 
+        get 
+        {
+            if (_data == null && autoGenerateOnStart)
+            {
+                AutoInitialize();
+            }
+            return _data;
+        } 
+        private set => _data = value; 
+    }    
+    [Header("Role Settings")]
+    public bool truthTeller = false;
 
     [Header("Scene Placement Settings")]
     [Tooltip("If true and placed directly in the scene, this NPC generates on Start.")]
@@ -51,23 +65,27 @@ public class CharacterIdentity : MonoBehaviour
 
     private void Start()
     {
-        // If this NPC was dragged onto the scene in the editor or spawned via script
-        if (Data == null && autoGenerateOnStart)
+        if (_data == null && autoGenerateOnStart)
         {
-            if (CharacterManager.Instance == null)
-            {
-                Debug.LogError("Cannot auto-generate NPC: CharacterManager is not in the scene!");
-                return;
-            }
+            AutoInitialize();
+        }
+    }
 
-            LpcCharacter dataToLoad = !string.IsNullOrEmpty(specificCharacterId)
-                ? CharacterManager.Instance.GetCharacterData(specificCharacterId)
-                : CharacterManager.Instance.GetRandomCharacterData();
+    private void AutoInitialize()
+    {
+        if (CharacterManager.Instance == null)
+        {
+            Debug.LogError("Cannot auto-generate NPC: CharacterManager is not in the scene!");
+            return;
+        }
 
-            if (dataToLoad != null)
-            {
-                Initialize(dataToLoad);
-            }
+        LpcCharacter dataToLoad = !string.IsNullOrEmpty(specificCharacterId)
+            ? CharacterManager.Instance.GetCharacterData(specificCharacterId)
+            : CharacterManager.Instance.GetRandomCharacterData();
+
+        if (dataToLoad != null)
+        {
+            Initialize(dataToLoad);
         }
     }
 
@@ -115,10 +133,30 @@ public class CharacterIdentity : MonoBehaviour
 
     // --- Helper Methods ---
     public bool IsWearingHat() => Data is { hat: not null };
-    public string GetHatColor() => IsWearingHat() ? Data.hat.color : "None";
-    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
     public string GetHairStyle() => Data is { hair: not null } ? Data.hair.name : "Bald";
     public string GetHairColor() => Data is { hair: not null } ? Data.hair.color : "None";
+    public string GetShirtName() => Data is { shirt: not null } ? Data.shirt.name : "None";
+    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
+    public string GetPantsName() => Data is { pants: not null } ? Data.pants.name : "None";
+    public string GetPantsColor() => Data is { pants: not null } ? Data.pants.color : "None";
+    
+    public string GetHatName() => IsWearingHat() ? Data.hat.name : "None";
+    public string GetHatColor() => IsWearingHat() ? Data.hat.color : "None";
+    
+    public string GetShoesName()
+    {
+        if (Data?.shoes?.name is not { } name)
+            return "None";
+
+        int slashIndex = name.IndexOf('/');
+    
+        return slashIndex >= 0 
+            ? $"{name[(slashIndex + 1)..]} {name[..slashIndex]}" 
+            : name;
+    }    public string GetShoesColor() => Data is { shoes: not null } ? Data.shoes.color : "None";
+    
+    
     public string GetGender() => Data != null ? Data.gender : "Unknown";
     
+    public bool IsTruthTeller() => truthTeller;
 }
