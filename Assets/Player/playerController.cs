@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
@@ -15,13 +16,14 @@ public class PlayerMovement : MonoBehaviour
     private float horizMove;
     private float vertMove;
     
+
     
 
     public Animator animator; 
     public Transform Transform;
 
     private DialogueAreaTrigger currentDialogueArea;
-    
+    private doorSafe currentDoorArea;
 
     void FixedUpdate()
     {
@@ -75,6 +77,11 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("STARTING DIALOGUE");
             currentDialogueArea.StartDialogue();
         }
+
+        if (currentDoorArea != null)
+        {
+            currentDoorArea.Interact();
+        }
     }
 
     public void SetDialogueArea(DialogueAreaTrigger area)
@@ -89,6 +96,19 @@ public class PlayerMovement : MonoBehaviour
             currentDialogueArea = null;
         }
     }
+
+    public void SetDoorArea(doorSafe area)
+    {
+        currentDoorArea = area;
+    }
+
+    public void ClearDoorArea(doorSafe door)
+{
+    if (currentDoorArea == door)
+    {
+        currentDoorArea = null;
+    }
+}
 
 
 
