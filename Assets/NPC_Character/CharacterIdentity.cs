@@ -36,7 +36,7 @@ public class CharacterIdentity : MonoBehaviour
     private static readonly string[] Genders = { "male", "female" };
     private static readonly string[] Expressions = { "neutral", "happy", "anger", "sad", "blush", "shock" };
     private static readonly string[] Colors = { "Red", "Blue", "Green", "Black", "White", "Brown", "Yellow", "Purple", "Orange", "Navy", "Pink" };
-    private static readonly string[] HairOptions = { "flat_top_fade", "bangs", "bob", "curtains", "messy1", "long", "Bald" };
+    private static readonly string[] HairOptions = { "flat top fade", "bangs", "bob", "curtains", "messy", "long", "Bald" };
     private static readonly string[] ShirtOptions = { "shortsleeve", "longsleeve", "overalls" };
     private static readonly string[] PantsOptions = { "pants", "pantaloons", "hose", "leggings" };
     private static readonly string[] ShoesOptions = { "boots/rimmed", "boots/basic", "shoes/basic", "slippers" };
