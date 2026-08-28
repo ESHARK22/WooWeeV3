@@ -18,12 +18,12 @@ mkdir -p ./butler-bin
 
 if [[ "$BUILDER_OS" == "WINDOWS" ]]; then
     echo "Detected Windows Builder"
-    curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
+    curl -L -o butler.zip https://broth.itch.zone/butler/windows-amd64/LATEST/archive/default
     unzip -q -o butler.zip -d ./butler-bin
     BUTLER_EXE="./butler-bin/butler.exe"
 else
     echo "Detected macOS/Linux Builder"
-    curl -L -o butler.zip https://broth.itch.ovh/butler/darwin-amd64/LATEST/archive/default
+    curl -L -o butler.zip https://broth.itch.zone/butler/darwin-amd64/LATEST/archive/default
     unzip -q -o butler.zip -d ./butler-bin
     chmod +x ./butler-bin/butler
     BUTLER_EXE="./butler-bin/butler"
