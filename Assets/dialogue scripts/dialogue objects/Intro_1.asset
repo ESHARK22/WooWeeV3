@@ -15,7 +15,7 @@ MonoBehaviour:
   sentence: hi im new scriptable object dialogue system do you want to task me a
     question
   options:
-  - optionText: Yes
+  - optionText: Door
     nextNode: {fileID: 11400000, guid: 1345dd4c4352b3f47b49d34b7b9e5414, type: 2}
-  - optionText: No
-    nextNode: {fileID: 0}
+  - optionText: NPC
+    nextNode: {fileID: 11400000, guid: fda8807d67c21e040a656fbedabdebda, type: 2}
