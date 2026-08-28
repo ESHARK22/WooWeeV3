@@ -115,10 +115,32 @@ public class CharacterIdentity : MonoBehaviour
 
     // --- Helper Methods ---
     public bool IsWearingHat() => Data is { hat: not null };
-    public string GetHatColor() => IsWearingHat() ? Data.hat.color : "None";
-    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
     public string GetHairStyle() => Data is { hair: not null } ? Data.hair.name : "Bald";
     public string GetHairColor() => Data is { hair: not null } ? Data.hair.color : "None";
+    public string GetShirtName() => Data is { shirt: not null } ? Data.shirt.name : "None";
+    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
+    public string GetPantsName() => Data is { pants: not null } ? Data.pants.name : "None";
+    public string GetPantsColor() => Data is { pants: not null } ? Data.pants.color : "None";
+    
+    public string GetHatName() => IsWearingHat() ? Data.hat.name : "None";
+    public string GetHatColor() => IsWearingHat() ? Data.hat.color : "None";
+    
+    public string GetShoesName()
+    {
+        if (Data?.shoes?.name is not { } name)
+            return "None";
+
+        int slashIndex = name.IndexOf('/');
+    
+        return slashIndex >= 0 
+            ? $"{name[(slashIndex + 1)..]} {name[..slashIndex]}" 
+            : name;
+    }    public string GetShoesColor() => Data is { shoes: not null } ? Data.shoes.color : "None";
+    
+    
     public string GetGender() => Data != null ? Data.gender : "Unknown";
+
+    
+    
     
 }
