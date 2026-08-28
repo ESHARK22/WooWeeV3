@@ -12,7 +12,17 @@ if [ -z "$BUTLER_API_KEY" ] || [ -z "$ITCH_USER" ] || [ -z "$ITCH_GAME" ] || [ -
     exit 1
 fi
 
-echo "Upload path: $OUTPUT_DIRECTORY"
+UPLOAD_DIR="$OUTPUT_DIRECTORY"
+echo "Initial upload path: $UPLOAD_DIR"
+
+# WebGL: Find nested index.html
+INDEX_PATH=$(find "$OUTPUT_DIRECTORY" -maxdepth 3 -name "index.html" -print -quit 2>/dev/null || true)
+if [ -n "$INDEX_PATH" ]; then
+    UPLOAD_DIR="$(dirname "$INDEX_PATH")"
+    echo "Detected WebGL build with index.html at: $INDEX_PATH"
+fi
+echo "Final upload path: $OUTPUT_DIRECTORY"
+
 
 mkdir -p ./butler-bin
 
@@ -36,7 +46,7 @@ $BUTLER_EXE -V
 VERSION="${UCB_BUILD_NUMBER:-1}"
 echo "Uploading build #${VERSION} to itch.io (${ITCH_USER}/${ITCH_GAME}:${ITCH_CHANNEL})..."
 
-$BUTLER_EXE push "$OUTPUT_DIRECTORY" "${ITCH_USER}/${ITCH_GAME}:${ITCH_CHANNEL}" --userversion "$VERSION"
+$BUTLER_EXE push "$UPLOAD_DIR" "${ITCH_USER}/${ITCH_GAME}:${ITCH_CHANNEL}" --userversion "$VERSION"
 
 echo "=== itch.io deployment successfully completed! ==="
 exit 0
