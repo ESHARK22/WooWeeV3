@@ -31,6 +31,9 @@ public class LpcCharacter
 public class CharacterIdentity : MonoBehaviour
 {
     public LpcCharacter Data { get; private set; }
+    
+    [Header("Role Settings")]
+    public bool truthTeller = false;
 
     [Header("Scene Placement Settings")]
     [Tooltip("If true and placed directly in the scene, this NPC generates on Start.")]
@@ -139,8 +142,6 @@ public class CharacterIdentity : MonoBehaviour
     
     
     public string GetGender() => Data != null ? Data.gender : "Unknown";
-
     
-    
-    
+    public bool IsTruthTeller() => truthTeller;
 }

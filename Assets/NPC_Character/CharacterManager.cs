@@ -6,7 +6,7 @@ using System.Linq;
 public class CharacterManager : MonoBehaviour
 {
     public static CharacterManager Instance;
-
+    
     [Header("Dependencies")]
     public TextAsset masterJsonFile;        
     public GameObject characterPrefab;      
@@ -23,6 +23,11 @@ public class CharacterManager : MonoBehaviour
         }
 
         LoadDatabase();
+    }
+
+    private void Start()
+    {
+        AssignSingleTruthTeller();
     }
 
     private void LoadDatabase()
@@ -88,5 +93,20 @@ public class CharacterManager : MonoBehaviour
             return identity;
         }
         return null;
+    }
+    
+    public void AssignSingleTruthTeller()
+    {
+        CharacterIdentity[] allNpcs = FindObjectsByType<CharacterIdentity>();
+        if (allNpcs.Length == 0) return;
+
+        var truthTellerIndex = Random.Range(0, allNpcs.Length);
+
+        for (var i = 0; i < allNpcs.Length; i++)
+        {
+            allNpcs[i].truthTeller = (i == truthTellerIndex);
+        }
+
+        Debug.Log($"[Role Assignment] '{allNpcs[truthTellerIndex].gameObject.name}' ({allNpcs[truthTellerIndex].Data?.id}) is the TRUTH TELLER!");
     }
 }
