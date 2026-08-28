@@ -6,18 +6,30 @@ public class DialogueAreaTrigger : MonoBehaviour
     [SerializeField] private Dialogue dialogue;
     [SerializeField] private CharacterIdentity targetCharacter;
 
+    private void Awake()
+    {
+        if (dialogueManager == null)
+        {
+
+            dialogueManager = FindAnyObjectByType<DialogueManager>();
+        }
+
+        if (targetCharacter == null)
+        {
+            targetCharacter = GetComponentInParent<CharacterIdentity>() 
+                              ?? transform.parent?.GetComponentInChildren<CharacterIdentity>();
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             PlayerMovement player = other.GetComponent<PlayerMovement>();
-
-            if (player!=null)
+            if (player != null)
             {
                 player.SetDialogueArea(this);
             }
-            Debug.Log("Player entered dialogue area");
         }
     }
 
@@ -26,19 +38,21 @@ public class DialogueAreaTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerMovement player = other.GetComponent<PlayerMovement>();
-
             if (player != null)
             {
                 player.ClearDialogueArea(this);
             }
-
-            Debug.Log("Player left dialogue area!");
         }
     }
 
     public void StartDialogue()
     {
-        dialogueManager.StartDialogue(dialogue, targetCharacter);
+        if (targetCharacter == null)
+        {
+            Debug.LogError($"DialogueAreaTrigger on '{gameObject.name}' has no Target Character assigned!", this);
+            return;
+        }
 
+        dialogueManager.StartDialogue(dialogue, targetCharacter);
     }
 }

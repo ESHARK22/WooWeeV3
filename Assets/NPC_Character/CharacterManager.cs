@@ -28,6 +28,7 @@ public class CharacterManager : MonoBehaviour
     private void Start()
     {
         AssignSingleTruthTeller();
+        AssignConversationTargets();
     }
 
     private void LoadDatabase()
@@ -47,8 +48,6 @@ public class CharacterManager : MonoBehaviour
         Debug.Log($"Loaded {_database.Count} characters into database.");
     }
 
-    // --- Data Queries ---
-
     public LpcCharacter GetCharacterData(string charId)
     {
         if (_database.TryGetValue(charId, out LpcCharacter data))
@@ -67,34 +66,6 @@ public class CharacterManager : MonoBehaviour
         return _database[randomId];
     }
 
-    // --- Dynamic Spawning Methods ---
-
-    public CharacterIdentity SpawnCharacter(string charId, Vector3 position)
-    {
-        LpcCharacter data = GetCharacterData(charId);
-        if (data != null)
-        {
-            GameObject newChar = Instantiate(characterPrefab, position, Quaternion.identity);
-            CharacterIdentity identity = newChar.GetComponent<CharacterIdentity>();
-            identity.Initialize(data);
-            return identity;
-        }
-        return null;
-    }
-
-    public CharacterIdentity SpawnRandomCharacter(Vector3 position)
-    {
-        LpcCharacter data = GetRandomCharacterData();
-        if (data != null)
-        {
-            GameObject newChar = Instantiate(characterPrefab, position, Quaternion.identity);
-            CharacterIdentity identity = newChar.GetComponent<CharacterIdentity>();
-            identity.Initialize(data);
-            return identity;
-        }
-        return null;
-    }
-    
     public void AssignSingleTruthTeller()
     {
         CharacterIdentity[] allNpcs = FindObjectsByType<CharacterIdentity>();
@@ -107,6 +78,23 @@ public class CharacterManager : MonoBehaviour
             allNpcs[i].truthTeller = (i == truthTellerIndex);
         }
 
-        Debug.Log($"[Role Assignment] '{allNpcs[truthTellerIndex].gameObject.name}' ({allNpcs[truthTellerIndex].Data?.id}) is the TRUTH TELLER!");
+        Debug.Log($"[Role Assignment] '{allNpcs[truthTellerIndex].gameObject.name}' is the TRUTH TELLER!");
+    }
+
+    public void AssignConversationTargets()
+    {
+        CharacterIdentity[] allNpcs = FindObjectsByType<CharacterIdentity>();
+        if (allNpcs.Length < 2) return;
+
+        List<CharacterIdentity> shuffled = allNpcs.OrderBy(x => Random.value).ToList();
+
+        for (int i = 0; i < shuffled.Count; i++)
+        {
+            CharacterIdentity speaker = shuffled[i];
+            CharacterIdentity targetSubject = shuffled[(i + 1) % shuffled.Count];
+
+            speaker.talkingAbout = targetSubject;
+            Debug.Log($"[Gossip Setup] '{speaker.gameObject.name}' is talking about '{targetSubject.gameObject.name}'");
+        }
     }
 }

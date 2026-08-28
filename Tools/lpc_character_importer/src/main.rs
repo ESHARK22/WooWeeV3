@@ -185,18 +185,15 @@ impl Character {
         let genders = ["male", "female"];
         let expressions = ["neutral", "happy", "anger", "sad", "blush", "shock"];
         let colors = [
-            "Red", "Blue", "Green", "Black", "White", "Brown", "Yellow", "Purple", "Orange",
-            "Navy", "Pink",
+            "Red", "Blue", "Green", "Black", "Brown", "Yellow", "Purple", "Orange", "Navy", "Pink",
         ];
 
         let hair_options = [
             Some("flat_top_fade"),
-            Some("bangs"),
             Some("bob"),
             Some("curtains"),
             Some("messy1"),
             Some("long"),
-            None,
         ];
         let shirt_options = ["shortsleeve", "longsleeve", "overalls"];
         let pants_options = ["pants", "pantaloons", "hose", "leggings"];
@@ -256,7 +253,7 @@ fn get_rgb(color: &str) -> [u8; 3] {
 
 /// Takes a base image and tints it. Uses Luminosity blending to preserve highlights/shadows.
 fn apply_tint(img: &mut RgbaImage, color_name: &str) {
-    if color_name == "None" || color_name == "White" {
+    if color_name == "None" {
         return;
     }
 
@@ -270,12 +267,16 @@ fn apply_tint(img: &mut RgbaImage, color_name: &str) {
             let b = pixel.0[2] as f32;
 
             // Calculate the grayscale luminosity of the pixel
-            let luma = (0.299 * r + 0.587 * g + 0.114 * b) / 255.0;
+            let mut luma = (0.299 * r + 0.587 * g + 0.114 * b) / 255.0;
 
             // Multiply luminosity by our target color
             pixel.0[0] = (luma * cr as f32).clamp(0.0, 255.0) as u8;
             pixel.0[1] = (luma * cg as f32).clamp(0.0, 255.0) as u8;
             pixel.0[2] = (luma * cb as f32).clamp(0.0, 255.0) as u8;
+
+            // pixel.0[0] = (cr as f32).clamp(0.0, 255.0) as u8;
+            // pixel.0[1] = (cg as f32).clamp(0.0, 255.0) as u8;
+            // pixel.0[2] = (cb as f32).clamp(0.0, 255.0) as u8;
         }
     }
 }
@@ -305,7 +306,7 @@ fn composite_layers(
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let characters_count = 50;
+    let characters_count = 200;
     let output_sprites_dir = Path::new(OUTPUT_DIR).join("sprites");
     let output_data_dir = Path::new(OUTPUT_DIR).join("data");
 

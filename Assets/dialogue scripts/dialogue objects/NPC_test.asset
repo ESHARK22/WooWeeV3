@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 329490ed27ae9c84081b6003596e58c1, type: 3}
   m_Name: NPC_test
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  sentence: 'NPC is wearing a {hatColor} hat, a {shirtColor} shirt, with a {hairColor}
-    {hair}. '
+  sentence: '"{targetName} is wearing a {hatColor} hat, a {shirtColor} shirt, with
+    a {hairColor} {hair}."'
   options:
   - optionText: '[END]'
     nextNode: {fileID: 0}
