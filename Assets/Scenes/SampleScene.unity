@@ -795,6 +795,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1010930650}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 237493638}
@@ -810,6 +814,10 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 2075028001}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: dialogueSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 00733e1b2c6d7e4ac9ad9badadf5c5a2, type: 3}
     - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
       propertyPath: continueButton
       value: 
@@ -1705,7 +1713,6 @@ MonoBehaviour:
   speedX: 0
   speedY: 0
   isLeft: 0
-  dialogueSound: {fileID: 8300000, guid: 00733e1b2c6d7e4ac9ad9badadf5c5a2, type: 3}
   animator: {fileID: 1010930657}
   Transform: {fileID: 1010930655}
 --- !u!114 &1010930653
