@@ -1,0 +1,25 @@
+{
+  "id": "char_009",
+  "gender": "male",
+  "expression": "happy",
+  "hair": {
+    "name": "long",
+    "color": "Purple"
+  },
+  "shirt": {
+    "name": "tunic",
+    "color": "White"
+  },
+  "pants": {
+    "name": "pants",
+    "color": "Blue"
+  },
+  "shoes": {
+    "name": "shoes/basic",
+    "color": "Purple"
+  },
+  "hat": {
+    "name": "wizard",
+    "color": "Brown"
+  }
+}

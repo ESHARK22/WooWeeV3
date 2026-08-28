@@ -1,0 +1,25 @@
+{
+  "id": "char_006",
+  "gender": "male",
+  "expression": "shock",
+  "hair": {
+    "name": "messy1",
+    "color": "Navy"
+  },
+  "shirt": {
+    "name": "overalls",
+    "color": "Black"
+  },
+  "pants": {
+    "name": "hose",
+    "color": "Orange"
+  },
+  "shoes": {
+    "name": "shoes/basic",
+    "color": "Green"
+  },
+  "hat": {
+    "name": "bandana",
+    "color": "Orange"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "char_010",
+  "gender": "male",
+  "expression": "anger",
+  "hair": {
+    "name": "bangs",
+    "color": "Navy"
+  },
+  "shirt": {
+    "name": "tunic",
+    "color": "Navy"
+  },
+  "pants": {
+    "name": "leggings",
+    "color": "Yellow"
+  },
+  "shoes": {
+    "name": "boots/basic",
+    "color": "Navy"
+  },
+  "hat": {
+    "name": "bandana",
+    "color": "Navy"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "char_018",
+  "gender": "female",
+  "expression": "happy",
+  "hair": {
+    "name": "curtains",
+    "color": "Navy"
+  },
+  "shirt": {
+    "name": "tunic",
+    "color": "Navy"
+  },
+  "pants": {
+    "name": "pantaloons",
+    "color": "White"
+  },
+  "shoes": {
+    "name": "shoes/basic",
+    "color": "White"
+  },
+  "hat": null
+}

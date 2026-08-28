@@ -1,0 +1,25 @@
+{
+  "id": "char_012",
+  "gender": "male",
+  "expression": "neutral",
+  "hair": {
+    "name": "bangs",
+    "color": "Blue"
+  },
+  "shirt": {
+    "name": "shortsleeve",
+    "color": "Yellow"
+  },
+  "pants": {
+    "name": "pants",
+    "color": "Orange"
+  },
+  "shoes": {
+    "name": "boots/rimmed",
+    "color": "Red"
+  },
+  "hat": {
+    "name": "bandana",
+    "color": "Black"
+  }
+}
