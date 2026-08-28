@@ -29,9 +29,20 @@ public class LpcCharacter
 }
 
 public class CharacterIdentity : MonoBehaviour
-{
-    public LpcCharacter Data { get; private set; }
-    
+{    
+    private LpcCharacter _data;
+    public LpcCharacter Data 
+    { 
+        get 
+        {
+            if (_data == null && autoGenerateOnStart)
+            {
+                AutoInitialize();
+            }
+            return _data;
+        } 
+        private set => _data = value; 
+    }    
     [Header("Role Settings")]
     public bool truthTeller = false;
 
@@ -54,23 +65,27 @@ public class CharacterIdentity : MonoBehaviour
 
     private void Start()
     {
-        // If this NPC was dragged onto the scene in the editor or spawned via script
-        if (Data == null && autoGenerateOnStart)
+        if (_data == null && autoGenerateOnStart)
         {
-            if (CharacterManager.Instance == null)
-            {
-                Debug.LogError("Cannot auto-generate NPC: CharacterManager is not in the scene!");
-                return;
-            }
+            AutoInitialize();
+        }
+    }
 
-            LpcCharacter dataToLoad = !string.IsNullOrEmpty(specificCharacterId)
-                ? CharacterManager.Instance.GetCharacterData(specificCharacterId)
-                : CharacterManager.Instance.GetRandomCharacterData();
+    private void AutoInitialize()
+    {
+        if (CharacterManager.Instance == null)
+        {
+            Debug.LogError("Cannot auto-generate NPC: CharacterManager is not in the scene!");
+            return;
+        }
 
-            if (dataToLoad != null)
-            {
-                Initialize(dataToLoad);
-            }
+        LpcCharacter dataToLoad = !string.IsNullOrEmpty(specificCharacterId)
+            ? CharacterManager.Instance.GetCharacterData(specificCharacterId)
+            : CharacterManager.Instance.GetRandomCharacterData();
+
+        if (dataToLoad != null)
+        {
+            Initialize(dataToLoad);
         }
     }
 
