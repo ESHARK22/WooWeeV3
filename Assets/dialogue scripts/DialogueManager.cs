@@ -21,93 +21,6 @@ public class DialogueManager : MonoBehaviour
     private Dialogue currentDialogue;
     private DialogueNode currentNode;
 
-    private string[] genders =
-    {
-        "male",
-        "female"
-    };
-
-    private string[] expressions =
-    {
-        "neutral",
-        "happy",
-        "anger",
-        "sad",
-        "blush",
-        "shock"
-    };
-
-    private string[] colors =
-    {
-        "Red",
-        "Blue",
-        "Green",
-        "Black",
-        "White",
-        "Brown",
-        "Yellow",
-        "Purple",
-        "Orange",
-        "Navy",
-        "Pink"
-    };
-
-    private string[] hairOptions =
-    {
-        "flat_top_fade",
-        "bangs",
-        "bob",
-        "curtains",
-        "messy1",
-        "long",
-        null
-    };
-
-    private string[] shirtOptions =
-    {
-        "shortsleeve",
-        "longsleeve",
-        "overalls"
-    };
-
-    private string[] pantsOptions =
-    {
-        "pants",
-        "pantaloons",
-        "hose",
-        "leggings"
-    };
-
-    private string[] shoesOptions =
-    {
-        "boots/rimmed",
-        "boots/basic",
-        "shoes/basic",
-        "slippers"
-    };
-
-    private string[] hatOptions =
-    {
-        "bandana",
-        "hood",
-        "leather_cap",
-        "tophat",
-        "wizard"
-    };
-
-    string GetRandomWrongValue(string[] values, string correctValue)
-{
-    string randomValue;
-
-    do
-    {
-        randomValue = values[Random.Range(0, values.Length)];
-    }
-    while (randomValue == correctValue);
-
-    return randomValue;
-}
-
     public void StartDialogue(Dialogue dialogue, CharacterIdentity target)
     {
         AudioSource.PlayClipAtPoint(dialogueSound, Player.transform.position);
@@ -150,10 +63,10 @@ public class DialogueManager : MonoBehaviour
 
         if (targetCharacter != null && ! targetCharacter.truthTeller)
         {
-            sentence = sentence.Replace("{hatColor}", GetRandomWrongValue(colors, targetCharacter.GetHatColor()));
-            sentence = sentence.Replace("{shirtColor}", GetRandomWrongValue(colors, targetCharacter.GetHatColor()));
-            sentence = sentence.Replace("{hair}", GetRandomWrongValue(hairOptions, targetCharacter.GetHairStyle()));
-            sentence = sentence.Replace("{hairColor}", GetRandomWrongValue(colors, targetCharacter.GetHairColor()));
+            sentence = sentence.Replace("{hatColor}", targetCharacter.GetFakeHatColor());
+            sentence = sentence.Replace("{shirtColor}", targetCharacter.GetFakeShirtColor());
+            sentence = sentence.Replace("{hair}", targetCharacter.GetFakeHairStyle());
+            sentence = sentence.Replace("{hairColor}", targetCharacter.GetFakeHairColor());
 
         }
 
