@@ -3,7 +3,9 @@ using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
-{
+{   
+    public GameObject Player;
+    public AudioClip dialogueSound;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
@@ -19,6 +21,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        AudioSource.PlayClipAtPoint(dialogueSound, Player.transform.position);
         animator.SetBool("IsOpen", true );
         dialoguePanel.SetActive(true);
 

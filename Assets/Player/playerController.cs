@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizMove;
     private float vertMove;
     
-    public AudioClip dialogueSound;
+    
 
     public Animator animator; 
     public Transform Transform;
@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (!context.performed)
             return;
-        AudioSource.PlayClipAtPoint(dialogueSound, Transform.position);
+        
         Debug.Log("Interact PERFORMED");
 
         if (currentDialogueArea != null)
