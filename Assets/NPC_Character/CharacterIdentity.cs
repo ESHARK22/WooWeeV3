@@ -1,4 +1,6 @@
 using UnityEngine;
+using System;
+using System.Linq;
 
 public enum FacingDirection
 {
@@ -30,6 +32,16 @@ public class LpcCharacter
 
 public class CharacterIdentity : MonoBehaviour
 {
+    // --- Option Pools ---
+    private static readonly string[] Genders = { "male", "female" };
+    private static readonly string[] Expressions = { "neutral", "happy", "anger", "sad", "blush", "shock" };
+    private static readonly string[] Colors = { "Red", "Blue", "Green", "Black", "White", "Brown", "Yellow", "Purple", "Orange", "Navy", "Pink" };
+    private static readonly string[] HairOptions = { "flat_top_fade", "bangs", "bob", "curtains", "messy1", "long", "Bald" };
+    private static readonly string[] ShirtOptions = { "shortsleeve", "longsleeve", "overalls" };
+    private static readonly string[] PantsOptions = { "pants", "pantaloons", "hose", "leggings" };
+    private static readonly string[] ShoesOptions = { "boots/rimmed", "boots/basic", "shoes/basic", "slippers" };
+    private static readonly string[] HatOptions = { "bandana", "hood", "leather_cap", "tophat", "wizard" };
+
     private LpcCharacter _data;
     public LpcCharacter Data 
     { 
@@ -43,6 +55,7 @@ public class CharacterIdentity : MonoBehaviour
         } 
         private set => _data = value; 
     }    
+
     [Header("Role Settings")]
     public bool truthTeller = false;
 
@@ -62,6 +75,21 @@ public class CharacterIdentity : MonoBehaviour
     private Sprite[] _currentFrames;
     private int _frameIndex = 0;
     private float _timer = 0f;
+
+
+    private bool _fakeDataGenerated = false;
+    private string _fakeGender;
+    private string _fakeHairStyle;
+    private string _fakeHairColor;
+    private string _fakeShirtName;
+    private string _fakeShirtColor;
+    private string _fakePantsName;
+    private string _fakePantsColor;
+    private string _fakeHatName;
+    private string _fakeHatColor;
+    private bool _fakeIsWearingHat;
+    private string _fakeShoesName;
+    private string _fakeShoesColor;
 
     private void Start()
     {
@@ -92,8 +120,10 @@ public class CharacterIdentity : MonoBehaviour
     public void Initialize(LpcCharacter characterData)
     {
         Data = characterData;
-
         _sr = GetComponent<SpriteRenderer>();
+
+
+        GenerateFakeData();
 
         // Load all slices for this character from Resources
         _allSlices = Resources.LoadAll<Sprite>($"sprites/{Data.id}");
@@ -131,31 +161,87 @@ public class CharacterIdentity : MonoBehaviour
         }
     }
 
-    // --- Helper Methods ---
     public bool IsWearingHat() => Data is { hat: not null };
-    public string GetShirtName() => Data is { shirt: not null } ? Data.shirt.name : "None";
+    public string GetGender() => Data != null ? Data.gender : "Unknown";
     public string GetHairStyle() => Data is { hair: not null } ? Data.hair.name : "Bald";
-    public string GetPantsName() => Data is { pants: not null } ? Data.pants.name : "None";
-    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
-    public string GetPantsColor() => Data is { pants: not null } ? Data.pants.color : "None";
-    
-    public string GetHatName() => IsWearingHat() ? Data.hat.name : "None";
     public string GetHairColor() => Data is { hair: not null } ? Data.hair.color : "None";
+    public string GetShirtName() => Data is { shirt: not null } ? Data.shirt.name : "None";
+    public string GetShirtColor() => Data is { shirt: not null } ? Data.shirt.color : "None";
+    public string GetPantsName() => Data is { pants: not null } ? Data.pants.name : "None";
+    public string GetPantsColor() => Data is { pants: not null } ? Data.pants.color : "None";
+    public string GetHatName() => IsWearingHat() ? Data.hat.name : "None";
     public string GetHatColor() => IsWearingHat() ? Data.hat.color : "None";
-    
+    public string GetShoesColor() => Data is { shoes: not null } ? Data.shoes.color : "None";
+
     public string GetShoesName()
     {
         if (Data?.shoes?.name is not { } name)
             return "None";
 
-        int slashIndex = name.IndexOf('/');
-    
-        return slashIndex >= 0 
-            ? $"{name[(slashIndex + 1)..]} {name[..slashIndex]}" 
-            : name;
-    }    public string GetShoesColor() => Data is { shoes: not null } ? Data.shoes.color : "None";
-    public string GetGender() => Data != null ? Data.gender : "Unknown";
-    
+        return FormatShoeName(name);
+    }
+
     public bool IsTruthTeller() => truthTeller;
-    
+
+
+    public string GetFakeGender() { EnsureFakeData(); return _fakeGender; }
+    public string GetFakeHairStyle() { EnsureFakeData(); return _fakeHairStyle; }
+    public string GetFakeHairColor() { EnsureFakeData(); return _fakeHairColor; }
+    public string GetFakeShirtName() { EnsureFakeData(); return _fakeShirtName; }
+    public string GetFakeShirtColor() { EnsureFakeData(); return _fakeShirtColor; }
+    public string GetFakePantsName() { EnsureFakeData(); return _fakePantsName; }
+    public string GetFakePantsColor() { EnsureFakeData(); return _fakePantsColor; }
+    public string GetFakeHatName() { EnsureFakeData(); return _fakeHatName; }
+    public string GetFakeHatColor() { EnsureFakeData(); return _fakeHatColor; }
+    public bool GetFakeIsWearingHat() { EnsureFakeData(); return _fakeIsWearingHat; }
+    public string GetFakeShoesName() { EnsureFakeData(); return _fakeShoesName; }
+    public string GetFakeShoesColor() { EnsureFakeData(); return _fakeShoesColor; }
+
+    private void EnsureFakeData()
+    {
+        if (!_fakeDataGenerated)
+        {
+            GenerateFakeData();
+        }
+    }
+
+    private void GenerateFakeData()
+    {
+        if (Data == null) return;
+
+        _fakeGender = GetRandomDifferent(Genders, GetGender());
+        _fakeHairStyle = GetRandomDifferent(HairOptions, GetHairStyle());
+        _fakeHairColor = GetRandomDifferent(Colors, GetHairColor());
+        _fakeShirtName = GetRandomDifferent(ShirtOptions, GetShirtName());
+        _fakeShirtColor = GetRandomDifferent(Colors, GetShirtColor());
+        _fakePantsName = GetRandomDifferent(PantsOptions, GetPantsName());
+        _fakePantsColor = GetRandomDifferent(Colors, GetPantsColor());
+
+        string currentHat = GetHatName();
+        string[] hatPool = IsWearingHat() ? HatOptions.Append("None").ToArray() : HatOptions;
+        _fakeHatName = GetRandomDifferent(hatPool, currentHat);
+        _fakeHatColor = GetRandomDifferent(Colors, GetHatColor());
+        _fakeIsWearingHat = !IsWearingHat();
+
+        string currentShoe = GetShoesName();
+        var formattedShoeOptions = ShoesOptions.Select(FormatShoeName).ToArray();
+        _fakeShoesName = GetRandomDifferent(formattedShoeOptions, currentShoe);
+        _fakeShoesColor = GetRandomDifferent(Colors, GetShoesColor());
+
+        _fakeDataGenerated = true;
+    }
+
+    private static string GetRandomDifferent(string[] pool, string actualValue)
+    {
+        var candidates = pool.Where(item => !string.Equals(item, actualValue, StringComparison.OrdinalIgnoreCase)).ToArray();
+        if (candidates.Length == 0) return actualValue;
+        return candidates[UnityEngine.Random.Range(0, candidates.Length)];
+    }
+
+    private static string FormatShoeName(string rawName)
+    {
+        if (string.IsNullOrEmpty(rawName) || rawName == "None") return "None";
+        int slashIndex = rawName.IndexOf('/');
+        return slashIndex >= 0 ? $"{rawName[(slashIndex + 1)..]} {rawName[..slashIndex]}" : rawName;
+    }
 }
