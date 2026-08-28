@@ -198,7 +198,7 @@ impl Character {
             Some("long"),
             None,
         ];
-        let shirt_options = ["shortsleeve", "longsleeve", "robe", "tunic", "overalls"];
+        let shirt_options = ["shortsleeve", "longsleeve", "overalls"];
         let pants_options = ["pants", "pantaloons", "hose", "leggings"];
         let shoes_options = ["boots/rimmed", "boots/basic", "shoes/basic", "slippers"];
         let hat_options = ["bandana", "hood", "leather_cap", "tophat", "wizard"];
@@ -305,7 +305,7 @@ fn composite_layers(
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let characters_count = 20;
+    let characters_count = 50;
     let output_sprites_dir = Path::new(OUTPUT_DIR).join("sprites");
     let output_data_dir = Path::new(OUTPUT_DIR).join("data");
 

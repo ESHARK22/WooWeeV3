@@ -9,6 +9,8 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
+    private CharacterIdentity targetCharacter;
+
     public GameObject dialoguePanel;
     public GameObject continueButton;
 
@@ -19,11 +21,12 @@ public class DialogueManager : MonoBehaviour
     private Dialogue currentDialogue;
     private DialogueNode currentNode;
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, CharacterIdentity target)
     {
         AudioSource.PlayClipAtPoint(dialogueSound, Player.transform.position);
         animator.SetBool("IsOpen", true );
-        dialoguePanel.SetActive(true);
+
+        targetCharacter = target;
 
         currentDialogue = dialogue;
         currentNode = dialogue.startingNode;
@@ -37,7 +40,29 @@ public class DialogueManager : MonoBehaviour
     {
         currentNode = node;
 
-        dialogueText.text = node.sentence;
+        string sentence = node.sentence;
+
+        if (targetCharacter != null)
+        {
+            //sentence = sentence.Replace("{hat}", targetCharacter.GetHatName());
+            sentence = sentence.Replace("{hatColor}", targetCharacter.GetHatColor());
+
+            //sentence = sentence.Replace("{shirt}", targetCharacter.GetShirtName());
+            sentence = sentence.Replace("{shirtColor}", targetCharacter.GetShirtColor());
+ 
+            //sentence = sentence.Replace("{pants}", targetCharacter.GetPantsName());
+            //sentence = sentence.Replace("{pantsColor}", targetCharacter.GetPantsColor());
+
+            //sentence = sentence.Replace("{shoesColor}", targetCharacter.GetShoesColor());
+
+            //sentence = sentence.Replace("{hair}", targetCharacter.GetHairStyle());
+            sentence = sentence.Replace("{hairColor}", targetCharacter.GetHairColor());
+
+            sentence = sentence.Replace("{gender}", targetCharacter.GetGender());
+        }
+
+        dialogueText.text = sentence;
+
 
         // Hide all option buttons first
         foreach (GameObject button in optionButtons)
@@ -91,6 +116,5 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false );
-        dialoguePanel.SetActive(false);
     }
 }

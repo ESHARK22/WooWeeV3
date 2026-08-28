@@ -4,6 +4,7 @@ public class DialogueAreaTrigger : MonoBehaviour
 {
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private Dialogue dialogue;
+    [SerializeField] private CharacterIdentity targetCharacter;
 
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -37,7 +38,7 @@ public class DialogueAreaTrigger : MonoBehaviour
 
     public void StartDialogue()
     {
-        dialogueManager.StartDialogue(dialogue);
+        dialogueManager.StartDialogue(dialogue, targetCharacter);
 
     }
 }
