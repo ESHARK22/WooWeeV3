@@ -1,0 +1,22 @@
+{
+  "id": "char_016",
+  "gender": "male",
+  "expression": "blush",
+  "hair": {
+    "name": "messy1",
+    "color": "Red"
+  },
+  "shirt": {
+    "name": "shortsleeve",
+    "color": "White"
+  },
+  "pants": {
+    "name": "pantaloons",
+    "color": "White"
+  },
+  "shoes": {
+    "name": "slippers",
+    "color": "Purple"
+  },
+  "hat": null
+}

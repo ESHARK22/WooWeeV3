@@ -1,0 +1,22 @@
+{
+  "id": "char_019",
+  "gender": "male",
+  "expression": "neutral",
+  "hair": {
+    "name": "bob",
+    "color": "Green"
+  },
+  "shirt": {
+    "name": "tunic",
+    "color": "Pink"
+  },
+  "pants": {
+    "name": "pants",
+    "color": "Purple"
+  },
+  "shoes": {
+    "name": "shoes/basic",
+    "color": "Red"
+  },
+  "hat": null
+}

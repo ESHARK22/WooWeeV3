@@ -1,0 +1,25 @@
+{
+  "id": "char_002",
+  "gender": "male",
+  "expression": "neutral",
+  "hair": {
+    "name": "flat_top_fade",
+    "color": "Orange"
+  },
+  "shirt": {
+    "name": "shortsleeve",
+    "color": "Green"
+  },
+  "pants": {
+    "name": "pantaloons",
+    "color": "Yellow"
+  },
+  "shoes": {
+    "name": "boots/basic",
+    "color": "Purple"
+  },
+  "hat": {
+    "name": "tophat",
+    "color": "Red"
+  }
+}

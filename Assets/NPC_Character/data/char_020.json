@@ -1,0 +1,22 @@
+{
+  "id": "char_020",
+  "gender": "female",
+  "expression": "blush",
+  "hair": null,
+  "shirt": {
+    "name": "longsleeve",
+    "color": "Black"
+  },
+  "pants": {
+    "name": "pantaloons",
+    "color": "Yellow"
+  },
+  "shoes": {
+    "name": "boots/rimmed",
+    "color": "Navy"
+  },
+  "hat": {
+    "name": "bandana",
+    "color": "Blue"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "char_013",
+  "gender": "male",
+  "expression": "happy",
+  "hair": null,
+  "shirt": {
+    "name": "shortsleeve",
+    "color": "Pink"
+  },
+  "pants": {
+    "name": "leggings",
+    "color": "Orange"
+  },
+  "shoes": {
+    "name": "boots/rimmed",
+    "color": "Red"
+  },
+  "hat": {
+    "name": "tophat",
+    "color": "Navy"
+  }
+}
