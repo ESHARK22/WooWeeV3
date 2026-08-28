@@ -6,7 +6,7 @@ using System.Linq;
 public class CharacterManager : MonoBehaviour
 {
     public static CharacterManager Instance;
-    
+
     [Header("Dependencies")]
     public TextAsset masterJsonFile;        
     public GameObject characterPrefab;      
