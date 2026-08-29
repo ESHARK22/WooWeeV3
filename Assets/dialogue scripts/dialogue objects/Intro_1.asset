@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 329490ed27ae9c84081b6003596e58c1, type: 3}
   m_Name: Intro_1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  sentence: hi im new scriptable object dialogue system do you want to task me a
-    question
+  sentence: Hi, I'm {speakerName}, what would you like to ask me about?
   options:
   - optionText: Door
     nextNode: {fileID: 11400000, guid: 1345dd4c4352b3f47b49d34b7b9e5414, type: 2}

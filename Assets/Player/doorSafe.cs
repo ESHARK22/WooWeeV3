@@ -52,7 +52,7 @@ public class doorSafe : MonoBehaviour
             GameResult.PlayerWon = true;
         }
 
-        if (isSafeDoor && GameResult.currentLoop >= 5)
+        if (isSafeDoor && GameResult.currentLoop >= 5 && !MainMenu.endlessMode)
         {
             GameResult.currentLoop++;
             SceneManager.LoadScene("EndScene");
@@ -62,7 +62,7 @@ public class doorSafe : MonoBehaviour
             GameResult.PlayerWon = false;
             SceneManager.LoadScene("EndScene");
         }
-        else if (isSafeDoor && GameResult.currentLoop < 5)
+        else if (isSafeDoor && (GameResult.currentLoop < 5 || MainMenu.endlessMode))
         {
             GameResult.currentLoop++;
             GameResult.PlayerWon = false;
