@@ -65,6 +65,7 @@ public class DialogueManager : MonoBehaviour
 
             // Replaces {targetName} with their real random name (e.g. "Arthur", "Alice")
             sentence = sentence.Replace("{targetName}", subject.GetCharacterName());
+            sentence = sentence.Replace("{speakerName}", speakerCharacter.GetCharacterName());
             Debug.Log("Sentence: " + sentence);
             
             
