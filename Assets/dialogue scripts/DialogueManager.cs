@@ -91,8 +91,15 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{pants}", subject.GetPantsName());
                 sentence = sentence.Replace("{shoesColor}", subject.GetShoesColor());
                 sentence = sentence.Replace("{shoes}", subject.GetShoesName());
-                sentence = sentence.Replace("{hair}", subject.GetHairStyle());
-                sentence = sentence.Replace("{hairColor}", subject.GetHairColor());
+                if (subject.GetHairColor() != "None")
+                {
+                    sentence = sentence.Replace("{hair}", subject.GetHairStyle());
+                    sentence = sentence.Replace("{hairColor}", subject.GetHairColor());
+                }
+                else
+                {
+                    sentence = sentence.Replace("has {hairColor} {hair} hair", "is bald");
+                }
                 sentence = sentence.Replace("{gender}", subject.GetGender());
                 sentence = sentence.Replace("{door}",safeDoor);
             }
@@ -116,6 +123,15 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{pants}", subject.GetFakePantsName());
                 sentence = sentence.Replace("{shoesColor}", subject.GetFakeShoesColor());
                 sentence = sentence.Replace("{shoes}", subject.GetFakeShoesName());
+                if (subject.GetFakeHairColor() != "None")
+                {
+                    sentence = sentence.Replace("{hair}", subject.GetFakeHairStyle());
+                    sentence = sentence.Replace("{hairColor}", subject.GetFakeHairColor());
+                }
+                else
+                {
+                    sentence = sentence.Replace("has {hairColor} {hair} hair", "is bald");
+                }
                 sentence = sentence.Replace("{hair}", subject.GetFakeHairStyle());
                 sentence = sentence.Replace("{hairColor}", subject.GetFakeHairColor());
                 sentence = sentence.Replace("{gender}", subject.GetFakeGender());
