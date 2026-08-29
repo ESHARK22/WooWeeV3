@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject[] optionButtons;
     public Animator animator;
     public doorSafe[] Doors;
+    public bool DoorAvalible = true;
 
     private string safeDoor;
     private string fakeDoorstring;
@@ -65,14 +66,23 @@ public class DialogueManager : MonoBehaviour
             if (speakerCharacter.truthTeller)
             {
 
-
-                foreach (doorSafe d in Doors)
+                if (DoorAvalible && currentNode.name == "Question_1")
+                {
+                    foreach (doorSafe d in Doors)
                 {
                     if (d.isSafeDoor)
                     {
                       safeDoor = d.doorName;
                     }
+                    sentence = sentence.Replace("{door}",safeDoor);
+                    DoorAvalible = false;
                 }
+                }
+                else
+                    {
+                        sentence = sentence.Replace("{door}", "none of your buisness, you've asked already.");
+                    }
+                
                 // TRUTH
                 if (subject.IsWearingHat())
                 {
@@ -101,7 +111,7 @@ public class DialogueManager : MonoBehaviour
                     sentence = sentence.Replace("has {hairColor} {hair} hair", "is bald");
                 }
                 sentence = sentence.Replace("{gender}", subject.GetGender());
-                sentence = sentence.Replace("{door}",safeDoor);
+                
             }
             else
             {
@@ -135,7 +145,9 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{hair}", subject.GetFakeHairStyle());
                 sentence = sentence.Replace("{hairColor}", subject.GetFakeHairColor());
                 sentence = sentence.Replace("{gender}", subject.GetFakeGender());
-                foreach (doorSafe d in Doors)
+                if (DoorAvalible && currentNode.name == "Question_1")
+                {
+                 foreach (doorSafe d in Doors)
                 {
                     if (!d.isSafeDoor)
                     {
@@ -145,6 +157,14 @@ public class DialogueManager : MonoBehaviour
                 int randomIndex = Random.Range(0, fakedoor.Count);
                 fakeDoorstring = fakedoor[randomIndex].doorName;
                 sentence = sentence.Replace("{door}", fakeDoorstring);
+                DoorAvalible = false;   
+                }
+                else
+                    {
+                        sentence = sentence.Replace("{door}", "none of your buisness, you've asked already.");
+                    }
+                
+                
             }
         }
 
