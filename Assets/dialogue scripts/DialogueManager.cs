@@ -58,6 +58,15 @@ public class DialogueManager : MonoBehaviour
             if (speakerCharacter.truthTeller)
             {
                 // TRUTH
+                if (subject.IsWearingHat())
+                {
+                    sentence = sentence.Replace("{hatColor}", subject.GetHatColor());
+                    sentence = sentence.Replace("{hat}", subject.GetHatName());
+                }
+                else
+                {
+                    sentence = sentence.Replace("wearing a {hatColor} {hat}", "not wearing a hat");
+                }
                 sentence = sentence.Replace("{hatColor}", subject.GetHatColor());
                 sentence = sentence.Replace("{hat}", subject.GetHatName());
                 sentence = sentence.Replace("{shirtColor}", subject.GetShirtColor());
