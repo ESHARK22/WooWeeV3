@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
+using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour
 {   
@@ -15,9 +17,14 @@ public class DialogueManager : MonoBehaviour
     public GameObject continueButton;
     public GameObject[] optionButtons;
     public Animator animator;
+    public doorSafe[] Doors;
 
+    private string safeDoor;
+    private string fakeDoorstring;
+    private List<doorSafe> fakedoor = new List<doorSafe>();
     private Dialogue currentDialogue;
     private DialogueNode currentNode;
+
 
     public void StartDialogue(Dialogue dialogue, CharacterIdentity speaker)
     {
@@ -57,7 +64,25 @@ public class DialogueManager : MonoBehaviour
 
             if (speakerCharacter.truthTeller)
             {
+
+
+                foreach (doorSafe d in Doors)
+                {
+                    if (d.isSafeDoor)
+                    {
+                      safeDoor = d.doorName;
+                    }
+                }
                 // TRUTH
+                if (subject.IsWearingHat())
+                {
+                    sentence = sentence.Replace("{hatColor}", subject.GetHatColor());
+                    sentence = sentence.Replace("{hat}", subject.GetHatName());
+                }
+                else
+                {
+                    sentence = sentence.Replace("wearing a {hatColor} {hat}", "not wearing a hat");
+                }
                 sentence = sentence.Replace("{hatColor}", subject.GetHatColor());
                 sentence = sentence.Replace("{hat}", subject.GetHatName());
                 sentence = sentence.Replace("{shirtColor}", subject.GetShirtColor());
@@ -66,13 +91,30 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{pants}", subject.GetPantsName());
                 sentence = sentence.Replace("{shoesColor}", subject.GetShoesColor());
                 sentence = sentence.Replace("{shoes}", subject.GetShoesName());
-                sentence = sentence.Replace("{hair}", subject.GetHairStyle());
-                sentence = sentence.Replace("{hairColor}", subject.GetHairColor());
+                if (subject.GetHairColor() != "None")
+                {
+                    sentence = sentence.Replace("{hair}", subject.GetHairStyle());
+                    sentence = sentence.Replace("{hairColor}", subject.GetHairColor());
+                }
+                else
+                {
+                    sentence = sentence.Replace("has {hairColor} {hair} hair", "is bald");
+                }
                 sentence = sentence.Replace("{gender}", subject.GetGender());
+                sentence = sentence.Replace("{door}",safeDoor);
             }
             else
             {
                 // LIE
+                if (subject.GetFakeIsWearingHat())
+                {
+                    sentence = sentence.Replace("{hatColor}", subject.GetFakeHatColor());
+                    sentence = sentence.Replace("{hat}", subject.GetFakeHatName());
+                }
+                else
+                {
+                    sentence = sentence.Replace("wearing a {hatColor} {hat}", "not wearing a hat");
+                }
                 sentence = sentence.Replace("{hatColor}", subject.GetFakeHatColor());
                 sentence = sentence.Replace("{hat}", subject.GetFakeHatName());
                 sentence = sentence.Replace("{shirtColor}", subject.GetFakeShirtColor());
@@ -81,9 +123,28 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{pants}", subject.GetFakePantsName());
                 sentence = sentence.Replace("{shoesColor}", subject.GetFakeShoesColor());
                 sentence = sentence.Replace("{shoes}", subject.GetFakeShoesName());
+                if (subject.GetFakeHairColor() != "None")
+                {
+                    sentence = sentence.Replace("{hair}", subject.GetFakeHairStyle());
+                    sentence = sentence.Replace("{hairColor}", subject.GetFakeHairColor());
+                }
+                else
+                {
+                    sentence = sentence.Replace("has {hairColor} {hair} hair", "is bald");
+                }
                 sentence = sentence.Replace("{hair}", subject.GetFakeHairStyle());
                 sentence = sentence.Replace("{hairColor}", subject.GetFakeHairColor());
                 sentence = sentence.Replace("{gender}", subject.GetFakeGender());
+                foreach (doorSafe d in Doors)
+                {
+                    if (!d.isSafeDoor)
+                    {
+                        fakedoor.Add(d);
+                    }
+                }
+                int randomIndex = Random.Range(0, fakedoor.Count);
+                fakeDoorstring = fakedoor[randomIndex].doorName;
+                sentence = sentence.Replace("{door}", fakeDoorstring);
             }
         }
 

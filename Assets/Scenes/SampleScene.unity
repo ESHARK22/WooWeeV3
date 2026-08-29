@@ -478,6 +478,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -276
       objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1980
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5254834533628635974, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
       propertyPath: m_text
       value: Hello World!
@@ -520,6 +532,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5254834533628635974, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
       propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533136230245027520, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_RenderMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8046079045001554916, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
@@ -633,6 +649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1889087128}
+  doorName: Door 1
 --- !u!61 &262541414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -720,11 +737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0662303
+      value: 5.82
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.606813
+      value: -2.66
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -782,11 +799,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6351495
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6568568
+      value: -2.83
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -902,6 +919,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 324018881}
     - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: Doors.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[0]'
+      value: 
+      objectReference: {fileID: 262541413}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1366933535}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[2]'
+      value: 
+      objectReference: {fileID: 776070941}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[3]'
+      value: 
+      objectReference: {fileID: 606271183}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[4]'
+      value: 
+      objectReference: {fileID: 532851552}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[5]'
+      value: 
+      objectReference: {fileID: 657698870}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[6]'
+      value: 
+      objectReference: {fileID: 2134011488}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[7]'
+      value: 
+      objectReference: {fileID: 1546036414}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
       propertyPath: optionButtons.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -936,11 +989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.04
+      value: -7.36
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.44
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1348,6 +1401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 514477878}
+  doorName: Door 5
 --- !u!61 &532851553
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1549,6 +1603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 609429658}
+  doorName: Door 4
 --- !u!61 &606271184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1840,6 +1895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1945002987}
+  doorName: Door 6
 --- !u!61 &657698871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1956,6 +2012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1650384413}
+  doorName: Door 3
 --- !u!61 &776070942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2032,11 +2089,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.037368
+      value: 5.84
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5734503
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2557,7 +2614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: -103}
+  m_AnchoredPosition: {x: -684, y: -103}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051545623
@@ -2735,7 +2792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -491, y: -103}
+  m_AnchoredPosition: {x: -860, y: -103}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115877730
@@ -3637,6 +3694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1825781075}
+  doorName: Door 2
 --- !u!61 &1366933536
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11906,6 +11964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 58392182}
+  doorName: Door 8
 --- !u!61 &1546036415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12369,11 +12428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.755541
+      value: -7.41
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.39581943
+      value: -2.84
       objectReference: {fileID: 0}
     - target: {fileID: 6148216051667578394, guid: 33507ccc870f74d599d8941640bb176a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12458,6 +12517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1314514447}
+  doorName: Door 7
 --- !u!61 &2134011489
 BoxCollider2D:
   m_ObjectHideFlags: 0

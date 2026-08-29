@@ -7,7 +7,7 @@ public class doorSafe : MonoBehaviour
     public GameObject interactPrompt; // child prompt object
 
     private PlayerMovement playerInRange;
-
+    public string doorName; // default to the GameObject's name
     private void Start()
     {
         if (interactPrompt != null)
