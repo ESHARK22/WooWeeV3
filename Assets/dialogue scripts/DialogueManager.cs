@@ -99,6 +99,15 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 // LIE
+                if (subject.GetFakeIsWearingHat())
+                {
+                    sentence = sentence.Replace("{hatColor}", subject.GetFakeHatColor());
+                    sentence = sentence.Replace("{hat}", subject.GetFakeHatName());
+                }
+                else
+                {
+                    sentence = sentence.Replace("wearing a {hatColor} {hat}", "not wearing a hat");
+                }
                 sentence = sentence.Replace("{hatColor}", subject.GetFakeHatColor());
                 sentence = sentence.Replace("{hat}", subject.GetFakeHatName());
                 sentence = sentence.Replace("{shirtColor}", subject.GetFakeShirtColor());
