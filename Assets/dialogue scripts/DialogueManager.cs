@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using Unity.VisualScripting;
 using System.Collections.Generic;
+using System.Collections;
 
 public class DialogueManager : MonoBehaviour
 {   
@@ -25,6 +26,12 @@ public class DialogueManager : MonoBehaviour
     private List<doorSafe> fakedoor = new List<doorSafe>();
     private Dialogue currentDialogue;
     private DialogueNode currentNode;
+
+    [Header("Typewriter Settings")]
+    [SerializeField] private float typingSpeed = 0.03f;
+
+    private Coroutine typingCoroutine;
+    private bool isTyping;
 
 
     public void StartDialogue(Dialogue dialogue, CharacterIdentity speaker)
@@ -65,6 +72,7 @@ public class DialogueManager : MonoBehaviour
 
             // Replaces {targetName} with their real random name (e.g. "Arthur", "Alice")
             sentence = sentence.Replace("{targetName}", subject.GetCharacterName());
+            sentence = sentence.Replace("{speakerName}", speakerCharacter.GetCharacterName());
             Debug.Log("Sentence: " + sentence);
             
             
@@ -170,14 +178,19 @@ public class DialogueManager : MonoBehaviour
                 }
                 else
                     {
-                        sentence = sentence.Replace("{door}", "none of your buisness, you've asked already.");
+                        sentence = sentence.Replace("{door}", "none of your buisness, you've asked someone already");
                     }
                 
                 
             }
         }
 
-        dialogueText.text = sentence;
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+
+        typingCoroutine = StartCoroutine(TypeSentence(sentence));
 
         foreach (GameObject button in optionButtons)
         {
@@ -202,6 +215,22 @@ public class DialogueManager : MonoBehaviour
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(() => ChooseOption(choiceIndex));
         }
+    }
+
+    private IEnumerator TypeSentence(string sentence)
+    {
+        isTyping = true;
+
+        dialogueText.text = "";
+
+        foreach (char letter in sentence)
+        {
+            dialogueText.text += letter;
+
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTyping = false;
     }
 
     void ChooseOption(int index)
