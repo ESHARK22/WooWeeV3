@@ -3,13 +3,14 @@ using UnityEngine;
 public class DialogueToggle : MonoBehaviour
 {
     public Dialogue dialogue;
-    private CharacterIdentity targetCharacter;
+    [SerializeField] private CharacterIdentity targetCharacter;
 
-    public void TriggerDialogue ()
+    public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, targetCharacter);
+        DialogueManager dm = FindAnyObjectByType<DialogueManager>();
+        if (dm != null)
+        {
+            dm.StartDialogue(dialogue, targetCharacter);
+        }
     }
-
 }
-
-

@@ -185,23 +185,14 @@ impl Character {
         let genders = ["male", "female"];
         let expressions = ["neutral", "happy", "anger", "sad", "blush", "shock"];
         let colors = [
-            "Red", "Blue", "Green", "Black", "White", "Brown", "Yellow", "Purple", "Orange",
-            "Navy", "Pink",
+            "Red", "Blue", "Green", "Black", "Brown", "Yellow", "Purple", "Orange", "Navy", "Pink",
         ];
 
-        let hair_options = [
-            Some("flat_top_fade"),
-            Some("bangs"),
-            Some("bob"),
-            Some("curtains"),
-            Some("messy1"),
-            Some("long"),
-            None,
-        ];
-        let shirt_options = ["shortsleeve", "longsleeve", "overalls"];
+        let hair_options = [Some("messy1"), Some("long"), None];
+        let shirt_options = ["shortsleeve", "longsleeve"];
         let pants_options = ["pants", "pantaloons", "hose", "leggings"];
         let shoes_options = ["boots/rimmed", "boots/basic", "shoes/basic", "slippers"];
-        let hat_options = ["bandana", "hood", "leather_cap", "tophat", "wizard"];
+        let hat_options = ["bandana", "hood"];
 
         let gender = *genders.choose(&mut rng).unwrap();
 
@@ -254,13 +245,63 @@ fn get_rgb(color: &str) -> [u8; 3] {
     }
 }
 
-/// Takes a base image and tints it. Uses Luminosity blending to preserve highlights/shadows.
+// Define palettes with ramps: [Highlight, Base, Shadow, Dark Shadow]
+// Define palettes with ramps: [Highlight, Base, Shadow, Dark Shadow / Outline]
+fn get_color_ramp(color: &str) -> [[u8; 3]; 4] {
+    match color {
+        "Red" => [
+            [195, 35, 35], // Deep highlight (low G/B avoids pastel pink)
+            [150, 20, 25], // Rich ruby / crimson base
+            [100, 12, 18], // Dark red shadow
+            [50, 8, 12],   // Deep maroon outline
+        ],
+        "Blue" => [[140, 190, 255], [40, 110, 230], [20, 60, 160], [10, 25, 80]],
+        "Navy" => [[90, 120, 190], [35, 55, 120], [18, 30, 75], [10, 15, 45]],
+        "Green" => [[150, 240, 130], [45, 180, 60], [20, 110, 35], [10, 50, 20]],
+        "Brown" => [[195, 140, 95], [135, 80, 45], [85, 45, 25], [45, 20, 15]],
+        "Black" => [[95, 95, 105], [50, 50, 60], [30, 30, 38], [15, 15, 20]],
+        "White" => [
+            [255, 255, 255],
+            [225, 225, 230],
+            [175, 175, 185],
+            [110, 110, 120],
+        ],
+        "Yellow" => [
+            [255, 245, 140],
+            [240, 200, 30],
+            [180, 140, 15],
+            [100, 70, 10],
+        ],
+        "Purple" => [[215, 140, 255], [145, 50, 200], [95, 25, 140], [50, 10, 75]],
+        "Orange" => [[255, 180, 90], [235, 110, 25], [170, 65, 15], [95, 30, 10]],
+        "Pink" => [[255, 170, 205], [235, 85, 145], [165, 40, 95], [90, 15, 50]],
+        "Blonde" => [
+            [255, 245, 180],
+            [235, 205, 115],
+            [175, 145, 60],
+            [105, 80, 25],
+        ],
+        _ => {
+            // Procedural ramp fallback from base RGB so unknown colors never turn gray
+            let [r, g, b] = get_rgb(color);
+            let scale = |factor: f32| -> [u8; 3] {
+                [
+                    ((r as f32 * factor).min(255.0)) as u8,
+                    ((g as f32 * factor).min(255.0)) as u8,
+                    ((b as f32 * factor).min(255.0)) as u8,
+                ]
+            };
+            [scale(1.35), scale(1.0), scale(0.65), scale(0.35)]
+        }
+    }
+}
+
 fn apply_tint(img: &mut RgbaImage, color_name: &str) {
-    if color_name == "None" || color_name == "White" {
+    if color_name == "None" {
         return;
     }
 
-    let [cr, cg, cb] = get_rgb(color_name);
+    let ramp = get_color_ramp(color_name);
 
     for pixel in img.pixels_mut() {
         let a = pixel.0[3];
@@ -268,14 +309,22 @@ fn apply_tint(img: &mut RgbaImage, color_name: &str) {
             let r = pixel.0[0] as f32;
             let g = pixel.0[1] as f32;
             let b = pixel.0[2] as f32;
-
-            // Calculate the grayscale luminosity of the pixel
             let luma = (0.299 * r + 0.587 * g + 0.114 * b) / 255.0;
 
-            // Multiply luminosity by our target color
-            pixel.0[0] = (luma * cr as f32).clamp(0.0, 255.0) as u8;
-            pixel.0[1] = (luma * cg as f32).clamp(0.0, 255.0) as u8;
-            pixel.0[2] = (luma * cb as f32).clamp(0.0, 255.0) as u8;
+            // Map luminosity thresholds to the ramp shades
+            let target_rgb = if luma > 0.70 {
+                ramp[0] // Highlight
+            } else if luma > 0.45 {
+                ramp[1] // Base
+            } else if luma > 0.20 {
+                ramp[2] // Shadow
+            } else {
+                ramp[3] // Dark shadow / Outline
+            };
+
+            pixel.0[0] = target_rgb[0];
+            pixel.0[1] = target_rgb[1];
+            pixel.0[2] = target_rgb[2];
         }
     }
 }
@@ -305,7 +354,7 @@ fn composite_layers(
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let characters_count = 50;
+    let characters_count = 200;
     let output_sprites_dir = Path::new(OUTPUT_DIR).join("sprites");
     let output_data_dir = Path::new(OUTPUT_DIR).join("data");
 
