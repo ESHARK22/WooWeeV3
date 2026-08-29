@@ -478,6 +478,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -276
       objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1980
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970312552778427301, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5254834533628635974, guid: 92f5fa6abc715a54f91461aa7e7e724f, type: 3}
       propertyPath: m_text
       value: Hello World!
@@ -2750,7 +2766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: -103}
+  m_AnchoredPosition: {x: -770, y: -103}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051545623
@@ -2947,7 +2963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -491, y: -103}
+  m_AnchoredPosition: {x: -959, y: -103}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115877730
