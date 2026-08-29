@@ -15,7 +15,7 @@ public class gamefinishshit : MonoBehaviour
 
             if (MainMenu.endlessMode)
             {
-                menuText.text = "You got " + GameResult.currentLoop.ToString() + "you idiot";
+                menuText.text = "You got " + GameResult.currentLoop.ToString() + " you idiot";
             }
             else
             {
