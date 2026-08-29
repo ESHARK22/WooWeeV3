@@ -188,13 +188,7 @@ impl Character {
             "Red", "Blue", "Green", "Black", "Brown", "Yellow", "Purple", "Orange", "Navy", "Pink",
         ];
 
-        let hair_options = [
-            Some("flat_top_fade"),
-            Some("bob"),
-            Some("curtains"),
-            Some("messy1"),
-            Some("long"),
-        ];
+        let hair_options = [Some("messy1"), Some("long"), None];
         let shirt_options = ["shortsleeve", "longsleeve"];
         let pants_options = ["pants", "pantaloons", "hose", "leggings"];
         let shoes_options = ["boots/rimmed", "boots/basic", "shoes/basic", "slippers"];
