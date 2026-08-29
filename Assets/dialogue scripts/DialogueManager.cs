@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
+using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour
 {   
@@ -15,9 +17,14 @@ public class DialogueManager : MonoBehaviour
     public GameObject continueButton;
     public GameObject[] optionButtons;
     public Animator animator;
+    public doorSafe[] Doors;
 
+    private string safeDoor;
+    private string fakeDoorstring;
+    private List<doorSafe> fakedoor = new List<doorSafe>();
     private Dialogue currentDialogue;
     private DialogueNode currentNode;
+
 
     public void StartDialogue(Dialogue dialogue, CharacterIdentity speaker)
     {
@@ -57,6 +64,15 @@ public class DialogueManager : MonoBehaviour
 
             if (speakerCharacter.truthTeller)
             {
+
+
+                foreach (doorSafe d in Doors)
+                {
+                    if (d.isSafeDoor)
+                    {
+                      safeDoor = d.doorName;
+                    }
+                }
                 // TRUTH
                 if (subject.IsWearingHat())
                 {
@@ -78,6 +94,7 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{hair}", subject.GetHairStyle());
                 sentence = sentence.Replace("{hairColor}", subject.GetHairColor());
                 sentence = sentence.Replace("{gender}", subject.GetGender());
+                sentence = sentence.Replace("{door}",safeDoor);
             }
             else
             {
@@ -93,6 +110,16 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("{hair}", subject.GetFakeHairStyle());
                 sentence = sentence.Replace("{hairColor}", subject.GetFakeHairColor());
                 sentence = sentence.Replace("{gender}", subject.GetFakeGender());
+                foreach (doorSafe d in Doors)
+                {
+                    if (!d.isSafeDoor)
+                    {
+                        fakedoor.Add(d);
+                    }
+                }
+                int randomIndex = Random.Range(0, fakedoor.Count);
+                fakeDoorstring = fakedoor[randomIndex].doorName;
+                sentence = sentence.Replace("{door}", fakeDoorstring);
             }
         }
 

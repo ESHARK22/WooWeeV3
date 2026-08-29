@@ -633,6 +633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1889087128}
+  doorName: Door 1
 --- !u!61 &262541414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -838,17 +839,17 @@ PrefabInstance:
     - target: {fileID: 4319194148141937912, guid: 7e27c1391059bc1449ecbde71c5819a2, type: 3}
       propertyPath: speakingCharacter
       value: 
-      objectReference: {fileID: 470644873}
+      objectReference: {fileID: 0}
     - target: {fileID: 4319194148141937912, guid: 7e27c1391059bc1449ecbde71c5819a2, type: 3}
       propertyPath: dialogue.nodes.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4319194148141937912, guid: 7e27c1391059bc1449ecbde71c5819a2, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
+      propertyPath: 'dialogue.sentences.Array.data[0]'
       value: 'fuck fuck fudfkck fuck fuck opooo p[ooo kys '
       objectReference: {fileID: 0}
     - target: {fileID: 4319194148141937912, guid: 7e27c1391059bc1449ecbde71c5819a2, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
+      propertyPath: 'dialogue.sentences.Array.data[1]'
       value: hi
       objectReference: {fileID: 0}
     - target: {fileID: 6989847800888808946, guid: 7e27c1391059bc1449ecbde71c5819a2, type: 3}
@@ -1054,15 +1055,51 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 324018881}
     - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: Doors.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[0]'
+      value: 
+      objectReference: {fileID: 262541413}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1366933535}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[2]'
+      value: 
+      objectReference: {fileID: 776070941}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[3]'
+      value: 
+      objectReference: {fileID: 606271183}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[4]'
+      value: 
+      objectReference: {fileID: 532851552}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[5]'
+      value: 
+      objectReference: {fileID: 657698870}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[6]'
+      value: 
+      objectReference: {fileID: 2134011488}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
+      propertyPath: 'Doors.Array.data[7]'
+      value: 
+      objectReference: {fileID: 1546036414}
+    - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
       propertyPath: optionButtons.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
-      propertyPath: optionButtons.Array.data[0]
+      propertyPath: 'optionButtons.Array.data[0]'
       value: 
       objectReference: {fileID: 1115877728}
     - target: {fileID: 5152077669664821316, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
-      propertyPath: optionButtons.Array.data[1]
+      propertyPath: 'optionButtons.Array.data[1]'
       value: 
       objectReference: {fileID: 1051545621}
     - target: {fileID: 6614400826634709236, guid: 222a26e84c4d0594ab6688277e47fa89, type: 3}
@@ -1500,6 +1537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 514477878}
+  doorName: Door 5
 --- !u!61 &532851553
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1701,6 +1739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 609429658}
+  doorName: Door 4
 --- !u!61 &606271184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1932,10 +1971,9 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: -2
-      type: {class: '', ns: '', asm: ''}
+      type: {class: , ns: , asm: }
     - rid: 7777292682179641344
-      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider,
-          Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_Cache: []
     - rid: 8649305453630324758
@@ -1993,6 +2031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1945002987}
+  doorName: Door 6
 --- !u!61 &657698871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2109,6 +2148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1650384413}
+  doorName: Door 3
 --- !u!61 &776070942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2492,7 +2532,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: 351f2ccd-1f9f-44bf-9bec-d62ac5c5f408
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+    m_ActionName: 'Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010930652}
@@ -2508,35 +2548,35 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
     m_ActionId: 852140f2-7766-474d-8707-702459ba45f3
-    m_ActionName: Player/Interact[/Keyboard/e]
+    m_ActionName: 'Player/Interact[/Keyboard/e]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: c95b2375-e6d9-4b88-9c4c-c5e76515df4b
-    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+    m_ActionName: 'UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 7607c7b6-cd76-4816-beef-bd0341cfe950
-    m_ActionName: UI/Submit[/Keyboard/enter]
+    m_ActionName: 'UI/Submit[/Keyboard/enter]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 15cef263-9014-4fd5-94d9-4e4a6234a6ef
-    m_ActionName: UI/Cancel[/Keyboard/escape]
+    m_ActionName: 'UI/Cancel[/Keyboard/escape]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 3c7022bf-7922-4f7c-a998-c437916075ad
-    m_ActionName: UI/Click[/Mouse/leftButton]
+    m_ActionName: 'UI/Click[/Mouse/leftButton]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 44b200b1-1557-4083-816c-b22cbdf77ddf
-    m_ActionName: UI/RightClick[/Mouse/rightButton]
+    m_ActionName: 'UI/RightClick[/Mouse/rightButton]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: dad70c86-b58c-4b17-88ad-f5e53adf419e
-    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+    m_ActionName: 'UI/MiddleClick[/Mouse/middleButton]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 0489e84a-4833-4c40-bfae-cea84b696689
-    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+    m_ActionName: 'UI/ScrollWheel[/Mouse/scroll]'
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 24908448-c609-4bc3-a128-ea258674378a
@@ -2795,10 +2835,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051545621}
   m_CullTransparentMesh: 1
---- !u!114 &1062595579 stripped
+--- !u!114 &1062595579
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1302052022075441828, guid: a095c0fdd07aa47cc83a9d94d211ad89, type: 3}
-  m_PrefabInstance: {fileID: 200950968}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -2806,6 +2847,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: becae51df5924b3c870b576266fdda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterIdentity
+  characterName: 
+  truthTeller: 0
+  talkingAbout: {fileID: 0}
+  autoGenerateOnStart: 1
+  specificCharacterId: 
+  facing: 2
+  animationSpeed: 0.4
 --- !u!1001 &1094911028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3801,6 +3849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1825781075}
+  doorName: Door 2
 --- !u!61 &1366933536
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12070,6 +12119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 58392182}
+  doorName: Door 8
 --- !u!61 &1546036415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12687,6 +12737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   isSafeDoor: 0
   interactPrompt: {fileID: 1314514447}
+  doorName: Door 7
 --- !u!61 &2134011489
 BoxCollider2D:
   m_ObjectHideFlags: 0
