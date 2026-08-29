@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: becae51df5924b3c870b576266fdda32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterIdentity
-  characterName: Leo
+  characterName: 
   truthTeller: 0
   talkingAbout: {fileID: 0}
   autoGenerateOnStart: 1

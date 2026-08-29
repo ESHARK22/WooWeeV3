@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 public enum FacingDirection
@@ -45,6 +46,16 @@ public class CharacterIdentity : MonoBehaviour
         "Hazel", "Iris", "Julia", "Luna", "Maya", "Nora", "Olivia", 
         "Penny", "Rose", "Stella", "Tessa", "Violet", "Willow" 
     };
+
+
+    private static readonly HashSet<string> UsedNames = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetUsedNames()
+    {
+        UsedNames.Clear();
+    }
 
     // --- Option Pools ---
     private static readonly string[] Genders = { "male", "female" };
@@ -118,6 +129,15 @@ public class CharacterIdentity : MonoBehaviour
         }
     }
 
+    private void OnDestroy()
+    {
+        // Free up the name if this character is destroyed
+        if (!string.IsNullOrEmpty(characterName))
+        {
+            UsedNames.Remove(characterName);
+        }
+    }
+
     private void AutoInitialize()
     {
         if (CharacterManager.Instance == null)
@@ -160,17 +180,37 @@ public class CharacterIdentity : MonoBehaviour
 
     private void GenerateName()
     {
-        if (!string.IsNullOrEmpty(characterName)) return;
+        // If a name was already set in inspector, register it so nobody else takes it
+        if (!string.IsNullOrEmpty(characterName))
+        {
+            UsedNames.Add(characterName);
+            return;
+        }
 
         string gender = GetGender().ToLower();
-        if (gender == "female")
+        string[] pool = (gender == "female") ? FemaleNames : MaleNames;
+
+        // Filter for names that haven't been assigned yet
+        var availableNames = pool.Where(n => !UsedNames.Contains(n)).ToList();
+
+        if (availableNames.Count > 0)
         {
-            characterName = FemaleNames[UnityEngine.Random.Range(0, FemaleNames.Length)];
+            characterName = availableNames[UnityEngine.Random.Range(0, availableNames.Count)];
         }
         else
         {
-            characterName = MaleNames[UnityEngine.Random.Range(0, MaleNames.Length)];
+            // Fallback if all names in pool are exhausted: append a counter
+            string baseName = pool[UnityEngine.Random.Range(0, pool.Length)];
+            int counter = 2;
+            while (UsedNames.Contains($"{baseName} {counter}"))
+            {
+                counter++;
+            }
+            characterName = $"{baseName} {counter}";
         }
+
+        UsedNames.Add(characterName);
+        gameObject.name = characterName;
     }
 
     public void SetDirection(FacingDirection newDirection)
@@ -223,7 +263,6 @@ public class CharacterIdentity : MonoBehaviour
 
     public bool IsTruthTeller() => truthTeller;
 
-
     public string GetFakeGender() { EnsureFakeData(); return _fakeGender; }
     public string GetFakeHairStyle() { EnsureFakeData(); return _fakeHairStyle; }
     public string GetFakeHairColor() { EnsureFakeData(); return _fakeHairColor; }
@@ -236,7 +275,6 @@ public class CharacterIdentity : MonoBehaviour
     public bool GetFakeIsWearingHat() { EnsureFakeData(); return _fakeIsWearingHat; }
     public string GetFakeShoesName() { EnsureFakeData(); return _fakeShoesName; }
     public string GetFakeShoesColor() { EnsureFakeData(); return _fakeShoesColor; }
-
 
     private void EnsureFakeData()
     {
