@@ -195,7 +195,7 @@ impl Character {
             Some("messy1"),
             Some("long"),
         ];
-        let shirt_options = ["shortsleeve", "longsleeve", "overalls"];
+        let shirt_options = ["shortsleeve", "longsleeve"];
         let pants_options = ["pants", "pantaloons", "hose", "leggings"];
         let shoes_options = ["boots/rimmed", "boots/basic", "shoes/basic", "slippers"];
         let hat_options = ["bandana", "hood"];
@@ -255,7 +255,12 @@ fn get_rgb(color: &str) -> [u8; 3] {
 // Define palettes with ramps: [Highlight, Base, Shadow, Dark Shadow / Outline]
 fn get_color_ramp(color: &str) -> [[u8; 3]; 4] {
     match color {
-        "Red" => [[255, 120, 120], [210, 40, 40], [140, 20, 20], [60, 10, 15]],
+        "Red" => [
+            [195, 35, 35], // Deep highlight (low G/B avoids pastel pink)
+            [150, 20, 25], // Rich ruby / crimson base
+            [100, 12, 18], // Dark red shadow
+            [50, 8, 12],   // Deep maroon outline
+        ],
         "Blue" => [[140, 190, 255], [40, 110, 230], [20, 60, 160], [10, 25, 80]],
         "Navy" => [[90, 120, 190], [35, 55, 120], [18, 30, 75], [10, 15, 45]],
         "Green" => [[150, 240, 130], [45, 180, 60], [20, 110, 35], [10, 50, 20]],
