@@ -10,11 +10,18 @@ public class gamefinishshit : MonoBehaviour
             if (GameResult.PlayerWon)
             {
                 menuText.text = "Congrats, you have over 5 brain cells";
+                return;
+            }
+
+            if (MainMenu.endlessMode)
+            {
+                menuText.text = "You got " + GameResult.currentLoop.ToString() + "you idiot";
             }
             else
             {
                 menuText.text = "You must be some kind of idiot";
             }
+        
     }
     public void RestartGame()
     {

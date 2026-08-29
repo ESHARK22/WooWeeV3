@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
 
     public void MainGame()
     {
-        endlessMode = true;
+        endlessMode = false;
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
 
     }
