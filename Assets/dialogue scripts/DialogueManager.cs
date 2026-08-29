@@ -52,19 +52,25 @@ public class DialogueManager : MonoBehaviour
     {
         currentNode = node;
         string sentence = node.sentence;
-
+        Debug.Log("Display Node!");
         if (speakerCharacter != null)
         {
             // The character being talked about
             CharacterIdentity subject = speakerCharacter.talkingAbout != null 
                 ? speakerCharacter.talkingAbout 
                 : speakerCharacter;
+            
+            Debug.Log("Subject: " + subject);
+
 
             // Replaces {targetName} with their real random name (e.g. "Arthur", "Alice")
             sentence = sentence.Replace("{targetName}", subject.GetCharacterName());
-
+            Debug.Log("Sentence: " + sentence);
+            
+            
             if (speakerCharacter.truthTeller)
             {
+                
 
                 if (DoorAvalible && currentNode.name == "Question_1")
                 {
@@ -73,10 +79,13 @@ public class DialogueManager : MonoBehaviour
                     if (d.isSafeDoor)
                     {
                       safeDoor = d.doorName;
+                      Debug.Log("FOIUND SAFE DOOR");
                     }
-                    sentence = sentence.Replace("{door}",safeDoor);
-                    DoorAvalible = false;
+
                 }
+                    sentence = sentence.Replace("{door}",safeDoor);
+                    Debug.Log("Sentence: " + sentence);
+                    DoorAvalible = false;
                 }
                 else
                     {
