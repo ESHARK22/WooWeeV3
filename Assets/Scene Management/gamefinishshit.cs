@@ -26,7 +26,7 @@ public class gamefinishshit : MonoBehaviour
     public void RestartGame()
     {
         // Reload the current scene to restart the game
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()
